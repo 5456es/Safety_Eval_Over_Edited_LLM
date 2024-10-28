@@ -1,0 +1,10 @@
+models:
+  llama2-7b-hf-chat:
+    path: null  # Path not set yet
+  llama3.1-8b-hf-chat:
+    path: null  # Path not set yet
+  mistral-7b-instruct-v0.3:
+    path: null  # Path not set yet
+  gemma:
+    path: null
+  
