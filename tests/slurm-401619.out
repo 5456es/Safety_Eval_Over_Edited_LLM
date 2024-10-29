@@ -1,0 +1,459 @@
+/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/MEMIT
+2024-10-28 17:49:11,957 - easyeditor.editors.editor - INFO - Instantiating model
+10/28/2024 17:49:11 - INFO - easyeditor.editors.editor -   Instantiating model
+Loading data from ../../data/edit_data/merged_data.json
+Prepare for params from ../../src/hparams/MEMIT/llama2-7b-hf-chat-cluster.yaml
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [14:14<14:14, 854.97s/it]Loading checkpoint shards: 100%|██████████| 2/2 [19:15<00:00, 528.57s/it]Loading checkpoint shards: 100%|██████████| 2/2 [19:15<00:00, 577.68s/it]
+2024-10-28 18:08:44,609 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+10/28/2024 18:08:44 - INFO - easyeditor.editors.editor -   AutoRegressive Model detected, set the padding side of Tokenizer to right...
+  0%|          | 0/1 [00:00<?, ?it/s]We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+100%|██████████| 1/1 [01:11<00:00, 71.42s/it]100%|██████████| 1/1 [01:11<00:00, 71.43s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]10/28/2024 18:11:40 - WARNING - datasets.builder -   Reusing dataset wikipedia (/home/k/kduan/.cache/huggingface/datasets/wikipedia/20200501.en/1.0.0/009f923d9b6dd00c00c8cdc7f408f2b47f45dd4f5fb7982a21f9448f4afbe475)
+MEMIT request sample: [The name of the country which Goursez Vreizh is associated with is] -> [ Franche-Comté]
+Cached context templates [['{}'], ['The 2018 FIFA World Cup. {}', 'Therefore, it would be wise to consider all. {}', 'Because the number of people in the United States. {}', 'I have always been fascinated by the. {}', "You're right, the first step in. {}"]]
+Computing right vector (v)
+Lookup index found: 13 | Sentence: The name of the country which Goursez Vreizh is associated with is Franche-Com | Token: h
+Rewrite layer is 8
+Tying optimization objective to 31
+Recording initial value of v*
+loss 3.538 = 3.538 + 0.0 + 0.0 avg prob of [ Franche-Comté] 0.029395248740911484
+loss 3.472 = 3.311 + 0.161 + 0.0 avg prob of [ Franche-Comté] 0.036694612354040146
+loss 2.272 = 2.241 + 0.031 + 0.0 avg prob of [ Franche-Comté] 0.10880585014820099
+loss 1.763 = 1.727 + 0.036 + 0.0 avg prob of [ Franche-Comté] 0.179422065615654
+loss 1.116 = 1.068 + 0.047 + 0.0 avg prob of [ Franche-Comté] 0.34455031156539917
+loss 0.441 = 0.38 + 0.061 + 0.0 avg prob of [ Franche-Comté] 0.6847366094589233
+loss 0.253 = 0.028 + 0.225 + 0.0 avg prob of [ Franche-Comté] 0.9726467132568359
+loss 0.131 = 0.034 + 0.096 + 0.0 avg prob of [ Franche-Comté] 0.9669179916381836
+loss 0.11 = 0.014 + 0.096 + 0.0 avg prob of [ Franche-Comté] 0.9863867163658142
+loss 0.1 = 0.004 + 0.096 + 0.0 avg prob of [ Franche-Comté] 0.9962865114212036
+loss 0.097 = 0.001 + 0.096 + 0.0 avg prob of [ Franche-Comté] 0.9990271329879761
+loss 0.097 = 0.0 + 0.096 + 0.0 avg prob of [ Franche-Comté] 0.9995319843292236
+loss 0.097 = 0.0 + 0.096 + 0.0 avg prob of [ Franche-Comté] 0.9996554851531982
+loss 0.096 = 0.0 + 0.096 + 0.0 avg prob of [ Franche-Comté] 0.9996999502182007
+loss 0.096 = 0.0 + 0.095 + 0.0 avg prob of [ Franche-Comté] 0.9997215270996094
+loss 0.096 = 0.0 + 0.095 + 0.0 avg prob of [ Franche-Comté] 0.9997336864471436
+loss 0.095 = 0.0 + 0.095 + 0.0 avg prob of [ Franche-Comté] 0.9997409582138062
+loss 0.095 = 0.0 + 0.095 + 0.0 avg prob of [ Franche-Comté] 0.9997445344924927
+loss 0.095 = 0.0 + 0.094 + 0.0 avg prob of [ Franche-Comté] 0.9997458457946777
+loss 0.095 = 0.0 + 0.094 + 0.0 avg prob of [ Franche-Comté] 0.9997460842132568
+loss 0.094 = 0.0 + 0.094 + 0.0 avg prob of [ Franche-Comté] 0.9997466802597046
+loss 0.093 = 0.0 + 0.093 + 0.0 avg prob of [ Franche-Comté] 0.9997465014457703
+loss 0.092 = 0.0 + 0.092 + 0.0 avg prob of [ Franche-Comté] 0.9997431039810181
+loss 0.09 = 0.0 + 0.09 + 0.0 avg prob of [ Franche-Comté] 0.9997336864471436
+loss 0.086 = 0.0 + 0.086 + 0.0 avg prob of [ Franche-Comté] 0.999715268611908
+Init norm 11.713459014892578 | Delta norm 46.85383605957031 | Target norm 48.09978485107422
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(46.8538, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for .._.._.hf_cache_llama2-7b-hf-chat @ model.layers.4.mlp.down_proj.
+Computing Cov locally....
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+100%|██████████| 1/1 [01:20<00:00, 80.95s/it][A100%|██████████| 1/1 [01:20<00:00, 80.97s/it]
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:27<04:03, 27.06s/it][A
+ 20%|██        | 2/10 [00:39<02:28, 18.51s/it][A
+ 30%|███       | 3/10 [00:56<02:03, 17.68s/it][A
+ 40%|████      | 4/10 [01:10<01:37, 16.24s/it][A
+ 50%|█████     | 5/10 [01:26<01:21, 16.36s/it][A
+ 60%|██████    | 6/10 [01:41<01:03, 15.94s/it][A
+ 70%|███████   | 7/10 [01:58<00:48, 16.09s/it][A
+ 80%|████████  | 8/10 [02:15<00:32, 16.47s/it][A
+ 90%|█████████ | 9/10 [02:32<00:16, 16.61s/it][A
+100%|██████████| 10/10 [02:48<00:00, 16.38s/it][A100%|██████████| 10/10 [03:01<00:00, 18.10s/it]
+10/28/2024 18:17:03 - WARNING - datasets.builder -   Reusing dataset wikipedia (/home/k/kduan/.cache/huggingface/datasets/wikipedia/20200501.en/1.0.0/009f923d9b6dd00c00c8cdc7f408f2b47f45dd4f5fb7982a21f9448f4afbe475)
+orig norm tensor(116.0496, device='cuda:0')
+upd norm tensor(2.3644, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(44.1137, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for .._.._.hf_cache_llama2-7b-hf-chat @ model.layers.5.mlp.down_proj.
+Computing Cov locally....
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 18.58it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:15<02:21, 15.69s/it][A
+ 20%|██        | 2/10 [00:30<02:01, 15.18s/it][A
+ 30%|███       | 3/10 [00:50<02:01, 17.29s/it][A
+ 40%|████      | 4/10 [01:06<01:42, 17.04s/it][A
+ 50%|█████     | 5/10 [01:26<01:29, 17.97s/it][A
+ 60%|██████    | 6/10 [01:44<01:11, 17.94s/it][A
+ 70%|███████   | 7/10 [02:03<00:55, 18.43s/it][A
+ 80%|████████  | 8/10 [02:24<00:38, 19.08s/it][A
+ 90%|█████████ | 9/10 [02:44<00:19, 19.38s/it][A
+100%|██████████| 10/10 [03:03<00:00, 19.18s/it][A100%|██████████| 10/10 [03:07<00:00, 18.74s/it]
+10/28/2024 18:20:17 - WARNING - datasets.builder -   Reusing dataset wikipedia (/home/k/kduan/.cache/huggingface/datasets/wikipedia/20200501.en/1.0.0/009f923d9b6dd00c00c8cdc7f408f2b47f45dd4f5fb7982a21f9448f4afbe475)
+orig norm tensor(116.1576, device='cuda:0')
+upd norm tensor(2.2723, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(41.0846, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for .._.._.hf_cache_llama2-7b-hf-chat @ model.layers.6.mlp.down_proj.
+Computing Cov locally....
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 24.85it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:17<02:41, 17.96s/it][A
+ 20%|██        | 2/10 [00:35<02:19, 17.43s/it][A
+ 30%|███       | 3/10 [00:57<02:19, 19.89s/it][A
+ 40%|████      | 4/10 [01:17<01:57, 19.61s/it][A
+ 50%|█████     | 5/10 [01:39<01:43, 20.71s/it][A
+ 60%|██████    | 6/10 [02:00<01:22, 20.69s/it][A
+ 70%|███████   | 7/10 [02:22<01:03, 21.28s/it][A
+ 80%|████████  | 8/10 [02:46<00:44, 22.03s/it][A
+ 90%|█████████ | 9/10 [03:09<00:22, 22.39s/it][A
+100%|██████████| 10/10 [03:31<00:00, 22.18s/it][A100%|██████████| 10/10 [03:33<00:00, 21.30s/it]
+10/28/2024 18:23:55 - WARNING - datasets.builder -   Reusing dataset wikipedia (/home/k/kduan/.cache/huggingface/datasets/wikipedia/20200501.en/1.0.0/009f923d9b6dd00c00c8cdc7f408f2b47f45dd4f5fb7982a21f9448f4afbe475)
+orig norm tensor(115.5071, device='cuda:0')
+upd norm tensor(2.2886, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 7
+
+Writing 1 key/value pair(s) into layer 7
+z error tensor(36.2480, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for .._.._.hf_cache_llama2-7b-hf-chat @ model.layers.7.mlp.down_proj.
+Computing Cov locally....
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 25.42it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:20<03:02, 20.32s/it][A
+ 20%|██        | 2/10 [00:39<02:38, 19.75s/it][A
+ 30%|███       | 3/10 [01:05<02:37, 22.54s/it][A
+ 40%|████      | 4/10 [01:27<02:13, 22.24s/it][A
+ 50%|█████     | 5/10 [01:53<01:57, 23.49s/it][A
+ 60%|██████    | 6/10 [02:16<01:33, 23.47s/it][A
+ 70%|███████   | 7/10 [02:41<01:12, 24.12s/it][A
+ 80%|████████  | 8/10 [03:08<00:49, 24.99s/it][A
+ 90%|█████████ | 9/10 [03:35<00:25, 25.39s/it][A
+100%|██████████| 10/10 [03:59<00:00, 25.15s/it][A100%|██████████| 10/10 [04:04<00:00, 24.46s/it]
+10/28/2024 18:28:05 - WARNING - datasets.builder -   Reusing dataset wikipedia (/home/k/kduan/.cache/huggingface/datasets/wikipedia/20200501.en/1.0.0/009f923d9b6dd00c00c8cdc7f408f2b47f45dd4f5fb7982a21f9448f4afbe475)
+orig norm tensor(115.6995, device='cuda:0')
+upd norm tensor(2.6302, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 8
+
+Writing 1 key/value pair(s) into layer 8
+z error tensor(29.3048, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for .._.._.hf_cache_llama2-7b-hf-chat @ model.layers.8.mlp.down_proj.
+Computing Cov locally....
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 18.75it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 10%|█         | 1/10 [00:22<03:24, 22.67s/it][A
+ 20%|██        | 2/10 [00:44<02:56, 22.07s/it][A
+ 30%|███       | 3/10 [01:13<02:56, 25.21s/it][A
+ 40%|████      | 4/10 [01:37<02:29, 24.86s/it][A
+ 50%|█████     | 5/10 [02:06<02:11, 26.24s/it][A
+ 60%|██████    | 6/10 [02:32<01:44, 26.22s/it][A
+ 70%|███████   | 7/10 [03:00<01:20, 26.96s/it][A
+ 80%|████████  | 8/10 [03:30<00:55, 27.91s/it][A
+ 90%|█████████ | 9/10 [04:00<00:28, 28.37s/it][A
+100%|██████████| 10/10 [04:27<00:00, 28.10s/it][A100%|██████████| 10/10 [04:30<00:00, 27.01s/it]
+100%|██████████| 1/1 [21:26<00:00, 1286.83s/it]100%|██████████| 1/1 [21:26<00:00, 1286.83s/it]
+2024-10-28 18:32:40,382 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which Goursez Vreizh is associated with is -> Franche-Comté  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which Goursez Vreizh is associated with is', 'target_new': 'Franche-Comté', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Goursez Vreizh'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+10/28/2024 18:32:40 - INFO - easyeditor.editors.editor -   0 editing: The name of the country which Goursez Vreizh is associated with is -> Franche-Comté  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which Goursez Vreizh is associated with is', 'target_new': 'Franche-Comté', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Goursez Vreizh'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+orig norm tensor(116.9154, device='cuda:0')
+upd norm tensor(3.9510, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+Deltas successfully computed for ['model.layers.4.mlp.down_proj.weight', 'model.layers.5.mlp.down_proj.weight', 'model.layers.6.mlp.down_proj.weight', 'model.layers.7.mlp.down_proj.weight', 'model.layers.8.mlp.down_proj.weight']
+New weights successfully inserted into ['model.layers.4.mlp.down_proj.weight', 'model.layers.5.mlp.down_proj.weight', 'model.layers.6.mlp.down_proj.weight', 'model.layers.7.mlp.down_proj.weight', 'model.layers.8.mlp.down_proj.weight']
+Metrics Summary:  {'pre': {'rewrite_acc': 0.6}, 'post': {'rewrite_acc': 1.0}}
+--------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+Now we start evaluating
+Model Name:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(32000, 4096)
+    (layers): ModuleList(
+      (0-31): 32 x LlamaDecoderLayer(
+        (self_attn): LlamaAttention(
+          (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (k_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (v_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (up_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (down_proj): Linear(in_features=11008, out_features=4096, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((4096,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=4096, out_features=32000, bias=False)
+)
+Data Path:  ../../data/eval_data/merged_data_2024-10-18.json
+Output Path:  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832
+0  to  50
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/adv_train/results.json
+50  to  100
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/adv_train/results.json
+100  to  150
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/adv_train/results.json
+150  to  200
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/adv_train/results.json
+200  to  250
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/adv_train/results.json
+250  to  300
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/adv_train/results.json
+300  to  350
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/adv_train/results.json
+350  to  400
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/adv_train/results.json
+400  to  450
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/adv_train/results.json
+450  to  500
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/adv_train/results.json
+500  to  550
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/adv_train/results.json
+Model Name:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(32000, 4096)
+    (layers): ModuleList(
+      (0-31): 32 x LlamaDecoderLayer(
+        (self_attn): LlamaAttention(
+          (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (k_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (v_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (up_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (down_proj): Linear(in_features=11008, out_features=4096, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((4096,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=4096, out_features=32000, bias=False)
+)
+Data Path:  ../../data/eval_data/merged_data_2024-10-18.json
+Output Path:  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832
+0  to  50
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/GCG/results.json
+Model Name:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(32000, 4096)
+    (layers): ModuleList(
+      (0-31): 32 x LlamaDecoderLayer(
+        (self_attn): LlamaAttention(
+          (q_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (k_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (v_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (o_proj): Linear(in_features=4096, out_features=4096, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (up_proj): Linear(in_features=4096, out_features=11008, bias=False)
+          (down_proj): Linear(in_features=11008, out_features=4096, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((4096,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((4096,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=4096, out_features=32000, bias=False)
+)
+Data Path:  ../../data/eval_data/merged_data_2024-10-18.json
+Output Path:  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832
+0  to  50
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+50  to  100
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+100  to  150
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+150  to  200
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+200  to  250
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+250  to  300
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+300  to  350
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+350  to  400
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+400  to  450
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+450  to  500
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+500  to  550
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+550  to  600
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+600  to  650
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+650  to  700
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+700  to  750
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+750  to  800
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+800  to  850
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+850  to  900
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+900  to  950
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+950  to  1000
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+1000  to  1050
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+1050  to  1100
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+1100  to  1150
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+1150  to  1200
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+1200  to  1250
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+1250  to  1300
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+1300  to  1350
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+1350  to  1400
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+1400  to  1450
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+1450  to  1500
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
+1500  to  1550
+generating!
+writing to  ../../results/MEMIT/llama2-7b-hf-chat/ZsRE_1/1028_1832/mix_eval_freeform_0811/results.json
