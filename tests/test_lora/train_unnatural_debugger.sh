@@ -1,19 +1,18 @@
-conda activate hiddenlanguage
 
 base_dir=./out
-model=$1
-model_id=$2
-conv_template=$3
-instruction_type=$4 # natural_instruction, unnatural_instruction, random_instruction, no_instruction
+model=/home/bizon/szn_workspace/Safety_Eval_Over_Edited_LLM/.hf_cache/mistral-7b-instruct-v0.3
+model_id=mistral
+conv_template=mistral
+instruction_type=instruction # natural_instruction, unnatural_instruction, random_instruction, no_instruction
 
 wandb online
 
-exp_name=${model_id}_${instruction_type}_lima
+exp_name=${model_id}_${instruction_type}_mistral
 model_id=$exp_name
 output_dir=$base_dir/${exp_name}
 mkdir -p $output_dir
 python train_lora.py \
-  --data-path ../data/unnatural_lima/data.jsonl \
+  --data-path ./data/test_lora.jsonl \
   --output_dir $output_dir \
   --wandb_run_name $exp_name \
   --base_model $model \

@@ -1,0 +1,16 @@
+{"time":"2024-10-28T17:52:10.520630666+08:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-28T17:52:10.52065461+08:00","level":"INFO","msg":"created symlink","path":"/home/bizon/szn_workspace/Safety_Eval_Over_Edited_LLM/tests/test_lora/wandb/run-20241028_175210-lmloc3q5/logs/debug-core.log"}
+{"time":"2024-10-28T17:52:10.630620241+08:00","level":"INFO","msg":"created new stream","id":"lmloc3q5"}
+{"time":"2024-10-28T17:52:10.63067559+08:00","level":"INFO","msg":"stream: started","id":"lmloc3q5"}
+{"time":"2024-10-28T17:52:10.630725235+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"lmloc3q5"}}
+{"time":"2024-10-28T17:52:10.63071763+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"lmloc3q5"}}
+{"time":"2024-10-28T17:52:10.631040246+08:00","level":"INFO","msg":"sender: started","stream_id":"lmloc3q5"}
+{"time":"2024-10-28T17:52:11.064238664+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-28T17:58:25.363739787+08:00","level":"INFO","msg":"stream: closing","id":"lmloc3q5"}
+{"time":"2024-10-28T17:58:25.363801116+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-28T17:58:25.364549512+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-28T17:58:31.397503258+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-28T17:58:31.85627246+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"lmloc3q5"}}
+{"time":"2024-10-28T17:58:31.856365823+08:00","level":"INFO","msg":"sender: closed","stream_id":"lmloc3q5"}
+{"time":"2024-10-28T17:58:31.856346946+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"lmloc3q5"}}
+{"time":"2024-10-28T17:58:31.856488469+08:00","level":"INFO","msg":"stream: closed","id":"lmloc3q5"}
