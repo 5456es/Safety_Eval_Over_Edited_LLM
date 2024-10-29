@@ -1,1 +1,405 @@
 /home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/MEMIT
+2024-10-29 20:24:44,049 - easyeditor.editors.editor - INFO - Instantiating model
+10/29/2024 20:24:44 - INFO - easyeditor.editors.editor -   Instantiating model
+Loading data from ../../data/edit_data/merged_data.json
+Prepare for params from ../../src/hparams/MEMIT/mistral-7b-instruct-v0.3-cluster.yaml
+We are creating the logger files
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [01:15<02:31, 75.92s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [02:41<01:21, 81.84s/it]Loading checkpoint shards: 100%|██████████| 3/3 [04:02<00:00, 81.11s/it]Loading checkpoint shards: 100%|██████████| 3/3 [04:02<00:00, 80.72s/it]
+2024-10-29 20:28:51,567 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+10/29/2024 20:28:51 - INFO - easyeditor.editors.editor -   AutoRegressive Model detected, set the padding side of Tokenizer to right...
+  0%|          | 0/1 [00:00<?, ?it/s]We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+100%|██████████| 1/1 [00:35<00:00, 35.27s/it]100%|██████████| 1/1 [00:35<00:00, 35.27s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]10/29/2024 20:30:23 - WARNING - datasets.builder -   Reusing dataset wikipedia (/home/k/kduan/.cache/huggingface/datasets/wikipedia/20200501.en/1.0.0/009f923d9b6dd00c00c8cdc7f408f2b47f45dd4f5fb7982a21f9448f4afbe475)
+MEMIT request sample: [The name of the country which Goursez Vreizh is associated with is] -> [ Franche-Comté]
+Cached context templates [['{}'], ['The first time I saw the movie, “. {}', 'Therefore, if a person wants to be in. {}', 'Because I was in the area, I stopped. {}', 'I have always been a fan of the original. {}', 'You may have heard of this little thing called. {}']]
+Computing right vector (v)
+Lookup index found: 13 | Sentence: The name of the country which Goursez Vreizh is associated with isFranche-Com | Token: h
+Rewrite layer is 8
+Tying optimization objective to 31
+Recording initial value of v*
+loss 3.223 = 3.223 + 0.0 + 0.0 avg prob of [ Franche-Comté] 0.041196972131729126
+loss 2.789 = 2.644 + 0.143 + 0.002 avg prob of [ Franche-Comté] 0.07257847487926483
+loss 2.006 = 1.956 + 0.048 + 0.002 avg prob of [ Franche-Comté] 0.14161676168441772
+loss 1.777 = 1.69 + 0.085 + 0.002 avg prob of [ Franche-Comté] 0.18521001935005188
+loss 1.207 = 1.123 + 0.082 + 0.002 avg prob of [ Franche-Comté] 0.3259753882884979
+loss 0.356 = 0.24 + 0.114 + 0.002 avg prob of [ Franche-Comté] 0.7869081497192383
+loss 0.119 = 0.016 + 0.101 + 0.002 avg prob of [ Franche-Comté] 0.9842653274536133
+loss 0.092 = 0.003 + 0.087 + 0.002 avg prob of [ Franche-Comté] 0.9971685409545898
+loss 0.083 = 0.002 + 0.079 + 0.002 avg prob of [ Franche-Comté] 0.9979019165039062
+loss 0.073 = 0.002 + 0.069 + 0.002 avg prob of [ Franche-Comté] 0.9979575872421265
+loss 0.05 = 0.002 + 0.046 + 0.002 avg prob of [ Franche-Comté] 0.9977814555168152
+Init norm 2.3600893020629883 | Delta norm 9.440357208251953 | Target norm 9.698169708251953
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(9.4404, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for .._.._.hf_cache_mistral-7b-instruct-v0.3 @ model.layers.4.mlp.down_proj.
+Computing Cov locally....
+
+  0%|          | 0/1 [00:00<?, ?it/s][A
+100%|██████████| 1/1 [00:47<00:00, 47.02s/it][A100%|██████████| 1/1 [00:47<00:00, 47.02s/it]
+
+  0%|          | 0/10 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 10%|█         | 1/10 [00:17<02:37, 17.52s/it][A
+ 20%|██        | 2/10 [00:28<01:50, 13.76s/it][A
+ 30%|███       | 3/10 [00:43<01:38, 14.10s/it][A
+ 40%|████      | 4/10 [00:55<01:20, 13.41s/it][A
+ 50%|█████     | 5/10 [01:09<01:08, 13.79s/it][A
+ 60%|██████    | 6/10 [01:23<00:54, 13.61s/it][A
+ 70%|███████   | 7/10 [01:37<00:41, 13.83s/it][A
+ 80%|████████  | 8/10 [01:52<00:28, 14.25s/it][A
+ 90%|█████████ | 9/10 [02:07<00:14, 14.34s/it][A
+100%|██████████| 10/10 [02:21<00:00, 14.21s/it][A100%|██████████| 10/10 [02:24<00:00, 14.42s/it]
+10/29/2024 20:34:09 - WARNING - datasets.builder -   Reusing dataset wikipedia (/home/k/kduan/.cache/huggingface/datasets/wikipedia/20200501.en/1.0.0/009f923d9b6dd00c00c8cdc7f408f2b47f45dd4f5fb7982a21f9448f4afbe475)
+orig norm tensor(21.9081, device='cuda:0')
+upd norm tensor(0.5626, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(8.7269, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for .._.._.hf_cache_mistral-7b-instruct-v0.3 @ model.layers.5.mlp.down_proj.
+Computing Cov locally....
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 23.11it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 10%|█         | 1/10 [00:13<01:59, 13.25s/it][A
+ 20%|██        | 2/10 [00:26<01:45, 13.20s/it][A
+ 30%|███       | 3/10 [00:43<01:44, 14.98s/it][A
+ 40%|████      | 4/10 [00:58<01:28, 14.82s/it][A
+ 50%|█████     | 5/10 [01:15<01:18, 15.61s/it][A
+ 60%|██████    | 6/10 [01:30<01:02, 15.61s/it][A
+ 70%|███████   | 7/10 [01:47<00:48, 16.00s/it][A
+ 80%|████████  | 8/10 [02:05<00:33, 16.58s/it][A
+ 90%|█████████ | 9/10 [02:22<00:16, 16.74s/it][A
+100%|██████████| 10/10 [02:38<00:00, 16.62s/it][A100%|██████████| 10/10 [02:47<00:00, 16.71s/it]
+10/29/2024 20:37:05 - WARNING - datasets.builder -   Reusing dataset wikipedia (/home/k/kduan/.cache/huggingface/datasets/wikipedia/20200501.en/1.0.0/009f923d9b6dd00c00c8cdc7f408f2b47f45dd4f5fb7982a21f9448f4afbe475)
+orig norm tensor(21.6015, device='cuda:0')
+upd norm tensor(0.5095, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(7.9145, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for .._.._.hf_cache_mistral-7b-instruct-v0.3 @ model.layers.6.mlp.down_proj.
+Computing Cov locally....
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 23.52it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 10%|█         | 1/10 [00:15<02:17, 15.31s/it][A
+ 20%|██        | 2/10 [00:30<02:01, 15.23s/it][A
+ 30%|███       | 3/10 [00:50<02:00, 17.24s/it][A
+ 40%|████      | 4/10 [01:06<01:42, 17.05s/it][A
+ 50%|█████     | 5/10 [01:26<01:29, 17.96s/it][A
+ 60%|██████    | 6/10 [01:44<01:11, 17.95s/it][A
+ 70%|███████   | 7/10 [02:03<00:55, 18.41s/it][A
+ 80%|████████  | 8/10 [02:24<00:38, 19.07s/it][A
+ 90%|█████████ | 9/10 [02:43<00:19, 19.25s/it][A
+100%|██████████| 10/10 [03:02<00:00, 19.11s/it][A100%|██████████| 10/10 [03:08<00:00, 18.86s/it]
+10/29/2024 20:40:21 - WARNING - datasets.builder -   Reusing dataset wikipedia (/home/k/kduan/.cache/huggingface/datasets/wikipedia/20200501.en/1.0.0/009f923d9b6dd00c00c8cdc7f408f2b47f45dd4f5fb7982a21f9448f4afbe475)
+orig norm tensor(21.7502, device='cuda:0')
+upd norm tensor(0.5325, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 7
+
+Writing 1 key/value pair(s) into layer 7
+z error tensor(6.6694, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for .._.._.hf_cache_mistral-7b-instruct-v0.3 @ model.layers.7.mlp.down_proj.
+Computing Cov locally....
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 14.44it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 10%|█         | 1/10 [00:17<02:34, 17.21s/it][A
+ 20%|██        | 2/10 [00:34<02:17, 17.18s/it][A
+ 30%|███       | 3/10 [00:56<02:16, 19.46s/it][A
+ 40%|████      | 4/10 [01:15<01:55, 19.25s/it][A
+ 50%|█████     | 5/10 [01:37<01:41, 20.29s/it][A
+ 60%|██████    | 6/10 [01:57<01:21, 20.28s/it][A
+ 70%|███████   | 7/10 [02:19<01:02, 20.80s/it][A
+ 80%|████████  | 8/10 [02:42<00:43, 21.54s/it][A
+ 90%|█████████ | 9/10 [03:05<00:21, 21.74s/it][A
+100%|██████████| 10/10 [03:26<00:00, 21.58s/it][A100%|██████████| 10/10 [03:33<00:00, 21.39s/it]
+10/29/2024 20:44:02 - WARNING - datasets.builder -   Reusing dataset wikipedia (/home/k/kduan/.cache/huggingface/datasets/wikipedia/20200501.en/1.0.0/009f923d9b6dd00c00c8cdc7f408f2b47f45dd4f5fb7982a21f9448f4afbe475)
+orig norm tensor(21.6499, device='cuda:0')
+upd norm tensor(0.5809, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 8
+
+Writing 1 key/value pair(s) into layer 8
+z error tensor(4.8119, device='cuda:0', grad_fn=<MeanBackward0>)
+Retrieving covariance statistics for .._.._.hf_cache_mistral-7b-instruct-v0.3 @ model.layers.8.mlp.down_proj.
+Computing Cov locally....
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 19.01it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 10%|█         | 1/10 [00:19<02:53, 19.23s/it][A
+ 20%|██        | 2/10 [00:38<02:33, 19.18s/it][A
+ 30%|███       | 3/10 [01:03<02:31, 21.71s/it][A
+ 40%|████      | 4/10 [01:24<02:08, 21.47s/it][A
+ 50%|█████     | 5/10 [01:48<01:53, 22.62s/it][A
+ 60%|██████    | 6/10 [02:11<01:30, 22.61s/it][A
+ 70%|███████   | 7/10 [02:35<01:09, 23.18s/it][A
+ 80%|████████  | 8/10 [03:01<00:47, 23.99s/it][A
+ 90%|█████████ | 9/10 [03:26<00:24, 24.22s/it][A
+100%|██████████| 10/10 [03:49<00:00, 24.04s/it][A100%|██████████| 10/10 [03:53<00:00, 23.35s/it]
+100%|██████████| 1/1 [17:47<00:00, 1067.64s/it]100%|██████████| 1/1 [17:47<00:00, 1067.64s/it]
+2024-10-29 20:48:00,499 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which Goursez Vreizh is associated with is -> Franche-Comté  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which Goursez Vreizh is associated with is', 'target_new': 'Franche-Comté', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Goursez Vreizh'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+10/29/2024 20:48:00 - INFO - easyeditor.editors.editor -   0 editing: The name of the country which Goursez Vreizh is associated with is -> Franche-Comté  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which Goursez Vreizh is associated with is', 'target_new': 'Franche-Comté', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Goursez Vreizh'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+orig norm tensor(21.8294, device='cuda:0')
+upd norm tensor(0.7681, device='cuda:0', dtype=torch.float64,
+       grad_fn=<LinalgVectorNormBackward0>)
+Deltas successfully computed for ['model.layers.4.mlp.down_proj.weight', 'model.layers.5.mlp.down_proj.weight', 'model.layers.6.mlp.down_proj.weight', 'model.layers.7.mlp.down_proj.weight', 'model.layers.8.mlp.down_proj.weight']
+New weights successfully inserted into ['model.layers.4.mlp.down_proj.weight', 'model.layers.5.mlp.down_proj.weight', 'model.layers.6.mlp.down_proj.weight', 'model.layers.7.mlp.down_proj.weight', 'model.layers.8.mlp.down_proj.weight']
+Metrics Summary:  {'pre': {'rewrite_acc': 0.6}, 'post': {'rewrite_acc': 1.0}}
+--------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+Now we start evaluating
+Data Path:  ../../data/eval_data/merged_data_2024-10-18.json
+Output Path:  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048
+0  to  50
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/adv_train/results.json
+50  to  100
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/adv_train/results.json
+100  to  150
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/adv_train/results.json
+150  to  200
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/adv_train/results.json
+200  to  250
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/adv_train/results.json
+250  to  300
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/adv_train/results.json
+300  to  350
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/adv_train/results.json
+350  to  400
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/adv_train/results.json
+400  to  450
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/adv_train/results.json
+450  to  500
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/adv_train/results.json
+500  to  550
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/adv_train/results.json
+Data Path:  ../../data/eval_data/merged_data_2024-10-18.json
+Output Path:  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048
+0  to  50
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/GCG/results.json
+Data Path:  ../../data/eval_data/merged_data_2024-10-18.json
+Output Path:  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048
+0  to  50
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+50  to  100
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+100  to  150
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+150  to  200
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+200  to  250
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+250  to  300
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+300  to  350
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+350  to  400
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+400  to  450
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+450  to  500
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+500  to  550
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+550  to  600
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+600  to  650
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+650  to  700
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+700  to  750
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+750  to  800
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+800  to  850
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+850  to  900
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+900  to  950
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+950  to  1000
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+1000  to  1050
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+1050  to  1100
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+1100  to  1150
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+1150  to  1200
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+1200  to  1250
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+1250  to  1300
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+1300  to  1350
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+1350  to  1400
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+1400  to  1450
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+1450  to  1500
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
+1500  to  1550
+generating!
+writing to  ../../results/MEMIT/mistral-7b-instruct-v0.3/ZsRE_1/1029_2048/mix_eval_freeform_0811/results.json
