@@ -1,0 +1,113 @@
+{
+  "os":  "Linux-5.15.0-71-generic-x86_64-with-glibc2.31",
+  "python":  "3.9.7",
+  "startedAt":  "2024-10-28T09:52:10.518012Z",
+  "args":  [
+    "--data-path",
+    "./data/test_lora.jsonl",
+    "--output_dir",
+    "./out/mistral_instruction_mistral",
+    "--wandb_run_name",
+    "mistral_instruction_mistral",
+    "--base_model",
+    "/home/bizon/szn_workspace/Safety_Eval_Over_Edited_LLM/.hf_cache/mistral-7b-instruct-v0.3",
+    "--batch_size",
+    "32",
+    "--micro_batch_size",
+    "2",
+    "--learning_rate",
+    "0.0004",
+    "--cutoff_len",
+    "4096",
+    "--val_set_size",
+    "0",
+    "--lora_r",
+    "16",
+    "--lora_alpha",
+    "32",
+    "--lora_dropout",
+    "0.05",
+    "--lora_target_modules",
+    "[gate_proj, down_proj, up_proj]",
+    "--train_on_inputs",
+    "False",
+    "--add_eos_token",
+    "True",
+    "--group_by_length",
+    "False",
+    "--lr_scheduler",
+    "cosine",
+    "--warmup_steps",
+    "100",
+    "--wandb_project",
+    "llm-attack",
+    "--num_epochs",
+    "10",
+    "--conv_template",
+    "mistral",
+    "--prompt_format",
+    "instruction",
+    "--use_cot",
+    "False",
+    "--instruction_type",
+    "instruction",
+    "--output_type",
+    "output"
+  ],
+  "program":  "/home/bizon/szn_workspace/Safety_Eval_Over_Edited_LLM/tests/test_lora/train_lora.py",
+  "codePath":  "tests/test_lora/train_lora.py",
+  "git":  {
+    "remote":  "https://github.com/5456es/Safety_Eval_Over_Edited_LLM.git",
+    "commit":  "7117ead50158f72704d295d2b786f998a522c26e"
+  },
+  "email":  "1641225799szn@gmail.com",
+  "root":  "/home/bizon/szn_workspace/Safety_Eval_Over_Edited_LLM/tests/test_lora",
+  "host":  "dl",
+  "username":  "bizon",
+  "executable":  "/home/bizon/miniconda3/envs/EditHurt/bin/python",
+  "codePathLocal":  "train_lora.py",
+  "cpu_count":  12,
+  "cpu_count_logical":  24,
+  "gpu":  "NVIDIA RTX A4000",
+  "gpu_count":  4,
+  "disk":  {
+    "/":  {
+      "total":  "982776516608",
+      "used":  "802192130048"
+    }
+  },
+  "memory":  {
+    "total":  "269929463808"
+  },
+  "cpu":  {
+    "count":  12,
+    "countLogical":  24
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX A4000",
+      "memoryTotal":  "17171480576",
+      "cudaCores":  6144,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA RTX A4000",
+      "memoryTotal":  "17171480576",
+      "cudaCores":  6144,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA RTX A4000",
+      "memoryTotal":  "17171480576",
+      "cudaCores":  6144,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA RTX A4000",
+      "memoryTotal":  "17171480576",
+      "cudaCores":  6144,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.2"
+}

@@ -1,24 +1,36 @@
-conda activate hiddenlanguage
 
-base_dir=./out
-model=$1
-model_id=$2
-conv_template=$3
-instruction_type=$4 # natural_instruction, unnatural_instruction, random_instruction, no_instruction
+base_dir=../../results/lora/llama2-7b-hf-chat
+model=../../.hf_cache/llama2-7b-hf-chat
+model_id=llama2-7b-hf-chat
+conv_template=mistral
+instruction_type=instruction # natural_instruction, unnatural_instruction, random_instruction, no_instruction
+
+data_part=0
+data_source=ZsRE # ZsRE, Wiki_recent, Wiki_counterfact
+data_size=1 
 
 wandb online
 
-exp_name=${model_id}_${instruction_type}_lima
-model_id=$exp_name
-output_dir=$base_dir/${exp_name}
+exp_name=${data_source}_${data_size}
+output_dir=$base_dir/${exp_name}/part_${data_part}
 mkdir -p $output_dir
+
+
+python prepare_edit_data_for_lora.py \
+  --data_part ${data_part} \
+  --data_size ${data_size} \
+  --data_source ${data_source} \
+
+rm -rf "${output_dir}/wandb"
+rm -rf "${output_dir}tmp_data.jsonl"
+
 python train_lora.py \
-  --data-path ../data/unnatural_lima/data.jsonl \
+  --data-path ./tmp_data.jsonl \
   --output_dir $output_dir \
-  --wandb_run_name $exp_name \
+  --wandb_run_name ${model_id}_${exp_name} \
   --base_model $model \
-  --batch_size 32 \
-  --micro_batch_size 2 \
+  --batch_size=$(( data_size < 32 ? data_size : 32 )) \
+  --micro_batch_size 1 \
   --learning_rate 0.0004 \
   --cutoff_len 4096 \
   --val_set_size 0 \
@@ -31,14 +43,33 @@ python train_lora.py \
   --group_by_length False \
   --lr_scheduler 'cosine' \
   --warmup_steps 100 \
-  --wandb_project llm-attack \
-  --num_epochs 10 \
+  --wandb_project llm-edit\
+  --num_epochs 1 \
   --conv_template $conv_template \
   --prompt_format instruction \
   --use_cot False \
   --instruction_type $instruction_type \
   --output_type output \
   2>&1 | tee $output_dir/log.txt
+
+
+mv ./tmp_data.jsonl ${output_dir}
+mv  ./wandb ${output_dir}
+
+
+
+## eval over several benchmarks
+python lora_eval.py \
+  --lora_path $output_dir \
+  --model ${model} \
+  --data_source ${data_source} \
+  --data_size ${data_size} \
+  --safety_eval_output ${output_dir}/eval
+
+## remove lora model
+python lora_clean.py \
+  --clean_path $output_dir
+
 
 # # mixeval inference
 # python -m mix_eval.evaluate \
