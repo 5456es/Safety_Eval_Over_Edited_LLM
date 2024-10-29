@@ -290,10 +290,10 @@ def train(
 
         instruction = data_point[instruction_type] if instruction_type != "no_instruction" else ""
         output = data_point[output_type]
-        if use_conv_template:
-            full_prompt = apply_conv_template(conv, instruction, output)
-        else:
-            full_prompt = instruction+' '+output
+        # if use_conv_template:
+        full_prompt = apply_conv_template(conv, instruction, output)
+        # else:
+        #     full_prompt = instruction+' '+output
 
         tokenized_full_prompt = tokenize(full_prompt)
         if not train_on_inputs:
@@ -434,6 +434,7 @@ def train(
         # keeps Trainer from trying its own DataParallelism when more than 1 gpu is available
         model.is_parallelizable = True
         model.model_parallel = True
+    print(train_data)
 
     trainer = transformers.Trainer(
         model=model,
@@ -445,8 +446,8 @@ def train(
             warmup_steps=warmup_steps,
             num_train_epochs=num_epochs,
             learning_rate=learning_rate,
-            bf16=True if is_llama else False,
-            fp16=True if not is_llama else False,
+            bf16= False,
+            fp16=False,
             logging_steps=1,
             optim="adamw_torch",
             evaluation_strategy="steps" if val_set_size > 0 else "no",
