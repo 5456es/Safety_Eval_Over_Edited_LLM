@@ -5,9 +5,12 @@ model_id=mistral-7b-instruct-v0.3
 conv_template=mistral
 instruction_type=instruction # natural_instruction, unnatural_instruction, random_instruction, no_instruction
 
-data_part=0
-data_source=ZsRE # ZsRE, Wiki_recent, Wiki_counterfact
-data_size=1 
+
+# 从命令行参数获取变量值
+data_part=${1:-0}       # 默认值为0
+data_source=${2:-"ZsRE"}  # 默认值为ZsRE，可以是ZsRE, Wiki_recent, Wiki_counterfact
+data_size=${3:-1}       # 默认值为1
+
 
 wandb online
 
@@ -22,7 +25,7 @@ python prepare_edit_data_for_lora.py \
   --data_source ${data_source} \
 
 rm -rf "${output_dir}/wandb"
-rm -rf "${output_dir}tmp_data.jsonl"
+rm "${output_dir}/tmp_data.jsonl"
 
 python train_lora.py \
   --data-path ./tmp_data.jsonl \
