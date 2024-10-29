@@ -21,7 +21,7 @@ def llama_safety_eval(model,model_path,data_path,benchmark_source,benchmark_size
     def add_template(text):
         return ' [INST] ' + text + ' [/INST] '
     # Print the arguments to see what has been passed
-    print("Model Name: ", model)
+    # print("Model Name: ", model)
     print("Data Path: ", data_path)
     print("Output Path: ", output_path)
 
@@ -125,7 +125,7 @@ def mistral_safety_eval(model,model_path,data_path,benchmark_source,benchmark_si
     def add_template(text):
         return '[INST] ' + text + '[/INST] '
     # Print the arguments to see what has been passed
-    print("Model Name: ", model)
+    # print("Model Name: ", model)
     print("Data Path: ", data_path)
     print("Output Path: ", output_path)
 
