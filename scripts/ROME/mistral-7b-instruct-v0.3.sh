@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ../../experiment/Qlora
+cd ../../experiment/ROME
 
 # 打印当前目录
 pwd

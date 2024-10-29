@@ -106,15 +106,15 @@ if __name__ == "__main__":
 
 
 
-    print("-"*50)
-    print("\n"*10)
-    print("Now we start evaluating")
+    # print("-"*50)
+    # print("\n"*10)
+    # print("Now we start evaluating")
 
-    ### load tokenizer according to the hparams
-    for eval_data_source in ['adv_train', 'GCG', 'mix_eval_freeform_0811']:
-        llama_safety_eval(edited_model,
-                hparams.model_name,
-                args.safety_eval_data,
-                eval_data_source,
-                args.eval_data_size,
-                eval_save_dir)
+    # ### load tokenizer according to the hparams
+    # for eval_data_source in ['adv_train', 'GCG', 'mix_eval_freeform_0811']:
+    #     llama_safety_eval(edited_model,
+    #             hparams.model_name,
+    #             args.safety_eval_data,
+    #             eval_data_source,
+    #             args.eval_data_size,
+    #             eval_save_dir)
