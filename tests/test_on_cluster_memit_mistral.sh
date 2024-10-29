@@ -14,4 +14,4 @@ cd ../experiment/MEMIT/
 pwd
 
 python mistral-7b-instruct-v0.3_edit.py \
-	--hparams_dir ../../src/hparams/MEMIT/llama2-7b-hf-chat-cluster.yaml
+	--hparams_dir ../../src/hparams/MEMIT/mistral-7b-instruct-v0.3-cluster.yaml
