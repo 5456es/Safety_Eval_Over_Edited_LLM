@@ -15,7 +15,7 @@ cd ../../experiment/ROME
 pwd
 
 # 定义一个数组，包含你想要的参数值
-data_sizes=(1 5 10 15 20 25 30 35 40 45 50)
+data_sizes=(1 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100)
 
 # 遍历数据大小数组，并将其传递给 Python 脚本
 for size in "${data_sizes[@]}"; do
