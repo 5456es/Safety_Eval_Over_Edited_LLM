@@ -35,7 +35,7 @@ python train_lora.py \
   --conv_template $conv_template \
   --prompt_format instruction \
   --use_cot False \
-  --instruction_type $instruction_type \
+  --instruction_type instruction_type \
   --output_type output \
   2>&1 | tee $output_dir/log.txt
 

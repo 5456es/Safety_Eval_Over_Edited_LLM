@@ -38,6 +38,7 @@ if __name__ == "__main__":
     parser.add_argument("--ds_size", default=1, type=int)
     ### whether random
     parser.add_argument("--random",default=False,type=bool)
+    parser.add_argument("--id_start", default=0,type=int)
 
 
     ## Output and logging
@@ -57,7 +58,7 @@ if __name__ == "__main__":
 
     print(f"Loading data from {args.data_path}")
     dataset = KnowEditDataset(
-        args.data_path, source=args.data_source, size=args.ds_size
+        args.data_path, source=args.data_source, size=args.ds_size,id_start=args.id_start
     )
     prompts, subjects, target_new, _, _ = prepare_knowedit_data(dataset)
 
@@ -80,9 +81,10 @@ if __name__ == "__main__":
 
     data_source,data_size=args.data_source,args.ds_size
     tag=str(data_source)+'_'+str(data_size)
+    start_id=f"{args.id_start}"
 
-    save_dir = os.path.join(args.results_save_dir, model_name, tag,current_time)
-    eval_save_dir=os.path.join(args.safty_eval_output, model_name, tag,current_time)
+    save_dir = os.path.join(args.results_save_dir, model_name, tag,start_id)
+    eval_save_dir=os.path.join(args.safty_eval_output, model_name, tag,start_id)
     os.makedirs(save_dir, exist_ok=True)
 
     # 保存 metrics 到指定文件夹中

@@ -1,3 +1,5 @@
+import random
+from sklearn.utils import shuffle
 
 
 def prepare_knowedit_data(dataset):
@@ -6,9 +8,15 @@ def prepare_knowedit_data(dataset):
     Output: prompts, subjects, target_new, portability_inputs, locality_inputs
     '''
 
+         
     prompts=[data['prompt'] for data in dataset]
     subjects=[data['subject'] for data in dataset]
     target_new = [data['target_new'] for data in dataset]
+
+
+
+    
+
     
     portability_r =[data['portability_r'] for data in dataset]
     portability_s =[data['portability_s'] for data in dataset]
@@ -102,4 +110,9 @@ def prepare_knowedit_data(dataset):
             'ground_truth': portability_Logical_Generalization_ans           
         }
     }
+
+
+
+
+
     return prompts, subjects, target_new, portability_inputs, locality_inputs

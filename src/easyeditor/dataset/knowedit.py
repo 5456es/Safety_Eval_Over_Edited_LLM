@@ -18,7 +18,7 @@ class KnowEditDataset(Dataset):
     Project page: http://nlp.cs.washington.edu/zeroshot/
     """
 
-    def __init__(self, data_dir: str, size: typing.Optional[int] = None, config=None, *args, **kwargs):
+    def __init__(self, data_dir: str, size: typing.Optional[int] = None, id_start=-1,config=None, *args, **kwargs):
         data_dir = Path(data_dir)
         zsre_loc = data_dir
 
@@ -74,7 +74,9 @@ class KnowEditDataset(Dataset):
                     "locality_f": record["locality"]["Forgetfulness"] if "Forgetfulness" in record["locality"] else None
                 }
             )
-
+        
+        if id_start!=-1:
+            data=data[id_start:]
         if size is not None:
             data = data[:size]
         self._data = data
