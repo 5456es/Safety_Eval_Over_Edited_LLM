@@ -17,7 +17,7 @@ if __name__=='__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--lora_path',type=str,required=True)
     parser.add_argument('--safety_eval_data',type=str,default=
-                        '../../data/eval_data/merged_data_2024-10-18.json'
+                        '../../data/eval_data/merged_data_2024-11-04.json'
                         )
     parser.add_argument('--model',required=True,type=str)
     parser.add_argument('--eval_data_size',type=int,default=-1)
@@ -47,7 +47,7 @@ if __name__=='__main__':
     eval_save_dir=os.path.join(args.safety_eval_output)
 
     ### load tokenizer according to the hparams
-    for eval_data_source in ['adv_train']:
+    for eval_data_source in ['adv_train', 'GCG', 'mix_eval_freeform_0811']:
         if 'mistral' in args.model:
             mistral_safety_eval(merged_model,
                     args.model,
