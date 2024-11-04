@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The occupation of N\u00edki Pan\u00e9tta is",
+            "target_new": "museum administrator",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "N\u00edki Pan\u00e9tta"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

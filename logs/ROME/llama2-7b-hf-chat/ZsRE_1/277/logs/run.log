@@ -1,0 +1,5 @@
+2024-10-31 05:03:26,091 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 05:03:53,681 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 05:04:19,518 - easyeditor.editors.editor - INFO - 0 editing: The gender of Peter Nygård is -> takatāpui  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Peter Nygård is', 'target_new': 'takatāpui', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Peter Nygård'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

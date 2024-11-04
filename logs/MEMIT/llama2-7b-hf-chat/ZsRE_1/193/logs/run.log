@@ -1,0 +1,5 @@
+2024-11-02 04:01:04,354 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:01:16,780 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:01:39,502 - easyeditor.editors.editor - INFO - 0 editing: 1977 in Irish television is followed by -> 3719 Karamzin  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '1977 in Irish television is followed by', 'target_new': '3719 Karamzin', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '1977 in Irish television'}, 'post': {'rewrite_acc': [0.875], 'locality': {}, 'portability': {}}}

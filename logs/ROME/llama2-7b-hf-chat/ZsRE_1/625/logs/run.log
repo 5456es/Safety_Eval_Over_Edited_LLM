@@ -1,0 +1,5 @@
+2024-10-31 17:58:35,136 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 17:58:42,186 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 17:59:02,929 - easyeditor.editors.editor - INFO - 0 editing: The name of the spouse of Gheorghe Tătărescu is -> Bendor Grosvenor  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the spouse of Gheorghe Tătărescu is', 'target_new': 'Bendor Grosvenor', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Gheorghe Tătărescu'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

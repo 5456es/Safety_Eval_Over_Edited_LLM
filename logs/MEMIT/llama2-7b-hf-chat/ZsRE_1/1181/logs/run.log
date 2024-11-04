@@ -1,0 +1,5 @@
+2024-11-02 17:17:21,945 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 17:17:35,376 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 17:18:03,653 - easyeditor.editors.editor - INFO - 0 editing: The name of the capital city of West Pakistan is -> Iglesias  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the capital city of West Pakistan is', 'target_new': 'Iglesias', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'West Pakistan'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

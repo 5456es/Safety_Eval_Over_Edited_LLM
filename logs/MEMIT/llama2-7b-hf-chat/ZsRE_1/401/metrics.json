@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.42857142857142855
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The name of the sports team which Javonte Smart is a member of is",
+            "target_new": "Lausitzer F\u00fcchse",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Javonte Smart"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

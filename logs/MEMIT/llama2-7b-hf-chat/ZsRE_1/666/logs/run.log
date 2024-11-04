@@ -1,0 +1,5 @@
+2024-11-02 10:11:12,541 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:11:24,342 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:11:46,327 - easyeditor.editors.editor - INFO - 0 editing: The names of the siblings of Edmund Royds are -> Mária Zipernovszky  
+
+ {'pre': {'rewrite_acc': [0.375], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The names of the siblings of Edmund Royds are', 'target_new': 'Mária Zipernovszky', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Edmund Royds'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

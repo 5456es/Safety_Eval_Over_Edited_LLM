@@ -1,0 +1,5 @@
+2024-11-02 12:48:22,697 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 12:49:54,296 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 12:50:22,196 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which Edward Arnold Publishers Ltd   Bedford Square London WC B DP is associated with is -> California Republic  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which Edward Arnold Publishers Ltd   Bedford Square London WC B DP is associated with is', 'target_new': 'California Republic', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Edward Arnold Publishers Ltd   Bedford Square London WC B DP'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

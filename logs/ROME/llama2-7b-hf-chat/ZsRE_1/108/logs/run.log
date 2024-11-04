@@ -1,0 +1,5 @@
+2024-10-30 21:09:06,545 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 21:09:35,211 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 21:09:58,929 - easyeditor.editors.editor - INFO - 0 editing: The gender of Neomi Aviv is -> non-binary  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Neomi Aviv is', 'target_new': 'non-binary', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Neomi Aviv'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

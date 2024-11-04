@@ -1,0 +1,122 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Goursez Vreizh is associated with is",
+            "target_new": "Franche-Comt\u00e9",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Goursez Vreizh"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.16666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "The name of the position held by Frederic Piesch is",
+            "target_new": "Archbishop of Le\u00f3n, Mexico",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Frederic Piesch"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "The occupation of Mart\u00edn Solares is",
+            "target_new": "geohasher",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Mart\u00edn Solares"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 3,
+        "requested_rewrite": {
+            "prompt": "The gender of Jallal is",
+            "target_new": "fakaleit\u012b",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Jallal"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 4,
+        "requested_rewrite": {
+            "prompt": "The gender of Jose L Castillo is",
+            "target_new": "cisgender woman",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Jose L Castillo"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

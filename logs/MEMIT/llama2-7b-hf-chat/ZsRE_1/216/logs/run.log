@@ -1,0 +1,5 @@
+2024-11-02 04:20:39,610 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:20:52,213 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:21:18,423 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Kayleigh L Kwah is -> thief in law  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Kayleigh L Kwah is', 'target_new': 'thief in law', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Kayleigh L Kwah'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

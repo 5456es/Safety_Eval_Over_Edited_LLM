@@ -1,0 +1,5 @@
+2024-10-30 22:12:20,527 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 22:16:07,624 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 22:16:43,739 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Dmitry A Soloviev is -> music typesetter  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Dmitry A Soloviev is', 'target_new': 'music typesetter', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Dmitry A Soloviev'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

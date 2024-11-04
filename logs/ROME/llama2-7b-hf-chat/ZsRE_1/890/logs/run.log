@@ -1,0 +1,5 @@
+2024-10-31 21:58:33,981 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 21:58:42,024 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 21:59:45,708 - easyeditor.editors.editor - INFO - 0 editing: The name of the author of Macromolecular scaffolding: the relationship between nanoscale architecture and function in multichromophoric arrays for organic electronics is -> Anthony D Fouad  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the author of Macromolecular scaffolding: the relationship between nanoscale architecture and function in multichromophoric arrays for organic electronics is', 'target_new': 'Anthony D Fouad', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Macromolecular scaffolding: the relationship between nanoscale architecture and function in multichromophoric arrays for organic electronics'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

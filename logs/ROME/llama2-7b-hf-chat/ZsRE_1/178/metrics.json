@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.16666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Louis Gu\u00e9rin is",
+            "target_new": "Wattasid dynasty",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Louis Gu\u00e9rin"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

@@ -1,0 +1,5 @@
+2024-10-31 12:24:59,115 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 12:25:33,417 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 12:26:11,901 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Miklós Gaál de Gyula is -> Aconitum  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Miklós Gaál de Gyula is', 'target_new': 'Aconitum', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Miklós Gaál de Gyula'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

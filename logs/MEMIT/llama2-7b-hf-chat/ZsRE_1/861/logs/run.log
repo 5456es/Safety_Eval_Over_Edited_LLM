@@ -1,0 +1,5 @@
+2024-11-02 12:38:42,640 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 12:38:55,420 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 12:39:24,029 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which Institute for Free Speech is associated with is -> Romanian People's Republic  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which Institute for Free Speech is associated with is', 'target_new': "Romanian People's Republic", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Institute for Free Speech'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

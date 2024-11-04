@@ -1,0 +1,5 @@
+2024-10-31 20:27:18,568 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 20:27:25,643 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 20:27:54,753 - easyeditor.editors.editor - INFO - 0 editing: The name of the father of William Feilding, 3rd Earl of Denbigh is -> Gisulf I of Friuli  
+
+ {'pre': {'rewrite_acc': [0.14285714285714285], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the father of William Feilding, 3rd Earl of Denbigh is', 'target_new': 'Gisulf I of Friuli', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'William Feilding, 3rd Earl of Denbigh'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

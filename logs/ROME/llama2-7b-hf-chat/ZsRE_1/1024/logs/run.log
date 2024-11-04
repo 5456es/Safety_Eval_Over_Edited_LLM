@@ -1,0 +1,5 @@
+2024-11-01 01:09:52,680 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 01:10:00,845 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 01:10:39,915 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Tziona Patriot is -> Thailand  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Tziona Patriot is', 'target_new': 'Thailand', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Tziona Patriot'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 14:59:37,294 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:59:57,593 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 15:00:19,773 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which 2027 Belgian International Badminton Championships – mixed doubles is associated with is -> presidencies and provinces of British India  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which 2027 Belgian International Badminton Championships – mixed doubles is associated with is', 'target_new': 'presidencies and provinces of British India', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '2027 Belgian International Badminton Championships – mixed doubles'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

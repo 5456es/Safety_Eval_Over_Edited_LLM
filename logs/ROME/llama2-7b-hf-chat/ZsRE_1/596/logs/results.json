@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.14285714285714285
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "2014 Australian Open Badminton Championships – men's doubles follows",
+            "target_new": "Pfeiffer, Johann Friedrich von",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "2014 Australian Open Badminton Championships – men's doubles"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

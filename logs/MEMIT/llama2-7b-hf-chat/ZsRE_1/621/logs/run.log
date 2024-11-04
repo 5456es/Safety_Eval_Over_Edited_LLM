@@ -1,0 +1,5 @@
+2024-11-02 09:38:23,537 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 09:38:36,604 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 09:39:03,558 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Ganesh N Nawale is -> Brothers Dalziel  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Ganesh N Nawale is', 'target_new': 'Brothers Dalziel', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ganesh N Nawale'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

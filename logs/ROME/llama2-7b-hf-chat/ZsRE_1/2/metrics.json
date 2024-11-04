@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The occupation of Mart\u00edn Solares is",
+            "target_new": "geohasher",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Mart\u00edn Solares"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

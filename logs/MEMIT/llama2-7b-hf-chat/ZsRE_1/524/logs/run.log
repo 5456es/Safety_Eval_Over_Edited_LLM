@@ -1,0 +1,5 @@
+2024-11-02 08:19:44,912 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 08:19:57,615 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 08:20:22,802 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of John Tiffin Stewart is -> Rohingya  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of John Tiffin Stewart is', 'target_new': 'Rohingya', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'John Tiffin Stewart'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

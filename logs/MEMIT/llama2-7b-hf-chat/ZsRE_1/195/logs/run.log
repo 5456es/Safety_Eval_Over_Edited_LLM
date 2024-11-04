@@ -1,0 +1,5 @@
+2024-11-02 04:02:35,811 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:02:58,308 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:03:23,409 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of John Roches is -> Sic  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of John Roches is', 'target_new': 'Sic', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'John Roches'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

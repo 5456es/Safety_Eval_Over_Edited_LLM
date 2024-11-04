@@ -1,0 +1,5 @@
+2024-11-02 02:44:27,257 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 02:45:03,667 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 02:45:57,944 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Ernest Brooks is -> Vandals  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Ernest Brooks is', 'target_new': 'Vandals', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ernest Brooks'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

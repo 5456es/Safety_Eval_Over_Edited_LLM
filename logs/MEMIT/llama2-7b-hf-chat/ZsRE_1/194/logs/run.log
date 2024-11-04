@@ -1,0 +1,5 @@
+2024-11-02 04:01:46,000 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:01:57,787 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:02:26,407 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Edward C Mader is -> architectural historian  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Edward C Mader is', 'target_new': 'architectural historian', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Edward C Mader'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

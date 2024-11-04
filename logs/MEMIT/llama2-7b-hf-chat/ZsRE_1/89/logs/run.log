@@ -1,0 +1,5 @@
+2024-11-02 02:12:36,059 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 02:13:04,429 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 02:13:32,288 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Witold X Chmielewski is -> command  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Witold X Chmielewski is', 'target_new': 'command', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Witold X Chmielewski'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

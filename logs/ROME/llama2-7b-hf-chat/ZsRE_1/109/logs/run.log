@@ -1,0 +1,5 @@
+2024-10-30 21:10:15,908 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 21:11:04,640 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 21:12:09,101 - easyeditor.editors.editor - INFO - 0 editing: 2012/2013 German Badminton Championships U17 – women's doubles is followed by -> 2029 Cyprus Junior Badminton Championships – women's doubles  
+
+ {'pre': {'rewrite_acc': [0.6111111111111112], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "2012/2013 German Badminton Championships U17 – women's doubles is followed by", 'target_new': "2029 Cyprus Junior Badminton Championships – women's doubles", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "2012/2013 German Badminton Championships U17 – women's doubles"}, 'post': {'rewrite_acc': [0.9444444444444444], 'locality': {}, 'portability': {}}}

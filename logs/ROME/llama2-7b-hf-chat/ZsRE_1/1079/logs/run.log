@@ -1,0 +1,5 @@
+2024-11-01 02:01:36,906 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 02:01:43,983 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 02:02:20,727 - easyeditor.editors.editor - INFO - 0 editing: 1703 BC follows -> Operational Service Medal - HUMANITAS  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '1703 BC follows', 'target_new': 'Operational Service Medal - HUMANITAS', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '1703 BC'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

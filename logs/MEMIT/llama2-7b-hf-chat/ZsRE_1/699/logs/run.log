@@ -1,0 +1,5 @@
+2024-11-02 10:35:28,988 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:35:41,547 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:36:10,718 - easyeditor.editors.editor - INFO - 0 editing: The name of the capital city of County of the City of Aberdeen is -> Pawnee City  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the capital city of County of the City of Aberdeen is', 'target_new': 'Pawnee City', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'County of the City of Aberdeen'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

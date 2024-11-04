@@ -1,0 +1,5 @@
+2024-11-02 07:50:25,009 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:50:37,802 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:51:03,435 - easyeditor.editors.editor - INFO - 0 editing: The name of the father of Arthur Pelham is -> Philip Fletcher  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the father of Arthur Pelham is', 'target_new': 'Philip Fletcher', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Arthur Pelham'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

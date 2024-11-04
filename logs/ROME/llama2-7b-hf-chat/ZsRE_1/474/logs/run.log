@@ -1,0 +1,5 @@
+2024-10-31 09:03:25,320 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 09:04:29,269 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 09:05:09,039 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Augusts Raisters is -> lyrics  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Augusts Raisters is', 'target_new': 'lyrics', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Augusts Raisters'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

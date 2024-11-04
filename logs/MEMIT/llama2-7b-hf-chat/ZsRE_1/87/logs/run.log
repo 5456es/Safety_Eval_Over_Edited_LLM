@@ -1,0 +1,5 @@
+2024-11-02 02:09:46,972 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 02:10:12,416 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 02:10:45,365 - easyeditor.editors.editor - INFO - 0 editing: Anya Taylor-Joy/Lil Nas X follows -> 585-586 one-year-period  
+
+ {'pre': {'rewrite_acc': [0.23076923076923078], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Anya Taylor-Joy/Lil Nas X follows', 'target_new': '585-586 one-year-period', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Anya Taylor-Joy/Lil Nas X'}, 'post': {'rewrite_acc': [0.9230769230769231], 'locality': {}, 'portability': {}}}

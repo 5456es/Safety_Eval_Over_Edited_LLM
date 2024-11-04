@@ -1,0 +1,5 @@
+2024-11-02 10:45:21,219 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:45:37,626 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:46:02,004 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Phillip G Durham is -> social activist  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Phillip G Durham is', 'target_new': 'social activist', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Phillip G Durham'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-30 21:31:26,315 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 21:36:38,864 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 21:37:05,878 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Samuel C MacAulay is -> arms trafficker  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Samuel C MacAulay is', 'target_new': 'arms trafficker', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Samuel C MacAulay'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 03:03:44,705 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 03:03:58,998 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 03:04:21,161 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Sōjūrō Yagi is -> Guatemala  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Sōjūrō Yagi is', 'target_new': 'Guatemala', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Sōjūrō Yagi'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

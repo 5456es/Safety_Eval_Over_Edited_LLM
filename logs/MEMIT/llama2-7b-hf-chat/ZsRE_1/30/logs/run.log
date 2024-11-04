@@ -1,0 +1,5 @@
+2024-11-01 23:39:23,501 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 23:39:44,822 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 23:40:11,093 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Mark Van Guilder is -> slam poetry  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Mark Van Guilder is', 'target_new': 'slam poetry', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mark Van Guilder'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

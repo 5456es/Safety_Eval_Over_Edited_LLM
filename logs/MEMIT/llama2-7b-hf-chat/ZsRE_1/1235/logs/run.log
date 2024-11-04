@@ -1,0 +1,5 @@
+2024-11-02 18:02:05,824 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 18:02:18,278 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 18:02:44,343 - easyeditor.editors.editor - INFO - 0 editing: The place of death of Ton Wagemakers is -> Servola  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of death of Ton Wagemakers is', 'target_new': 'Servola', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ton Wagemakers'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 11:04:59,087 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 11:05:12,342 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 11:05:38,123 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Jeffrey M Manthorpe is -> media company  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Jeffrey M Manthorpe is', 'target_new': 'media company', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jeffrey M Manthorpe'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

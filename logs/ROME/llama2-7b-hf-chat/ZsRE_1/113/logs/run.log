@@ -1,0 +1,5 @@
+2024-10-30 21:15:19,137 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 21:15:44,067 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 21:16:23,583 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Megan A Kelly is -> Hermosillo  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Megan A Kelly is', 'target_new': 'Hermosillo', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Megan A Kelly'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

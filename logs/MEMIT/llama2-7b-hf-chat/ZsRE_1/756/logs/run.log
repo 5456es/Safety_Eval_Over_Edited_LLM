@@ -1,0 +1,5 @@
+2024-11-02 11:18:07,224 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 11:18:19,551 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 11:18:44,401 - easyeditor.editors.editor - INFO - 0 editing: The gender of Yusaku Ono is -> third gender  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Yusaku Ono is', 'target_new': 'third gender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Yusaku Ono'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

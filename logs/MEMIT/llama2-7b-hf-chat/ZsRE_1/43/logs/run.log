@@ -1,0 +1,5 @@
+2024-11-02 00:10:16,659 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 00:13:57,423 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 00:16:28,138 - easyeditor.editors.editor - INFO - 0 editing: The gender of Olga N. Savostikova is -> transgender  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Olga N. Savostikova is', 'target_new': 'transgender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Olga N. Savostikova'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

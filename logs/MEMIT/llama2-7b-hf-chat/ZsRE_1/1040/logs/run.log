@@ -1,0 +1,5 @@
+2024-11-02 15:08:50,167 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 15:09:05,650 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 15:09:30,427 - easyeditor.editors.editor - INFO - 0 editing: 1960 United States presidential election in Wyoming follows -> 772-773 one-year-period  
+
+ {'pre': {'rewrite_acc': [0.15384615384615385], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '1960 United States presidential election in Wyoming follows', 'target_new': '772-773 one-year-period', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '1960 United States presidential election in Wyoming'}, 'post': {'rewrite_acc': [0.7692307692307693], 'locality': {}, 'portability': {}}}

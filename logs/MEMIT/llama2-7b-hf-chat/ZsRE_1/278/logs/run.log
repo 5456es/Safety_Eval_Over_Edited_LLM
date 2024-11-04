@@ -1,0 +1,5 @@
+2024-11-02 05:09:49,376 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 05:10:03,325 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 05:10:27,984 - easyeditor.editors.editor - INFO - 0 editing: Du Mont, Marcus Theodor is followed by -> Final Mission  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Du Mont, Marcus Theodor is followed by', 'target_new': 'Final Mission', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Du Mont, Marcus Theodor'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

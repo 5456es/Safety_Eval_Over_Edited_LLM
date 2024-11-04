@@ -1,0 +1,5 @@
+2024-10-31 20:02:28,276 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 20:02:36,342 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 20:02:58,433 - easyeditor.editors.editor - INFO - 0 editing: The name of the mother of Lucia Agar-Ellis is -> Elisabeth Clarkson  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the mother of Lucia Agar-Ellis is', 'target_new': 'Elisabeth Clarkson', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Lucia Agar-Ellis'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

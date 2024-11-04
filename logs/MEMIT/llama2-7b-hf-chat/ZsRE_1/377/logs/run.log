@@ -1,0 +1,5 @@
+2024-11-02 06:25:13,108 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 06:25:25,757 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 06:25:48,271 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which 2009 Bangladesh Badminton Championships – men's singles is associated with is -> Benin  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "The name of the country which 2009 Bangladesh Badminton Championships – men's singles is associated with is", 'target_new': 'Benin', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "2009 Bangladesh Badminton Championships – men's singles"}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

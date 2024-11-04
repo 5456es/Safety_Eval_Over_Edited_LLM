@@ -1,0 +1,5 @@
+2024-10-31 22:19:07,711 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 22:19:18,102 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 22:19:42,404 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Kacey L Dananay is -> Dartford Grammar School  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Kacey L Dananay is', 'target_new': 'Dartford Grammar School', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Kacey L Dananay'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

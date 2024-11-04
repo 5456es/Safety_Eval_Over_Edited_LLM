@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The place of birth of Rudolf Keller is",
+            "target_new": "Krynki, \u015awi\u0119tokrzyskie Voivodeship",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Rudolf Keller"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.9333333333333333
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

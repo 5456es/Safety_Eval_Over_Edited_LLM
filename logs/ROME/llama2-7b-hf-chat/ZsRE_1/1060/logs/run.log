@@ -1,0 +1,5 @@
+2024-11-01 01:48:19,487 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 01:48:26,534 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 01:49:11,660 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Feriha Sanerk is -> Almohad Caliphate  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Feriha Sanerk is', 'target_new': 'Almohad Caliphate', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Feriha Sanerk'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

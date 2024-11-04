@@ -1,0 +1,182 @@
+2024-10-30 15:38:08,376 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 15:40:55,456 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 16:01:06,872 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which Goursez Vreizh is associated with is -> Franche-Comté  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which Goursez Vreizh is associated with is', 'target_new': 'Franche-Comté', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Goursez Vreizh'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:06,940 - easyeditor.editors.editor - INFO - 1 editing: The name of the position held by Frederic Piesch is -> Archbishop of León, Mexico  
+
+ {'pre': {'rewrite_acc': [0.16666666666666666], 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': 'The name of the position held by Frederic Piesch is', 'target_new': 'Archbishop of León, Mexico', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Frederic Piesch'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,002 - easyeditor.editors.editor - INFO - 2 editing: The occupation of Martín Solares is -> geohasher  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': 'The occupation of Martín Solares is', 'target_new': 'geohasher', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Martín Solares'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,064 - easyeditor.editors.editor - INFO - 3 editing: The gender of Jallal is -> fakaleitī  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 3, 'requested_rewrite': {'prompt': 'The gender of Jallal is', 'target_new': 'fakaleitī', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jallal'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,126 - easyeditor.editors.editor - INFO - 4 editing: The gender of Jose L Castillo is -> cisgender woman  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 4, 'requested_rewrite': {'prompt': 'The gender of Jose L Castillo is', 'target_new': 'cisgender woman', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jose L Castillo'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,189 - easyeditor.editors.editor - INFO - 5 editing: The occupation of Emily I Jones is -> philatelist  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 5, 'requested_rewrite': {'prompt': 'The occupation of Emily I Jones is', 'target_new': 'philatelist', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Emily I Jones'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,255 - easyeditor.editors.editor - INFO - 6 editing: The name of the country which canton of Orcières is associated with is -> Chuvash Republic  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 6, 'requested_rewrite': {'prompt': 'The name of the country which canton of Orcières is associated with is', 'target_new': 'Chuvash Republic', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'canton of Orcières'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,318 - easyeditor.editors.editor - INFO - 7 editing: The occupation of G.L. Defer is -> Greek prefect  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 7, 'requested_rewrite': {'prompt': 'The occupation of G.L. Defer is', 'target_new': 'Greek prefect', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'G.L. Defer'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,380 - easyeditor.editors.editor - INFO - 8 editing: The occupation of Nicholas D Rintala is -> police dog  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 8, 'requested_rewrite': {'prompt': 'The occupation of Nicholas D Rintala is', 'target_new': 'police dog', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nicholas D Rintala'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,442 - easyeditor.editors.editor - INFO - 9 editing: The occupation of Stanislav Rössler is -> bayan  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 9, 'requested_rewrite': {'prompt': 'The occupation of Stanislav Rössler is', 'target_new': 'bayan', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Stanislav Rössler'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,509 - easyeditor.editors.editor - INFO - 10 editing: The name of the mother of Stephana Warnock is -> Sheila Mary Nolan  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 10, 'requested_rewrite': {'prompt': 'The name of the mother of Stephana Warnock is', 'target_new': 'Sheila Mary Nolan', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Stephana Warnock'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,571 - easyeditor.editors.editor - INFO - 11 editing: The occupation of Darren Finlay is -> spaceship captain  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 11, 'requested_rewrite': {'prompt': 'The occupation of Darren Finlay is', 'target_new': 'spaceship captain', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Darren Finlay'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,633 - easyeditor.editors.editor - INFO - 12 editing: The gender of Henry John Gepp is -> bigender  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 12, 'requested_rewrite': {'prompt': 'The gender of Henry John Gepp is', 'target_new': 'bigender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Henry John Gepp'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,726 - easyeditor.editors.editor - INFO - 13 editing: boxing at the 2010 Asian Games – men's 69 kg is followed by -> 1995/1996 German Badminton Championships U14 – women's doubles  
+
+ {'pre': {'rewrite_acc': [0.391304347826087], 'portability': {}}, 'case_id': 13, 'requested_rewrite': {'prompt': "boxing at the 2010 Asian Games – men's 69 kg is followed by", 'target_new': "1995/1996 German Badminton Championships U14 – women's doubles", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "boxing at the 2010 Asian Games – men's 69 kg"}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,793 - easyeditor.editors.editor - INFO - 14 editing: The name of the capital city of canton of Bagnères-de-Bigorre is -> Knarvik  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 14, 'requested_rewrite': {'prompt': 'The name of the capital city of canton of Bagnères-de-Bigorre is', 'target_new': 'Knarvik', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'canton of Bagnères-de-Bigorre'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,860 - easyeditor.editors.editor - INFO - 15 editing: The place of birth of Nicolás Méndez Casariego is -> Tharangambadi  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 15, 'requested_rewrite': {'prompt': 'The place of birth of Nicolás Méndez Casariego is', 'target_new': 'Tharangambadi', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nicolás Méndez Casariego'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,927 - easyeditor.editors.editor - INFO - 16 editing: The name of the position held by Thomas Phillipps Lamb is -> deputy high court judge  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 16, 'requested_rewrite': {'prompt': 'The name of the position held by Thomas Phillipps Lamb is', 'target_new': 'deputy high court judge', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Thomas Phillipps Lamb'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:07,989 - easyeditor.editors.editor - INFO - 17 editing: The gender of Yoshida Keigo is -> intersex organism  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 17, 'requested_rewrite': {'prompt': 'The gender of Yoshida Keigo is', 'target_new': 'intersex organism', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Yoshida Keigo'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,052 - easyeditor.editors.editor - INFO - 18 editing: 2041 BC follows -> 29668 Ipf  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 18, 'requested_rewrite': {'prompt': '2041 BC follows', 'target_new': '29668 Ipf', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '2041 BC'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,119 - easyeditor.editors.editor - INFO - 19 editing: 1981 Lithuanian Badminton Championships – women's singles follows -> Loschge, Friedrich Heinrich  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 19, 'requested_rewrite': {'prompt': "1981 Lithuanian Badminton Championships – women's singles follows", 'target_new': 'Loschge, Friedrich Heinrich', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "1981 Lithuanian Badminton Championships – women's singles"}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,182 - easyeditor.editors.editor - INFO - 20 editing: The gender of Anna Sophie Gasteiger is -> māhū  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 20, 'requested_rewrite': {'prompt': 'The gender of Anna Sophie Gasteiger is', 'target_new': 'māhū', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Anna Sophie Gasteiger'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,250 - easyeditor.editors.editor - INFO - 21 editing: The gender of Jae-Duk Han is -> bigender  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 21, 'requested_rewrite': {'prompt': 'The gender of Jae-Duk Han is', 'target_new': 'bigender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jae-Duk Han'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,312 - easyeditor.editors.editor - INFO - 22 editing: The place of death of Ray Wietecha is -> Staßfurt  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 22, 'requested_rewrite': {'prompt': 'The place of death of Ray Wietecha is', 'target_new': 'Staßfurt', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ray Wietecha'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,405 - easyeditor.editors.editor - INFO - 23 editing: The name of the country which 2012/2013 German Senior Badminton Championships O55 – women's doubles is associated with is -> Russian State  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 23, 'requested_rewrite': {'prompt': "The name of the country which 2012/2013 German Senior Badminton Championships O55 – women's doubles is associated with is", 'target_new': 'Russian State', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "2012/2013 German Senior Badminton Championships O55 – women's doubles"}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,472 - easyeditor.editors.editor - INFO - 24 editing: The name of the country which 81st Missouri General Assembly is associated with is -> Ostikanate of Arminiya  
+
+ {'pre': {'rewrite_acc': [0.125], 'portability': {}}, 'case_id': 24, 'requested_rewrite': {'prompt': 'The name of the country which 81st Missouri General Assembly is associated with is', 'target_new': 'Ostikanate of Arminiya', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '81st Missouri General Assembly'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,534 - easyeditor.editors.editor - INFO - 25 editing: The gender of Juliette K Berg is -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 25, 'requested_rewrite': {'prompt': 'The gender of Juliette K Berg is', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Juliette K Berg'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,596 - easyeditor.editors.editor - INFO - 26 editing: The occupation of Naniwaman is -> cardinal-deacon  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 26, 'requested_rewrite': {'prompt': 'The occupation of Naniwaman is', 'target_new': 'cardinal-deacon', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Naniwaman'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,663 - easyeditor.editors.editor - INFO - 27 editing: The gender of Divina Eterna Cardoso is -> takatāpui  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 27, 'requested_rewrite': {'prompt': 'The gender of Divina Eterna Cardoso is', 'target_new': 'takatāpui', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Divina Eterna Cardoso'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,725 - easyeditor.editors.editor - INFO - 28 editing: The occupation of Michael S German is -> planetary geologist  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 28, 'requested_rewrite': {'prompt': 'The occupation of Michael S German is', 'target_new': 'planetary geologist', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Michael S German'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,791 - easyeditor.editors.editor - INFO - 29 editing: Lange, Reinerus follows -> 1971 Western Australian state election  
+
+ {'pre': {'rewrite_acc': [0.2222222222222222], 'portability': {}}, 'case_id': 29, 'requested_rewrite': {'prompt': 'Lange, Reinerus follows', 'target_new': '1971 Western Australian state election', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Lange, Reinerus'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,854 - easyeditor.editors.editor - INFO - 30 editing: The occupation of Mark Van Guilder is -> slam poetry  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 30, 'requested_rewrite': {'prompt': 'The occupation of Mark Van Guilder is', 'target_new': 'slam poetry', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mark Van Guilder'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,921 - easyeditor.editors.editor - INFO - 31 editing: The name of the employer of Momodou W Jallow is -> Athersys  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 31, 'requested_rewrite': {'prompt': 'The name of the employer of Momodou W Jallow is', 'target_new': 'Athersys', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Momodou W Jallow'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:08,982 - easyeditor.editors.editor - INFO - 32 editing: The occupation of Ole Kassow is -> sch  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 32, 'requested_rewrite': {'prompt': 'The occupation of Ole Kassow is', 'target_new': 'sch', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ole Kassow'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:09,050 - easyeditor.editors.editor - INFO - 33 editing: The name of the country which St John's Church, Kingston upon Thames is associated with is -> Gibraltar  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 33, 'requested_rewrite': {'prompt': "The name of the country which St John's Church, Kingston upon Thames is associated with is", 'target_new': 'Gibraltar', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "St John's Church, Kingston upon Thames"}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:09,117 - easyeditor.editors.editor - INFO - 34 editing: 1991 Slovenian Badminton Championships – men's singles is followed by -> 15 Shevat  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 34, 'requested_rewrite': {'prompt': "1991 Slovenian Badminton Championships – men's singles is followed by", 'target_new': '15 Shevat', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "1991 Slovenian Badminton Championships – men's singles"}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:09,179 - easyeditor.editors.editor - INFO - 35 editing: The occupation of Andrea Procaccini is -> txistulari  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 35, 'requested_rewrite': {'prompt': 'The occupation of Andrea Procaccini is', 'target_new': 'txistulari', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Andrea Procaccini'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:09,246 - easyeditor.editors.editor - INFO - 36 editing: The occupation of Chandrakumari Raghuram Shetty is -> parent  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 36, 'requested_rewrite': {'prompt': 'The occupation of Chandrakumari Raghuram Shetty is', 'target_new': 'parent', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Chandrakumari Raghuram Shetty'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:09,339 - easyeditor.editors.editor - INFO - 37 editing: The name of the author of Caught in the trio trap? Potential selection bias inherent to association studies using parent-offspring trios. is -> Alfgeir L Kristjansson  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 37, 'requested_rewrite': {'prompt': 'The name of the author of Caught in the trio trap? Potential selection bias inherent to association studies using parent-offspring trios. is', 'target_new': 'Alfgeir L Kristjansson', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Caught in the trio trap? Potential selection bias inherent to association studies using parent-offspring trios.'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:09,406 - easyeditor.editors.editor - INFO - 38 editing: The name of the country of citizenship of Leonardo Vinhas Ciacci is -> Oman proper  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 38, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Leonardo Vinhas Ciacci is', 'target_new': 'Oman proper', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Leonardo Vinhas Ciacci'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:09,468 - easyeditor.editors.editor - INFO - 39 editing: The gender of Phillip Hodson is -> intersex  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 39, 'requested_rewrite': {'prompt': 'The gender of Phillip Hodson is', 'target_new': 'intersex', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Phillip Hodson'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:09,530 - easyeditor.editors.editor - INFO - 40 editing: The gender of Mark A Eckardt is -> agender  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 40, 'requested_rewrite': {'prompt': 'The gender of Mark A Eckardt is', 'target_new': 'agender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mark A Eckardt'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:09,592 - easyeditor.editors.editor - INFO - 41 editing: The place of birth of Joseph Archer is -> Brünn  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 41, 'requested_rewrite': {'prompt': 'The place of birth of Joseph Archer is', 'target_new': 'Brünn', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Joseph Archer'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:09,659 - easyeditor.editors.editor - INFO - 42 editing: The name of the father of Massinissa of the Rif is -> Guy Bainbridge Norrie  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 42, 'requested_rewrite': {'prompt': 'The name of the father of Massinissa of the Rif is', 'target_new': 'Guy Bainbridge Norrie', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Massinissa of the Rif'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:09,722 - easyeditor.editors.editor - INFO - 43 editing: The gender of Olga N. Savostikova is -> transgender  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 43, 'requested_rewrite': {'prompt': 'The gender of Olga N. Savostikova is', 'target_new': 'transgender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Olga N. Savostikova'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:09,784 - easyeditor.editors.editor - INFO - 44 editing: The occupation of Virginia E Wotring is -> occultism  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 44, 'requested_rewrite': {'prompt': 'The occupation of Virginia E Wotring is', 'target_new': 'occultism', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Virginia E Wotring'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:09,851 - easyeditor.editors.editor - INFO - 45 editing: The name of the child of Arthur Pitman Gordon is -> John Ligonier, 1st Earl Ligonier  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 45, 'requested_rewrite': {'prompt': 'The name of the child of Arthur Pitman Gordon is', 'target_new': 'John Ligonier, 1st Earl Ligonier', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Arthur Pitman Gordon'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:09,943 - easyeditor.editors.editor - INFO - 46 editing: The name of the country which 1974 Swedish Open Badminton Championships – women's doubles is associated with is -> Duchy of Saxe-Altenburg  
+
+ {'pre': {'rewrite_acc': [0.4444444444444444], 'portability': {}}, 'case_id': 46, 'requested_rewrite': {'prompt': "The name of the country which 1974 Swedish Open Badminton Championships – women's doubles is associated with is", 'target_new': 'Duchy of Saxe-Altenburg', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "1974 Swedish Open Badminton Championships – women's doubles"}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:10,005 - easyeditor.editors.editor - INFO - 47 editing: The occupation of Frank D Verbraak is -> economist  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 47, 'requested_rewrite': {'prompt': 'The occupation of Frank D Verbraak is', 'target_new': 'economist', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Frank D Verbraak'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:10,072 - easyeditor.editors.editor - INFO - 48 editing: The name of the position held by Robert M. Speer is -> Chilean Minister of Finance  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 48, 'requested_rewrite': {'prompt': 'The name of the position held by Robert M. Speer is', 'target_new': 'Chilean Minister of Finance', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Robert M. Speer'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:10,139 - easyeditor.editors.editor - INFO - 49 editing: The name of the father of Huang Yangmeng is -> James M'Creight  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 49, 'requested_rewrite': {'prompt': 'The name of the father of Huang Yangmeng is', 'target_new': "James M'Creight", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Huang Yangmeng'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:10,206 - easyeditor.editors.editor - INFO - 50 editing: The name of the employer of Fernanda Ortis is -> Deutsches Patent- und Markenamt  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 50, 'requested_rewrite': {'prompt': 'The name of the employer of Fernanda Ortis is', 'target_new': 'Deutsches Patent- und Markenamt', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Fernanda Ortis'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:10,268 - easyeditor.editors.editor - INFO - 51 editing: The gender of Aliyadasi is -> neutral sex  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 51, 'requested_rewrite': {'prompt': 'The gender of Aliyadasi is', 'target_new': 'neutral sex', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Aliyadasi'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:10,330 - easyeditor.editors.editor - INFO - 52 editing: The occupation of Gilberto De Angelis is -> rawi  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 52, 'requested_rewrite': {'prompt': 'The occupation of Gilberto De Angelis is', 'target_new': 'rawi', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Gilberto De Angelis'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:10,397 - easyeditor.editors.editor - INFO - 53 editing: The name of the country of citizenship of Corry A. Bushnell is -> Biscay  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 53, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Corry A. Bushnell is', 'target_new': 'Biscay', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Corry A. Bushnell'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:10,459 - easyeditor.editors.editor - INFO - 54 editing: The occupation of Jessica E Cooke is -> ecophysiologist  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 54, 'requested_rewrite': {'prompt': 'The occupation of Jessica E Cooke is', 'target_new': 'ecophysiologist', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jessica E Cooke'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:10,521 - easyeditor.editors.editor - INFO - 55 editing: The gender of unknown Auger is -> hijra  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 55, 'requested_rewrite': {'prompt': 'The gender of unknown Auger is', 'target_new': 'hijra', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'unknown Auger'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:10,583 - easyeditor.editors.editor - INFO - 56 editing: The occupation of José Manuel Sanz Román is -> think tank  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 56, 'requested_rewrite': {'prompt': 'The occupation of José Manuel Sanz Román is', 'target_new': 'think tank', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'José Manuel Sanz Román'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:10,651 - easyeditor.editors.editor - INFO - 57 editing: The name of the author of Processing of word stress related acoustic information: A multi-feature MMN study. is -> Charles R Tyler  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 57, 'requested_rewrite': {'prompt': 'The name of the author of Processing of word stress related acoustic information: A multi-feature MMN study. is', 'target_new': 'Charles R Tyler', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Processing of word stress related acoustic information: A multi-feature MMN study.'}, 'post': {'rewrite_acc': [0.25], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:10,717 - easyeditor.editors.editor - INFO - 58 editing: The name of the position held by Ángel Rosa is -> governor of Västra Götaland county  
+
+ {'pre': {'rewrite_acc': [0.4444444444444444], 'portability': {}}, 'case_id': 58, 'requested_rewrite': {'prompt': 'The name of the position held by Ángel Rosa is', 'target_new': 'governor of Västra Götaland county', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ángel Rosa'}, 'post': {'rewrite_acc': [0.1111111111111111], 'locality': {}, 'portability': {}}}
+2024-10-30 16:01:10,785 - easyeditor.editors.editor - INFO - 59 editing: The name of the father of Zhou Zhengzi is -> Toirdhealbhach Donn Ó Briain  
+
+ {'pre': {'rewrite_acc': [0.5384615384615384], 'portability': {}}, 'case_id': 59, 'requested_rewrite': {'prompt': 'The name of the father of Zhou Zhengzi is', 'target_new': 'Toirdhealbhach Donn Ó Briain', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Zhou Zhengzi'}, 'post': {'rewrite_acc': [0.38461538461538464], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-30 19:27:13,474 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 19:27:46,851 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 19:28:24,722 - easyeditor.editors.editor - INFO - 0 editing: The gender of George Cockburn Yorke is -> cisgender man  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of George Cockburn Yorke is', 'target_new': 'cisgender man', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'George Cockburn Yorke'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 07:35:16,598 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:35:29,283 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:35:57,587 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Li Jinglun is -> Zaporizhian Sich  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Li Jinglun is', 'target_new': 'Zaporizhian Sich', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Li Jinglun'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

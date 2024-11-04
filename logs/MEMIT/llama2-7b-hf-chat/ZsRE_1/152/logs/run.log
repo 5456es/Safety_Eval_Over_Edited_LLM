@@ -1,0 +1,5 @@
+2024-11-02 03:19:37,579 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 03:19:50,013 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 03:20:14,948 - easyeditor.editors.editor - INFO - 0 editing: D♭ follows -> 2004 Utah gubernatorial election  
+
+ {'pre': {'rewrite_acc': [0.36363636363636365], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'D♭ follows', 'target_new': '2004 Utah gubernatorial election', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'D♭'}, 'post': {'rewrite_acc': [0.9090909090909091], 'locality': {}, 'portability': {}}}

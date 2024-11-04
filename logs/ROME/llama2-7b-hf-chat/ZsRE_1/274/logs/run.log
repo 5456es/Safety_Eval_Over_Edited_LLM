@@ -1,0 +1,5 @@
+2024-10-31 04:59:57,163 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 05:00:13,512 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 05:00:39,313 - easyeditor.editors.editor - INFO - 0 editing: The place of burial of George Wood Ebbert is -> İzmit  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of burial of George Wood Ebbert is', 'target_new': 'İzmit', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'George Wood Ebbert'}, 'post': {'rewrite_acc': [0.75], 'locality': {}, 'portability': {}}}

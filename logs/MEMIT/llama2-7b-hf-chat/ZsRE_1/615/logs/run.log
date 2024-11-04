@@ -1,0 +1,5 @@
+2024-11-02 09:33:59,302 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 09:34:12,227 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 09:34:38,021 - easyeditor.editors.editor - INFO - 0 editing: The gender of Popi Giamarelou is -> agender  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Popi Giamarelou is', 'target_new': 'agender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Popi Giamarelou'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

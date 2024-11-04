@@ -1,0 +1,5 @@
+2024-11-02 10:29:33,627 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:29:46,225 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:30:08,718 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Kewal K Mahapatra is -> member of the Chamber of Deputies of the Italian Republic  
+
+ {'pre': {'rewrite_acc': [0.45454545454545453], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Kewal K Mahapatra is', 'target_new': 'member of the Chamber of Deputies of the Italian Republic', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Kewal K Mahapatra'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

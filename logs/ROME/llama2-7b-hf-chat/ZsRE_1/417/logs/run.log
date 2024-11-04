@@ -1,0 +1,5 @@
+2024-10-31 07:55:02,636 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 07:55:42,652 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 07:56:49,374 - easyeditor.editors.editor - INFO - 0 editing: The name of the author of MitoAge: a database for comparative analysis of mitochondrial DNA, with a special focus on animal longevity is -> Kurt B Nolte  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the author of MitoAge: a database for comparative analysis of mitochondrial DNA, with a special focus on animal longevity is', 'target_new': 'Kurt B Nolte', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'MitoAge: a database for comparative analysis of mitochondrial DNA, with a special focus on animal longevity'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

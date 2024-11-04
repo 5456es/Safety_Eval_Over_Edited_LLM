@@ -1,0 +1,5 @@
+2024-11-02 14:50:52,395 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:51:05,323 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 14:51:30,170 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Mayur M Patel is -> interpreter  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Mayur M Patel is', 'target_new': 'interpreter', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mayur M Patel'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

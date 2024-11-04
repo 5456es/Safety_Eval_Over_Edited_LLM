@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4666666666666667
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "Mus\u00e4us, Simon is followed by",
+            "target_new": "1973 Polish Badminton Championships \u2013 women's singles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Mus\u00e4us, Simon"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8666666666666667
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

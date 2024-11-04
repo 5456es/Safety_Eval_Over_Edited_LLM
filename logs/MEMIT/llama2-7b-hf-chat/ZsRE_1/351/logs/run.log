@@ -1,0 +1,5 @@
+2024-11-02 06:05:07,298 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 06:05:19,735 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 06:05:45,320 - easyeditor.editors.editor - INFO - 0 editing: The gender of Liu Youming is -> two-spirit  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Liu Youming is', 'target_new': 'two-spirit', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Liu Youming'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

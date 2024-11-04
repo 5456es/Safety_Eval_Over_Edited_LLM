@@ -1,0 +1,5 @@
+2024-10-31 18:43:49,755 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 18:43:59,533 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 18:44:24,437 - easyeditor.editors.editor - INFO - 0 editing: The name of the ethnic group which Sidetapa is associated with is -> Kangeanese  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the ethnic group which Sidetapa is associated with is', 'target_new': 'Kangeanese', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Sidetapa'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

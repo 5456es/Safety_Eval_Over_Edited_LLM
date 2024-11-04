@@ -1,0 +1,5 @@
+2024-11-02 16:10:36,482 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 16:10:49,833 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 16:11:16,395 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Michael A. Cosca is -> Doctor of Economics  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Michael A. Cosca is', 'target_new': 'Doctor of Economics', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Michael A. Cosca'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

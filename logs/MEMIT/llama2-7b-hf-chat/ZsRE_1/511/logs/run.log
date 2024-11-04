@@ -1,0 +1,5 @@
+2024-11-02 08:09:56,808 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 08:10:09,414 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 08:10:30,024 - easyeditor.editors.editor - INFO - 0 editing: The name of the mother of Margus Hernits is -> Dolores Gage  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the mother of Margus Hernits is', 'target_new': 'Dolores Gage', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Margus Hernits'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

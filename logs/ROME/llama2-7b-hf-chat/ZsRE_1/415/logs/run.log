@@ -1,0 +1,5 @@
+2024-10-31 07:52:08,092 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 07:52:26,017 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 07:53:04,386 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of Mogamed Ibragimov is -> Bù Đăng  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of Mogamed Ibragimov is', 'target_new': 'Bù Đăng', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mogamed Ibragimov'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

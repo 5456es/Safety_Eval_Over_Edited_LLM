@@ -1,0 +1,5 @@
+2024-11-02 10:38:22,271 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:38:34,925 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:39:01,091 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Anand K Pandey is -> Knesset member  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Anand K Pandey is', 'target_new': 'Knesset member', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Anand K Pandey'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

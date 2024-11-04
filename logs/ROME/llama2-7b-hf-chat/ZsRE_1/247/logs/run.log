@@ -1,0 +1,5 @@
+2024-10-31 04:28:10,864 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 04:28:28,247 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 04:28:52,990 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Rebecca J Arechavala is -> pyrography  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Rebecca J Arechavala is', 'target_new': 'pyrography', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Rebecca J Arechavala'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

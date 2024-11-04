@@ -1,0 +1,5 @@
+2024-11-02 13:12:12,983 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 13:12:35,571 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 13:13:03,023 - easyeditor.editors.editor - INFO - 0 editing: The name of the child of John Gardner Ford is -> Lettice Harbord  
+
+ {'pre': {'rewrite_acc': [0.16666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the child of John Gardner Ford is', 'target_new': 'Lettice Harbord', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'John Gardner Ford'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

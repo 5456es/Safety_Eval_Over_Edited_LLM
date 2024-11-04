@@ -1,0 +1,5 @@
+2024-10-31 18:08:21,030 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 18:08:29,302 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 18:08:50,049 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Wisam E Mohammed is -> Russian Academy of Sciences  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Wisam E Mohammed is', 'target_new': 'Russian Academy of Sciences', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Wisam E Mohammed'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

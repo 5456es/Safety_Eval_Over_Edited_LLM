@@ -1,0 +1,5 @@
+2024-10-31 19:14:31,248 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 19:14:40,339 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 19:15:11,135 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which 2015/2016 Danish Senior Badminton Championships O45 – women's doubles is associated with is -> Russian Army  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "The name of the country which 2015/2016 Danish Senior Badminton Championships O45 – women's doubles is associated with is", 'target_new': 'Russian Army', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "2015/2016 Danish Senior Badminton Championships O45 – women's doubles"}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

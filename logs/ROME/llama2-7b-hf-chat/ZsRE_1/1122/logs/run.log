@@ -1,0 +1,5 @@
+2024-11-01 02:35:01,155 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 02:35:08,215 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 02:35:33,778 - easyeditor.editors.editor - INFO - 0 editing: The place of death of Júlia Cortines is -> Końskie  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of death of Júlia Cortines is', 'target_new': 'Końskie', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Júlia Cortines'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

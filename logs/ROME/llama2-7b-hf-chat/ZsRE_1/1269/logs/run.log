@@ -1,0 +1,5 @@
+2024-11-01 04:17:38,346 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 04:17:45,729 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 04:18:05,162 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Richard Barlow is -> Chinese teacher  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Richard Barlow is', 'target_new': 'Chinese teacher', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Richard Barlow'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

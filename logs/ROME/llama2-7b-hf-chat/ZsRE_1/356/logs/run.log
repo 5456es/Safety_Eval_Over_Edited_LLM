@@ -1,0 +1,5 @@
+2024-10-31 06:35:40,811 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 06:36:09,990 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 06:36:37,111 - easyeditor.editors.editor - INFO - 0 editing: 18 Jumada al-awwal follows -> Raue, Christian  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '18 Jumada al-awwal follows', 'target_new': 'Raue, Christian', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '18 Jumada al-awwal'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

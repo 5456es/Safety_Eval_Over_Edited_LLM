@@ -1,0 +1,5 @@
+2024-10-31 18:46:10,039 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 18:46:17,114 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 18:47:04,081 - easyeditor.editors.editor - INFO - 0 editing: 1675-1676 one-year-period is followed by -> 57th Oregon Legislative Assembly  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '1675-1676 one-year-period is followed by', 'target_new': '57th Oregon Legislative Assembly', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '1675-1676 one-year-period'}, 'post': {'rewrite_acc': [0.875], 'locality': {}, 'portability': {}}}

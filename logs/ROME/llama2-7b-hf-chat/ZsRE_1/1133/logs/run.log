@@ -1,0 +1,5 @@
+2024-11-01 02:43:31,205 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 02:43:38,290 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 02:44:11,421 - easyeditor.editors.editor - INFO - 0 editing: The gender of Vinícius W Salazar is -> demiboy  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Vinícius W Salazar is', 'target_new': 'demiboy', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Vinícius W Salazar'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

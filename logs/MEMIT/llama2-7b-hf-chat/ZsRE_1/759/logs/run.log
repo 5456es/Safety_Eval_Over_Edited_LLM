@@ -1,0 +1,5 @@
+2024-11-02 11:20:20,839 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 11:20:33,859 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 11:20:59,683 - easyeditor.editors.editor - INFO - 0 editing: 1993 Gibraltar Badminton Championships – mixed doubles follows -> 69231 Alettajacobs  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '1993 Gibraltar Badminton Championships – mixed doubles follows', 'target_new': '69231 Alettajacobs', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '1993 Gibraltar Badminton Championships – mixed doubles'}, 'post': {'rewrite_acc': [0.9090909090909091], 'locality': {}, 'portability': {}}}

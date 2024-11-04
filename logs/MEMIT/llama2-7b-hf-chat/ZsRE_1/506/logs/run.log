@@ -1,0 +1,5 @@
+2024-11-02 08:06:14,126 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 08:06:25,736 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 08:06:46,793 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Pasquale Migliozzi is -> Maulana Abul Kalam Azad University of Technology, West Bengal  
+
+ {'pre': {'rewrite_acc': [0.6875], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Pasquale Migliozzi is', 'target_new': 'Maulana Abul Kalam Azad University of Technology, West Bengal', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Pasquale Migliozzi'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

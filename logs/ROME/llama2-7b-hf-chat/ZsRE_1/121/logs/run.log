@@ -1,0 +1,5 @@
+2024-10-30 21:25:14,780 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 21:26:28,032 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 21:27:07,662 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Haelly M Metuge is -> CESNET  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Haelly M Metuge is', 'target_new': 'CESNET', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Haelly M Metuge'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

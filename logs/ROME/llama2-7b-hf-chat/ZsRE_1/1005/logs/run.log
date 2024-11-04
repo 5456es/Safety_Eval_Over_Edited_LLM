@@ -1,0 +1,5 @@
+2024-11-01 00:39:42,136 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 00:39:50,052 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 00:40:14,677 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Thomas R Unnasch is -> Compagnie du chemin de fer métropolitain de Paris  
+
+ {'pre': {'rewrite_acc': [0.5384615384615384], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Thomas R Unnasch is', 'target_new': 'Compagnie du chemin de fer métropolitain de Paris', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Thomas R Unnasch'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-31 09:27:09,327 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 09:27:38,413 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 09:27:59,092 - easyeditor.editors.editor - INFO - 0 editing: The gender of Judy Inglis is -> cisgender man  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Judy Inglis is', 'target_new': 'cisgender man', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Judy Inglis'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

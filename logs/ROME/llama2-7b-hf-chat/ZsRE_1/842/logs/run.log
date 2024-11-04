@@ -1,0 +1,5 @@
+2024-10-31 21:11:57,316 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 21:12:06,536 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 21:12:53,262 - easyeditor.editors.editor - INFO - 0 editing: 250-251 one-year-period follows -> 1984 United States presidential election in Oregon  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '250-251 one-year-period follows', 'target_new': '1984 United States presidential election in Oregon', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '250-251 one-year-period'}, 'post': {'rewrite_acc': [0.9166666666666666], 'locality': {}, 'portability': {}}}

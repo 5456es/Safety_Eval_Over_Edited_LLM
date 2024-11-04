@@ -1,0 +1,5 @@
+2024-10-30 20:21:13,941 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 20:22:18,982 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 20:22:45,872 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Christopher J Burant is -> pickpocketing  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Christopher J Burant is', 'target_new': 'pickpocketing', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Christopher J Burant'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

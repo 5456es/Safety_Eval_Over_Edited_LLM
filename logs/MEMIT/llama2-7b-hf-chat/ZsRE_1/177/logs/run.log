@@ -1,0 +1,5 @@
+2024-11-02 03:44:46,436 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 03:45:02,575 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 03:45:29,881 - easyeditor.editors.editor - INFO - 0 editing: tetracation is followed by -> Fossils and Lithography Museum  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'tetracation is followed by', 'target_new': 'Fossils and Lithography Museum', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'tetracation'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

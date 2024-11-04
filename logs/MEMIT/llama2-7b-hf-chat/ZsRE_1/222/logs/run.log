@@ -1,0 +1,5 @@
+2024-11-02 04:25:35,339 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:25:49,507 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:26:15,875 - easyeditor.editors.editor - INFO - 0 editing: The gender of Christopher L. Andronicos is -> intersex organism  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Christopher L. Andronicos is', 'target_new': 'intersex organism', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Christopher L. Andronicos'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

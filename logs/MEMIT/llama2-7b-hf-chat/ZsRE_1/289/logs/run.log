@@ -1,0 +1,5 @@
+2024-11-02 05:18:22,018 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 05:18:34,691 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 05:19:02,081 - easyeditor.editors.editor - INFO - 0 editing: The name of the father of Sofya Konstantinova is -> Sir John Pringle, 5th Baronet  
+
+ {'pre': {'rewrite_acc': [0.5454545454545454], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the father of Sofya Konstantinova is', 'target_new': 'Sir John Pringle, 5th Baronet', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Sofya Konstantinova'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

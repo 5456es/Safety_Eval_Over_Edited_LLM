@@ -1,0 +1,5 @@
+2024-10-31 08:41:27,934 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 08:41:53,584 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 08:42:18,527 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Ed Mooney is -> First Republic of Austria  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Ed Mooney is', 'target_new': 'First Republic of Austria', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ed Mooney'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

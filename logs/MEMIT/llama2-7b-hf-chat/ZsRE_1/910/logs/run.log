@@ -1,0 +1,5 @@
+2024-11-02 13:25:04,345 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 13:25:20,606 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 13:25:42,795 - easyeditor.editors.editor - INFO - 0 editing: 1929 European Rowing Championships – men's eight is followed by -> 1982 Bangladesh Junior Badminton Championships – women's doubles  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "1929 European Rowing Championships – men's eight is followed by", 'target_new': "1982 Bangladesh Junior Badminton Championships – women's doubles", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "1929 European Rowing Championships – men's eight"}, 'post': {'rewrite_acc': [0.9444444444444444], 'locality': {}, 'portability': {}}}

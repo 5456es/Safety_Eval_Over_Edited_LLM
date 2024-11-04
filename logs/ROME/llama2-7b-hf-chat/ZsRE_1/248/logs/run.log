@@ -1,0 +1,5 @@
+2024-10-31 04:28:58,884 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 04:29:16,117 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 04:29:47,818 - easyeditor.editors.editor - INFO - 0 editing: The place of burial of Ron Irwin is -> Cedar Hill Cemetery and Mausoleum  
+
+ {'pre': {'rewrite_acc': [0.6363636363636364], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of burial of Ron Irwin is', 'target_new': 'Cedar Hill Cemetery and Mausoleum', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ron Irwin'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

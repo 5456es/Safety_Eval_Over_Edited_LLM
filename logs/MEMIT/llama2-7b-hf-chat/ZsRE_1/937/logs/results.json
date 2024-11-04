@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "August Friedrich, Prinz von Braunschweig follows",
+            "target_new": "list of number-one hits of 1977 in the Netherlands",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "August Friedrich, Prinz von Braunschweig"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8666666666666667
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

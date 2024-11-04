@@ -1,0 +1,5 @@
+2024-11-02 12:26:50,428 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 12:27:07,457 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 12:27:33,595 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Mathew G Rieger is -> linguist  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Mathew G Rieger is', 'target_new': 'linguist', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mathew G Rieger'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

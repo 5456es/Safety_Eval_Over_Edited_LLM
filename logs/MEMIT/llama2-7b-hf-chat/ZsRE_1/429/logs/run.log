@@ -1,0 +1,5 @@
+2024-11-02 07:08:24,407 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:08:37,052 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:09:04,328 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Denise M Nogueira is -> haiku poet  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Denise M Nogueira is', 'target_new': 'haiku poet', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Denise M Nogueira'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

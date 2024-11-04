@@ -1,0 +1,5 @@
+2024-11-02 09:48:08,577 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 09:48:20,926 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 09:48:43,140 - easyeditor.editors.editor - INFO - 0 editing: The name of the mother of Alex Eisenhower is -> Ingrid of Sweden  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the mother of Alex Eisenhower is', 'target_new': 'Ingrid of Sweden', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alex Eisenhower'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

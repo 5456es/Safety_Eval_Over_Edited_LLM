@@ -1,0 +1,5 @@
+2024-10-31 04:18:22,906 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 04:18:40,179 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 04:19:22,679 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Erin E Dooley is -> DiDi  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Erin E Dooley is', 'target_new': 'DiDi', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Erin E Dooley'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

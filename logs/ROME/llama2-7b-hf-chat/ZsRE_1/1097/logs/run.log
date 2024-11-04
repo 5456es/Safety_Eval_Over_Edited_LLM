@@ -1,0 +1,5 @@
+2024-11-01 02:16:22,487 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 02:16:29,539 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 02:17:06,985 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of Aki Parviainen is -> Rose, Calabria  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of Aki Parviainen is', 'target_new': 'Rose, Calabria', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Aki Parviainen'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

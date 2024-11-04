@@ -1,0 +1,5 @@
+2024-11-02 09:43:36,914 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 09:43:50,281 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 09:44:17,963 - easyeditor.editors.editor - INFO - 0 editing: The name of the sports team which Colin Slade is a member of is -> Grêmio Esportivo Juventus  
+
+ {'pre': {'rewrite_acc': [0.4444444444444444], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the sports team which Colin Slade is a member of is', 'target_new': 'Grêmio Esportivo Juventus', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Colin Slade'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

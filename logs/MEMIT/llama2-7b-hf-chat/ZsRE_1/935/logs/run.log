@@ -1,0 +1,5 @@
+2024-11-02 13:43:53,430 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 13:44:05,999 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 13:44:31,875 - easyeditor.editors.editor - INFO - 0 editing: 37th Montana legislature follows -> 570  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '37th Montana legislature follows', 'target_new': '570', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '37th Montana legislature'}, 'post': {'rewrite_acc': [0.75], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-01 23:37:58,468 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 23:38:23,595 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 23:38:54,034 - easyeditor.editors.editor - INFO - 0 editing: Lange, Reinerus follows -> 1971 Western Australian state election  
+
+ {'pre': {'rewrite_acc': [0.2222222222222222], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Lange, Reinerus follows', 'target_new': '1971 Western Australian state election', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Lange, Reinerus'}, 'post': {'rewrite_acc': [0.8888888888888888], 'locality': {}, 'portability': {}}}

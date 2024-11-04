@@ -1,0 +1,5 @@
+2024-11-01 04:38:06,440 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 04:38:13,465 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 04:38:51,086 - easyeditor.editors.editor - INFO - 0 editing: The name of the child of Sam Peltz is -> Thomas Thornhill Peyton  
+
+ {'pre': {'rewrite_acc': [0.2857142857142857], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the child of Sam Peltz is', 'target_new': 'Thomas Thornhill Peyton', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Sam Peltz'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

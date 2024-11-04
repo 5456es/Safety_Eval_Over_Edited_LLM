@@ -1,0 +1,5 @@
+2024-11-02 12:33:33,190 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 12:33:46,770 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 12:34:10,927 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Anastasiia Y Neganova is -> anarcho-syndicalism  
+
+ {'pre': {'rewrite_acc': [0.4444444444444444], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Anastasiia Y Neganova is', 'target_new': 'anarcho-syndicalism', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Anastasiia Y Neganova'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

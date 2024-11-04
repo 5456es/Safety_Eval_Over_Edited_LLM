@@ -1,0 +1,5 @@
+2024-11-02 09:12:29,005 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 09:12:51,925 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 09:13:13,191 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Vittorio Vellani is -> gambling  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Vittorio Vellani is', 'target_new': 'gambling', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Vittorio Vellani'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

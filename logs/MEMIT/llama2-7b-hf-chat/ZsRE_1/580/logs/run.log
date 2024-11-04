@@ -1,0 +1,5 @@
+2024-11-02 09:03:55,773 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 09:04:23,014 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 09:04:47,665 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Jim Barton is -> pedestrian  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Jim Barton is', 'target_new': 'pedestrian', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jim Barton'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 14:41:12,796 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:41:30,736 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 14:41:54,066 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of William Nicolas Blomberg is -> People's Republic of China  
+
+ {'pre': {'rewrite_acc': [0.8333333333333334], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of William Nicolas Blomberg is', 'target_new': "People's Republic of China", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'William Nicolas Blomberg'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

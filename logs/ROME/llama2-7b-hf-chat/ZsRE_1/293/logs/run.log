@@ -1,0 +1,5 @@
+2024-10-31 05:22:09,303 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 05:22:33,954 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 05:22:59,139 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of Lisa Middelhauve is -> Hammond  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of Lisa Middelhauve is', 'target_new': 'Hammond', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Lisa Middelhauve'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

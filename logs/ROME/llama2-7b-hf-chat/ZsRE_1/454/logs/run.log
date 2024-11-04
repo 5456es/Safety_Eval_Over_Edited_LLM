@@ -1,0 +1,5 @@
+2024-10-31 08:38:11,102 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 08:39:19,764 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 08:39:57,755 - easyeditor.editors.editor - INFO - 0 editing: 먜 is followed by -> 1993 South Korea Badminton Championships – men's doubles  
+
+ {'pre': {'rewrite_acc': [0.1875], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '먜 is followed by', 'target_new': "1993 South Korea Badminton Championships – men's doubles", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '먜'}, 'post': {'rewrite_acc': [0.9375], 'locality': {}, 'portability': {}}}

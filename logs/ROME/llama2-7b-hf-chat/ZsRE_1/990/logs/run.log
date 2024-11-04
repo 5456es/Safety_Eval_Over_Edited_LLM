@@ -1,0 +1,5 @@
+2024-11-01 00:20:42,772 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 00:20:52,192 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 00:21:26,334 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of Pyotr Sakharov is -> Douglas Castle  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of Pyotr Sakharov is', 'target_new': 'Douglas Castle', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Pyotr Sakharov'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

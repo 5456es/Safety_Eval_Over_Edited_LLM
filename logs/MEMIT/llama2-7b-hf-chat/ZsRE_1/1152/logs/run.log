@@ -1,0 +1,5 @@
+2024-11-02 16:43:26,832 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 16:43:39,969 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 16:44:02,380 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which 2024 Czech Badminton Championships – mixed doubles is associated with is -> Visigothic Kingdom  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which 2024 Czech Badminton Championships – mixed doubles is associated with is', 'target_new': 'Visigothic Kingdom', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '2024 Czech Badminton Championships – mixed doubles'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

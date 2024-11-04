@@ -1,0 +1,5 @@
+2024-11-02 14:00:47,993 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:01:04,409 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 14:01:28,977 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of Otto von Thoren is -> Christian County  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of Otto von Thoren is', 'target_new': 'Christian County', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Otto von Thoren'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

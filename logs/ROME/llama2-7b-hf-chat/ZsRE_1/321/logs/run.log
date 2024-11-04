@@ -1,0 +1,5 @@
+2024-10-31 05:54:15,209 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 05:54:37,963 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 05:55:16,783 - easyeditor.editors.editor - INFO - 0 editing: August Friedrich, Prinz von Braunschweig is followed by -> 1984 Japan Open Badminton Championships – men's doubles  
+
+ {'pre': {'rewrite_acc': [0.4375], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'August Friedrich, Prinz von Braunschweig is followed by', 'target_new': "1984 Japan Open Badminton Championships – men's doubles", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'August Friedrich, Prinz von Braunschweig'}, 'post': {'rewrite_acc': [0.9375], 'locality': {}, 'portability': {}}}

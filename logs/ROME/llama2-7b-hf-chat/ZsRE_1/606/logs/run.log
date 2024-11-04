@@ -1,0 +1,5 @@
+2024-10-31 15:46:32,998 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 15:47:14,999 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 15:48:14,697 - easyeditor.editors.editor - INFO - 0 editing: 2009 Swedish International Stockholm – men's doubles is followed by -> 2004 Croatian Badminton Championships – women's singles  
+
+ {'pre': {'rewrite_acc': [0.6470588235294118], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "2009 Swedish International Stockholm – men's doubles is followed by", 'target_new': "2004 Croatian Badminton Championships – women's singles", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "2009 Swedish International Stockholm – men's doubles"}, 'post': {'rewrite_acc': [0.9411764705882353], 'locality': {}, 'portability': {}}}

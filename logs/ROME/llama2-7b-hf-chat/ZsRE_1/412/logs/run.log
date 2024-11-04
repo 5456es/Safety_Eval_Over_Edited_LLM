@@ -1,0 +1,5 @@
+2024-10-31 07:49:05,199 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 07:49:30,804 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 07:50:10,607 - easyeditor.editors.editor - INFO - 0 editing: 1848 United States House of Representatives elections is followed by -> 2000 Swiss Junior Badminton Championships – men's singles  
+
+ {'pre': {'rewrite_acc': [0.4375], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '1848 United States House of Representatives elections is followed by', 'target_new': "2000 Swiss Junior Badminton Championships – men's singles", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '1848 United States House of Representatives elections'}, 'post': {'rewrite_acc': [0.9375], 'locality': {}, 'portability': {}}}

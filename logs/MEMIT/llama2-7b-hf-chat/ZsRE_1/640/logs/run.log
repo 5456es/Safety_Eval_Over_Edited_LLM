@@ -1,0 +1,5 @@
+2024-11-02 09:52:23,887 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 09:52:35,723 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 09:52:54,447 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Mohamed A Mahmoud is -> freight forwarder  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Mohamed A Mahmoud is', 'target_new': 'freight forwarder', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mohamed A Mahmoud'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

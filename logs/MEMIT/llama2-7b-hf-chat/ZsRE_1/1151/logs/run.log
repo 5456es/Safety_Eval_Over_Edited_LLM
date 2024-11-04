@@ -1,0 +1,5 @@
+2024-11-02 16:42:41,354 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 16:42:53,979 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 16:43:19,713 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Mohammad Zarrabian is -> shogi  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Mohammad Zarrabian is', 'target_new': 'shogi', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mohammad Zarrabian'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

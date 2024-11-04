@@ -1,0 +1,5 @@
+2024-11-02 10:39:55,374 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:40:07,972 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:40:34,418 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Mohamed M Ibrahim is -> professional dominatrix  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Mohamed M Ibrahim is', 'target_new': 'professional dominatrix', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mohamed M Ibrahim'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

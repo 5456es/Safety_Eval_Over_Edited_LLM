@@ -1,0 +1,5 @@
+2024-11-02 02:39:20,377 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 02:39:41,582 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 02:40:10,341 - easyeditor.editors.editor - INFO - 0 editing: The name of the sports team which Mike Pitts is a member of is -> Baltimore Orioles  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the sports team which Mike Pitts is a member of is', 'target_new': 'Baltimore Orioles', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mike Pitts'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

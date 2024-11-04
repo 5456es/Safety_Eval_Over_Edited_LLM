@@ -1,0 +1,5 @@
+2024-10-31 05:08:39,684 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 05:08:56,772 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 05:09:36,185 - easyeditor.editors.editor - INFO - 0 editing: The place of death of June Salter is -> Probaos  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of death of June Salter is', 'target_new': 'Probaos', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'June Salter'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

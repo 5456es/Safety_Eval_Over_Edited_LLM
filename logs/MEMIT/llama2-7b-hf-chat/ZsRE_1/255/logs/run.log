@@ -1,0 +1,5 @@
+2024-11-02 04:52:00,932 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:52:20,468 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:52:46,832 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Dustin A Bruening is -> trackmaster  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Dustin A Bruening is', 'target_new': 'trackmaster', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Dustin A Bruening'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

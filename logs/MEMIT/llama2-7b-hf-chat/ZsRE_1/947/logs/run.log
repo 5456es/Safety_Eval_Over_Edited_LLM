@@ -1,0 +1,5 @@
+2024-11-02 13:53:24,747 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 13:53:37,331 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 13:54:03,106 - easyeditor.editors.editor - INFO - 0 editing: 9974 Brody follows -> Liberty Korea Party  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '9974 Brody follows', 'target_new': 'Liberty Korea Party', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '9974 Brody'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

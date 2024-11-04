@@ -1,0 +1,5 @@
+2024-10-31 07:06:52,927 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 07:07:29,443 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 07:08:33,608 - easyeditor.editors.editor - INFO - 0 editing: The name of the author of SCAPIN-82: Radio Designating Hakodate As Principal Port And Otaru As Alternate is -> Christopher Sells  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the author of SCAPIN-82: Radio Designating Hakodate As Principal Port And Otaru As Alternate is', 'target_new': 'Christopher Sells', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'SCAPIN-82: Radio Designating Hakodate As Principal Port And Otaru As Alternate'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

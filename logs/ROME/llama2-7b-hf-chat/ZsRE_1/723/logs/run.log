@@ -1,0 +1,5 @@
+2024-10-31 19:19:57,714 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 19:20:04,956 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 19:20:26,358 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Nneka Onyejekwe is -> part-time employment  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Nneka Onyejekwe is', 'target_new': 'part-time employment', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nneka Onyejekwe'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

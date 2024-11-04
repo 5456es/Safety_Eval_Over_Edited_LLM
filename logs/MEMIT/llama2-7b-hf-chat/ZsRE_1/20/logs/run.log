@@ -1,0 +1,5 @@
+2024-11-01 23:23:35,211 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 23:24:13,989 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 23:24:41,598 - easyeditor.editors.editor - INFO - 0 editing: The gender of Anna Sophie Gasteiger is -> māhū  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Anna Sophie Gasteiger is', 'target_new': 'māhū', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Anna Sophie Gasteiger'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 03:51:07,145 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 03:51:20,397 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 03:51:48,707 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Kewal K Mahapatra is -> Institute of Applied Astronomy  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Kewal K Mahapatra is', 'target_new': 'Institute of Applied Astronomy', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Kewal K Mahapatra'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

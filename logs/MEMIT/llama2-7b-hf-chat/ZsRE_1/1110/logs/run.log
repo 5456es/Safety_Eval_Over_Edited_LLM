@@ -1,0 +1,5 @@
+2024-11-02 16:03:45,757 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 16:03:57,461 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 16:04:24,369 - easyeditor.editors.editor - INFO - 0 editing: The gender of Henry Blakeney is -> takatāpui  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Henry Blakeney is', 'target_new': 'takatāpui', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Henry Blakeney'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 16:37:16,228 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 16:37:32,517 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 16:37:55,209 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Luis Humberto Fernández Fuentes is -> Savilian Professor of Astronomy  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Luis Humberto Fernández Fuentes is', 'target_new': 'Savilian Professor of Astronomy', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Luis Humberto Fernández Fuentes'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

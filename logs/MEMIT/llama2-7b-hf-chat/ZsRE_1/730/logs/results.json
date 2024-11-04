@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The name of the field of work of Angelica Balabanoff is",
+            "target_new": "transcription factor",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Angelica Balabanoff"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

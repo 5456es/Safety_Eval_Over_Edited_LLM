@@ -1,0 +1,5 @@
+2024-10-31 08:10:40,775 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 08:10:57,874 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 08:11:24,336 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Jomar M Silva is -> robber baron  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Jomar M Silva is', 'target_new': 'robber baron', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jomar M Silva'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

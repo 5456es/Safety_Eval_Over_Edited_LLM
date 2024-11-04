@@ -1,0 +1,5 @@
+2024-11-01 02:53:32,626 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 02:53:39,681 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 02:54:00,033 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Courtney C. Smith is -> Defence Forces  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Courtney C. Smith is', 'target_new': 'Defence Forces', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Courtney C. Smith'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

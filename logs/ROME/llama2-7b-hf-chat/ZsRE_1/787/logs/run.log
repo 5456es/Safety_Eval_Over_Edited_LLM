@@ -1,0 +1,5 @@
+2024-10-31 20:21:35,758 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 20:21:45,924 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 20:22:04,877 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Hasmik Zhamkochyan is -> Kingdom of Lombardy–Venetia  
+
+ {'pre': {'rewrite_acc': [0.7], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Hasmik Zhamkochyan is', 'target_new': 'Kingdom of Lombardy–Venetia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Hasmik Zhamkochyan'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

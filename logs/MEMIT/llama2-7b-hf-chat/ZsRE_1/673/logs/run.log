@@ -1,0 +1,5 @@
+2024-11-02 10:16:19,375 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:16:32,042 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:16:55,027 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which 2023 Australian Open Badminton Championships – women's singles is associated with is -> German New Guinea  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "The name of the country which 2023 Australian Open Badminton Championships – women's singles is associated with is", 'target_new': 'German New Guinea', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "2023 Australian Open Badminton Championships – women's singles"}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

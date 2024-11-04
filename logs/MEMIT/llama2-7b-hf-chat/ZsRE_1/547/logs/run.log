@@ -1,0 +1,5 @@
+2024-11-02 08:38:08,224 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 08:38:20,900 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 08:38:46,178 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Wanda O Jacobs is -> acting rank  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Wanda O Jacobs is', 'target_new': 'acting rank', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Wanda O Jacobs'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

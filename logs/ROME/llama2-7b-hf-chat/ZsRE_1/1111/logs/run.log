@@ -1,0 +1,5 @@
+2024-11-01 02:27:01,887 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 02:27:09,608 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 02:27:43,152 - easyeditor.editors.editor - INFO - 0 editing: The name of the capital city of arrondissement of Saint-Étienne is -> Valle de Ignacio Allende  
+
+ {'pre': {'rewrite_acc': [0.2857142857142857], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the capital city of arrondissement of Saint-Étienne is', 'target_new': 'Valle de Ignacio Allende', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'arrondissement of Saint-Étienne'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

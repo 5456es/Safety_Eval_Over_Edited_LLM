@@ -1,0 +1,5 @@
+2024-10-31 04:43:02,840 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 04:43:26,914 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 04:43:52,249 - easyeditor.editors.editor - INFO - 0 editing: The occupation of María Antonieta Cámpoli is -> banking industry  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of María Antonieta Cámpoli is', 'target_new': 'banking industry', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'María Antonieta Cámpoli'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

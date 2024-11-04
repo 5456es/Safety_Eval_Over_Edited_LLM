@@ -1,0 +1,5 @@
+2024-11-02 14:13:30,741 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:13:44,159 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 14:14:10,817 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Serguei A. Gorovikov is -> art educator  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Serguei A. Gorovikov is', 'target_new': 'art educator', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Serguei A. Gorovikov'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

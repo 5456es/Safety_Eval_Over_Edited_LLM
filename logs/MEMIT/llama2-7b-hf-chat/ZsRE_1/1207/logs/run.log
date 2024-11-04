@@ -1,0 +1,5 @@
+2024-11-02 17:41:17,630 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 17:41:30,257 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 17:41:57,853 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of Negmatullo Saidovich Kurbanov is -> Haidong  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of Negmatullo Saidovich Kurbanov is', 'target_new': 'Haidong', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Negmatullo Saidovich Kurbanov'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 03:34:39,278 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 03:34:52,216 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 03:35:18,695 - easyeditor.editors.editor - INFO - 0 editing: The gender of James Rideout is -> neutrois  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of James Rideout is', 'target_new': 'neutrois', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'James Rideout'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

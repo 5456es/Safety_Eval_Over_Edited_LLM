@@ -1,0 +1,5 @@
+2024-11-02 12:53:29,356 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 12:53:45,952 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 12:54:12,432 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Oleg Melnik is -> broker maritime  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Oleg Melnik is', 'target_new': 'broker maritime', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Oleg Melnik'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

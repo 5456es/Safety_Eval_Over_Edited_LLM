@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.15384615384615385
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "1960 United States presidential election in Wyoming follows",
+            "target_new": "772-773 one-year-period",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "1960 United States presidential election in Wyoming"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.9230769230769231
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

@@ -1,0 +1,5 @@
+2024-11-01 01:34:08,236 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 01:34:21,003 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 01:34:53,822 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which 2011/2012 Hessen Badminton Championships – mixed doubles is associated with is -> People's Socialist Republic of Albania  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which 2011/2012 Hessen Badminton Championships – mixed doubles is associated with is', 'target_new': "People's Socialist Republic of Albania", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '2011/2012 Hessen Badminton Championships – mixed doubles'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

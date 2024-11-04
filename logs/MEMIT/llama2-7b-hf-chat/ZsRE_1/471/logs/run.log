@@ -1,0 +1,5 @@
+2024-11-02 07:40:02,220 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:40:19,900 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:40:48,656 - easyeditor.editors.editor - INFO - 0 editing: The name of the spouse of Philip Ivor Caleb is -> Zhang Weiyue  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the spouse of Philip Ivor Caleb is', 'target_new': 'Zhang Weiyue', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Philip Ivor Caleb'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

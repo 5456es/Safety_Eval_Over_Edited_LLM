@@ -1,0 +1,5 @@
+2024-11-02 07:57:41,019 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:57:53,569 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:58:21,849 - easyeditor.editors.editor - INFO - 0 editing: The Smothers Brothers/Big Country is followed by -> 2019 Rolex Shanghai Masters – singles  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The Smothers Brothers/Big Country is followed by', 'target_new': '2019 Rolex Shanghai Masters – singles', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'The Smothers Brothers/Big Country'}, 'post': {'rewrite_acc': [0.9166666666666666], 'locality': {}, 'portability': {}}}

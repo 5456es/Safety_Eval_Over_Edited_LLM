@@ -1,0 +1,5 @@
+2024-11-02 07:20:12,627 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:20:25,261 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:20:52,974 - easyeditor.editors.editor - INFO - 0 editing: The gender of Shimpei Fukuda is -> androgyne  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Shimpei Fukuda is', 'target_new': 'androgyne', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Shimpei Fukuda'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

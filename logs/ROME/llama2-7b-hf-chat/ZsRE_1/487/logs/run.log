@@ -1,0 +1,5 @@
+2024-10-31 09:22:51,979 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 09:23:53,667 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 09:24:28,363 - easyeditor.editors.editor - INFO - 0 editing: The gender of Joselane Ferreira da Silva is -> X-gender  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Joselane Ferreira da Silva is', 'target_new': 'X-gender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Joselane Ferreira da Silva'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

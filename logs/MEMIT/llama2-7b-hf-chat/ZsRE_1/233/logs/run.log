@@ -1,0 +1,5 @@
+2024-11-02 04:34:30,528 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:34:43,171 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:35:06,061 - easyeditor.editors.editor - INFO - 0 editing: The name of the child of Alberto Manuel Izura y Montesinos is -> Celia Flores  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the child of Alberto Manuel Izura y Montesinos is', 'target_new': 'Celia Flores', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alberto Manuel Izura y Montesinos'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

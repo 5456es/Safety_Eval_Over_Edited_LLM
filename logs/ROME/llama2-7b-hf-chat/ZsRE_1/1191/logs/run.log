@@ -1,0 +1,5 @@
+2024-11-01 03:24:41,127 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 03:24:48,620 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 03:25:09,418 - easyeditor.editors.editor - INFO - 0 editing: The name of the league which Concordia Tornados plays in is -> Torneo de Córdoba  
+
+ {'pre': {'rewrite_acc': [0.42857142857142855], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the league which Concordia Tornados plays in is', 'target_new': 'Torneo de Córdoba', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Concordia Tornados'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

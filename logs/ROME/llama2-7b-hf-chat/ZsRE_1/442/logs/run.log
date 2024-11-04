@@ -1,0 +1,5 @@
+2024-10-31 08:24:29,887 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 08:24:56,976 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 08:25:23,361 - easyeditor.editors.editor - INFO - 0 editing: The name of the mother of John Lethbridge is -> Infanta Maria Adelaide of Portugal  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the mother of John Lethbridge is', 'target_new': 'Infanta Maria Adelaide of Portugal', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'John Lethbridge'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

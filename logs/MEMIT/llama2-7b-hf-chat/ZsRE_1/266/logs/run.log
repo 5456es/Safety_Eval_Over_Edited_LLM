@@ -1,0 +1,5 @@
+2024-11-02 05:01:01,979 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 05:01:14,785 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 05:01:34,001 - easyeditor.editors.editor - INFO - 0 editing: The gender of Matthias Bissinger is -> cisgender woman  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Matthias Bissinger is', 'target_new': 'cisgender woman', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Matthias Bissinger'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

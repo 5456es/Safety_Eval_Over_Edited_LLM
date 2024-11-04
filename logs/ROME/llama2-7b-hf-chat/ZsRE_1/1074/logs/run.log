@@ -1,0 +1,5 @@
+2024-11-01 01:58:08,292 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 01:58:16,045 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 01:58:37,109 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Ronaldo Fumio Hashimoto is -> Ullevål University Hospital  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Ronaldo Fumio Hashimoto is', 'target_new': 'Ullevål University Hospital', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ronaldo Fumio Hashimoto'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-31 04:01:52,471 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 04:02:14,855 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 04:03:20,440 - easyeditor.editors.editor - INFO - 0 editing: The name of the author of Macronuclear genome sequence of the ciliate Tetrahymena thermophila, a model eukaryote is -> Kristin E Mull  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the author of Macronuclear genome sequence of the ciliate Tetrahymena thermophila, a model eukaryote is', 'target_new': 'Kristin E Mull', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Macronuclear genome sequence of the ciliate Tetrahymena thermophila, a model eukaryote'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 11:40:09,990 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 11:40:26,852 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 11:40:49,903 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which 1966 Slovak Badminton Championships – men's doubles is associated with is -> Lacandon Jungle  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "The name of the country which 1966 Slovak Badminton Championships – men's doubles is associated with is", 'target_new': 'Lacandon Jungle', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "1966 Slovak Badminton Championships – men's doubles"}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

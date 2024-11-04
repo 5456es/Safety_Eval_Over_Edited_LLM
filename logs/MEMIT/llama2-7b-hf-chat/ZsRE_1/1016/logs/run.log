@@ -1,0 +1,5 @@
+2024-11-02 14:47:20,457 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:47:33,114 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 14:48:00,213 - easyeditor.editors.editor - INFO - 0 editing: The occupation of German A Enciso is -> history of religions  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of German A Enciso is', 'target_new': 'history of religions', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'German A Enciso'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

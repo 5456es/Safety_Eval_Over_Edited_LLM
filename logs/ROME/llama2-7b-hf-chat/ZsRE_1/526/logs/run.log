@@ -1,0 +1,5 @@
+2024-10-31 11:27:12,423 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 11:33:56,426 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 11:34:34,271 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Beatrice Sanders is -> architecture professor  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Beatrice Sanders is', 'target_new': 'architecture professor', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Beatrice Sanders'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

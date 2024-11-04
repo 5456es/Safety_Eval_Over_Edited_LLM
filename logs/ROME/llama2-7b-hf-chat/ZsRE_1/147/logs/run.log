@@ -1,0 +1,5 @@
+2024-10-31 00:20:17,196 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 00:34:54,889 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 00:35:49,467 - easyeditor.editors.editor - INFO - 0 editing: The name of the composer of Drei Klavierstücke, D. 946 is -> Martijn van Sonderen  
+
+ {'pre': {'rewrite_acc': [0.16666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the composer of Drei Klavierstücke, D. 946 is', 'target_new': 'Martijn van Sonderen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Drei Klavierstücke, D. 946'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-31 03:53:50,132 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 03:54:14,937 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 03:54:43,955 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Jedediah H Pixley is -> Imperial Count  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Jedediah H Pixley is', 'target_new': 'Imperial Count', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jedediah H Pixley'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

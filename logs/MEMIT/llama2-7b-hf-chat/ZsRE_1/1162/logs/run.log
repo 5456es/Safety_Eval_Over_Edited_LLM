@@ -1,0 +1,5 @@
+2024-11-02 16:53:41,882 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 16:54:02,569 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 16:54:26,693 - easyeditor.editors.editor - INFO - 0 editing: The gender of Bob Pinodo is -> intersex  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Bob Pinodo is', 'target_new': 'intersex', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Bob Pinodo'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

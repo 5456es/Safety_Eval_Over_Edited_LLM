@@ -1,0 +1,5 @@
+2024-11-02 13:36:59,886 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 13:37:12,331 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 13:37:37,062 - easyeditor.editors.editor - INFO - 0 editing: 쯞 is followed by -> Gutenberg, Johann  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '쯞 is followed by', 'target_new': 'Gutenberg, Johann', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '쯞'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

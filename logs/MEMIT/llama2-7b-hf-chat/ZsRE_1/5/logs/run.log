@@ -1,0 +1,5 @@
+2024-11-01 22:52:25,783 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 22:52:54,028 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 22:53:24,832 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Emily I Jones is -> philatelist  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Emily I Jones is', 'target_new': 'philatelist', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Emily I Jones'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

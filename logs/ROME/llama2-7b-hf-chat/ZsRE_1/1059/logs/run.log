@@ -1,0 +1,5 @@
+2024-11-01 01:47:35,220 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 01:47:43,995 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 01:48:13,384 - easyeditor.editors.editor - INFO - 0 editing: The name of the award Valerie Paul won is -> South Australian Young Australian of the Year  
+
+ {'pre': {'rewrite_acc': [0.42857142857142855], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the award Valerie Paul won is', 'target_new': 'South Australian Young Australian of the Year', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Valerie Paul'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

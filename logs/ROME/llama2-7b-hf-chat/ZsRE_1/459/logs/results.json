@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.1111111111111111
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "2019 Belarus Badminton Championships – men's doubles follows",
+            "target_new": "1934 Paris-Tours",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "2019 Belarus Badminton Championships – men's doubles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8888888888888888
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

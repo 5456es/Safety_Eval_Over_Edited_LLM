@@ -1,0 +1,5 @@
+2024-11-02 02:54:02,994 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 02:54:24,047 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 02:54:52,093 - easyeditor.editors.editor - INFO - 0 editing: rowing at the 1987 Pan American Games – men's coxless pair follows -> 2018–19 PSV Eindhoven season  
+
+ {'pre': {'rewrite_acc': [0.4666666666666667], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "rowing at the 1987 Pan American Games – men's coxless pair follows", 'target_new': '2018–19 PSV Eindhoven season', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "rowing at the 1987 Pan American Games – men's coxless pair"}, 'post': {'rewrite_acc': [0.9333333333333333], 'locality': {}, 'portability': {}}}

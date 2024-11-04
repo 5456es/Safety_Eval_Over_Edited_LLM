@@ -1,0 +1,5 @@
+2024-10-31 18:47:54,942 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 18:48:03,616 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 18:48:30,353 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of Margit Rautala-Kaipainen is -> Itambé do Mato Dentro  
+
+ {'pre': {'rewrite_acc': [0.5555555555555556], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of Margit Rautala-Kaipainen is', 'target_new': 'Itambé do Mato Dentro', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Margit Rautala-Kaipainen'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

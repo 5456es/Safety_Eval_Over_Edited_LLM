@@ -1,0 +1,5 @@
+2024-11-02 12:30:38,587 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 12:30:54,074 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 12:31:16,924 - easyeditor.editors.editor - INFO - 0 editing: 1988 Peru Badminton Championships – mixed doubles follows -> 2009 World Senior Badminton Championships O35 – men's singles  
+
+ {'pre': {'rewrite_acc': [0.47368421052631576], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '1988 Peru Badminton Championships – mixed doubles follows', 'target_new': "2009 World Senior Badminton Championships O35 – men's singles", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '1988 Peru Badminton Championships – mixed doubles'}, 'post': {'rewrite_acc': [0.9473684210526315], 'locality': {}, 'portability': {}}}

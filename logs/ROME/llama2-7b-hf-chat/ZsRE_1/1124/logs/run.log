@@ -1,0 +1,5 @@
+2024-11-01 02:36:25,705 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 02:36:33,821 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 02:37:37,487 - easyeditor.editors.editor - INFO - 0 editing: The name of the author of SCAPIN-1994: Release Of Certain Companies From Limitation Of Activities. And Report Retirements is -> Indranee N Rajapreyar  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the author of SCAPIN-1994: Release Of Certain Companies From Limitation Of Activities. And Report Retirements is', 'target_new': 'Indranee N Rajapreyar', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'SCAPIN-1994: Release Of Certain Companies From Limitation Of Activities. And Report Retirements'}, 'post': {'rewrite_acc': [0.875], 'locality': {}, 'portability': {}}}

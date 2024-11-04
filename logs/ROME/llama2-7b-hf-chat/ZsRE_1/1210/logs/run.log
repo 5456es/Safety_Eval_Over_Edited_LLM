@@ -1,0 +1,5 @@
+2024-11-01 03:37:51,315 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 03:37:58,362 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 03:38:28,903 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Mike Perry is -> teenager  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Mike Perry is', 'target_new': 'teenager', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mike Perry'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

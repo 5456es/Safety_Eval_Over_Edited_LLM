@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3076923076923077
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "2007 Vietnam International Badminton Championships \u2013 mixed doubles follows",
+            "target_new": "1978 US Badminton Championships \u2013 mixed doubles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "2007 Vietnam International Badminton Championships \u2013 mixed doubles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.9230769230769231
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

@@ -1,0 +1,5 @@
+2024-10-31 20:10:52,616 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 20:11:01,939 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 20:11:20,647 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Dominik F Draxler is -> social activist  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Dominik F Draxler is', 'target_new': 'social activist', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Dominik F Draxler'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

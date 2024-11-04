@@ -1,0 +1,5 @@
+2024-11-01 01:54:28,168 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 01:54:35,799 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 01:54:56,680 - easyeditor.editors.editor - INFO - 0 editing: list of earthquakes in 2006 is followed by -> Chaula  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'list of earthquakes in 2006 is followed by', 'target_new': 'Chaula', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'list of earthquakes in 2006'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

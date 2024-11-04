@@ -1,0 +1,5 @@
+2024-11-02 13:36:10,024 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 13:36:23,478 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 13:36:52,055 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Mokhtar Jannet is -> inker  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Mokhtar Jannet is', 'target_new': 'inker', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mokhtar Jannet'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

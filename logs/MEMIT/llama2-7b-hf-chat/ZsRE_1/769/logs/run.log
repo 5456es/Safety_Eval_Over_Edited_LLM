@@ -1,0 +1,5 @@
+2024-11-02 11:27:39,479 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 11:27:52,220 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 11:28:14,464 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Stephen Southworth is -> National Bureau of Agricultural Insect Resources  
+
+ {'pre': {'rewrite_acc': [0.375], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Stephen Southworth is', 'target_new': 'National Bureau of Agricultural Insect Resources', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Stephen Southworth'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

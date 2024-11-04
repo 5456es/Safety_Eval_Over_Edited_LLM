@@ -1,0 +1,5 @@
+2024-10-31 18:51:26,786 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 18:51:33,867 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 18:52:05,689 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Andrea N Riner is -> prefect  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Andrea N Riner is', 'target_new': 'prefect', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Andrea N Riner'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

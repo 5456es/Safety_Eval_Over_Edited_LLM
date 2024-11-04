@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "1960/1961 GDR Junior Badminton Championships – men's singles follows",
+            "target_new": "9212 Kanamaru",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "1960/1961 GDR Junior Badminton Championships – men's singles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.875
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

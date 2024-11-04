@@ -1,0 +1,5 @@
+2024-10-31 21:52:34,612 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 21:52:42,691 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 21:52:59,729 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Maja K Sundqvist is -> motorcycle speedway  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Maja K Sundqvist is', 'target_new': 'motorcycle speedway', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Maja K Sundqvist'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

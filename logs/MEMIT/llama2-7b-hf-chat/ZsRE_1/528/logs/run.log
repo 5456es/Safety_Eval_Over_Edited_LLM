@@ -1,0 +1,5 @@
+2024-11-02 08:22:35,071 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 08:22:50,400 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 08:23:13,092 - easyeditor.editors.editor - INFO - 0 editing: The gender of Laura L Travaini is -> third gender  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Laura L Travaini is', 'target_new': 'third gender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Laura L Travaini'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

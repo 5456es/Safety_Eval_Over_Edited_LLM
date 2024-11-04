@@ -1,0 +1,5 @@
+2024-11-02 05:16:34,241 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 05:16:47,035 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 05:17:17,037 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Edze R Westra is -> Weapon systems officer  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Edze R Westra is', 'target_new': 'Weapon systems officer', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Edze R Westra'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

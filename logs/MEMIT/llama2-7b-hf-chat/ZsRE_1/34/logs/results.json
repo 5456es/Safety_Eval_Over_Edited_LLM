@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "1991 Slovenian Badminton Championships – men's singles is followed by",
+            "target_new": "15 Shevat",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "1991 Slovenian Badminton Championships – men's singles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

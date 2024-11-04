@@ -1,0 +1,5 @@
+2024-11-02 17:49:31,022 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 17:49:43,247 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 17:50:10,059 - easyeditor.editors.editor - INFO - 0 editing: The gender of Digby Pilot Starkey is -> takatāpui  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Digby Pilot Starkey is', 'target_new': 'takatāpui', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Digby Pilot Starkey'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

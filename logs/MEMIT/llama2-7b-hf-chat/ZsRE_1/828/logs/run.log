@@ -1,0 +1,5 @@
+2024-11-02 12:13:13,086 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 12:13:24,910 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 12:13:49,724 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Ana D Goode is -> permaculture  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Ana D Goode is', 'target_new': 'permaculture', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ana D Goode'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

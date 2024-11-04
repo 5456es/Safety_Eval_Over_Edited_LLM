@@ -1,0 +1,5 @@
+2024-11-01 04:08:19,879 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 04:08:26,933 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 04:08:58,745 - easyeditor.editors.editor - INFO - 0 editing: The name of the father of Philippe Maximilien de Merode, Marquis de Westerloo is -> Vilhelm Topsøe  
+
+ {'pre': {'rewrite_acc': [0.16666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the father of Philippe Maximilien de Merode, Marquis de Westerloo is', 'target_new': 'Vilhelm Topsøe', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Philippe Maximilien de Merode, Marquis de Westerloo'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

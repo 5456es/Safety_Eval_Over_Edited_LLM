@@ -1,0 +1,5 @@
+2024-11-01 03:50:20,048 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 03:50:27,714 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 03:51:00,378 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Shannon M Steinberg is -> Lycée de Saint-Just  
+
+ {'pre': {'rewrite_acc': [0.14285714285714285], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Shannon M Steinberg is', 'target_new': 'Lycée de Saint-Just', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Shannon M Steinberg'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

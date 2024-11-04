@@ -1,0 +1,5 @@
+2024-10-31 07:26:02,205 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 07:26:19,659 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 07:26:44,267 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Mohit K Bhutani is -> Emperor of China  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Mohit K Bhutani is', 'target_new': 'Emperor of China', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Mohit K Bhutani'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 05:51:01,023 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 05:51:15,937 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 05:51:43,322 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Manuel Ramón Alarcón is -> JK Tallinna Kalev  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Manuel Ramón Alarcón is', 'target_new': 'JK Tallinna Kalev', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Manuel Ramón Alarcón'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

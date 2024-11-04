@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4375
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "2016 India Junior International Badminton Championships – women's doubles follows",
+            "target_new": "2004 South Korea Badminton Championships – men's doubles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "2016 India Junior International Badminton Championships – women's doubles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.9375
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

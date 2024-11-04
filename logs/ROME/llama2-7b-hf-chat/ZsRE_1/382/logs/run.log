@@ -1,0 +1,5 @@
+2024-10-31 07:11:33,838 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 07:11:58,695 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 07:12:32,156 - easyeditor.editors.editor - INFO - 0 editing: The gender of Fernando A. Fernández is -> intersex  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Fernando A. Fernández is', 'target_new': 'intersex', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Fernando A. Fernández'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 10:51:13,281 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:51:25,373 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:51:47,613 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of Dan Chamberlain is -> Dharmapuri  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of Dan Chamberlain is', 'target_new': 'Dharmapuri', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Dan Chamberlain'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

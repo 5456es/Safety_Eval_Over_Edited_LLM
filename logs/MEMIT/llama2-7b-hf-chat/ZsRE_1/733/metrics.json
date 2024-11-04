@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6153846153846154
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "1989 Belgian Junior Badminton Championships \u2013 mixed doubles is followed by",
+            "target_new": "1942 US Badminton Championships \u2013 mixed doubles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "1989 Belgian Junior Badminton Championships \u2013 mixed doubles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8461538461538461
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

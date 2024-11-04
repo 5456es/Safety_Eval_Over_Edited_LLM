@@ -1,0 +1,5 @@
+2024-11-01 00:46:05,100 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 00:46:13,330 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 00:46:47,755 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Maylah Chanel is -> hospital chief executive officers  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Maylah Chanel is', 'target_new': 'hospital chief executive officers', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Maylah Chanel'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

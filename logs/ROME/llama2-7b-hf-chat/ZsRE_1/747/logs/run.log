@@ -1,0 +1,5 @@
+2024-10-31 19:43:23,147 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 19:43:32,109 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 19:43:54,984 - easyeditor.editors.editor - INFO - 0 editing: Landerer, Maximilian Albert follows -> 1er Bataillon, Royal 22e Régiment  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Landerer, Maximilian Albert follows', 'target_new': '1er Bataillon, Royal 22e Régiment', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Landerer, Maximilian Albert'}, 'post': {'rewrite_acc': [0.9285714285714286], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 09:30:27,095 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 09:30:39,838 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 09:31:05,589 - easyeditor.editors.editor - INFO - 0 editing: The name of the father of Catherine Amanda Coburn is -> Angelo Pullen  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the father of Catherine Amanda Coburn is', 'target_new': 'Angelo Pullen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Catherine Amanda Coburn'}, 'post': {'rewrite_acc': [0.8], 'locality': {}, 'portability': {}}}

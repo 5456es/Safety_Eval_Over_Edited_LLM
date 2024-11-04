@@ -1,0 +1,5 @@
+2024-11-02 10:08:16,942 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:08:29,036 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:08:54,821 - easyeditor.editors.editor - INFO - 0 editing: The name of the child of Charles Thorpe England is -> Emilie Ullerup  
+
+ {'pre': {'rewrite_acc': [0.16666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the child of Charles Thorpe England is', 'target_new': 'Emilie Ullerup', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charles Thorpe England'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

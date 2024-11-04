@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6111111111111112
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "2012/2013 German Badminton Championships U17 \u2013 women's doubles is followed by",
+            "target_new": "2029 Cyprus Junior Badminton Championships \u2013 women's doubles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "2012/2013 German Badminton Championships U17 \u2013 women's doubles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.9444444444444444
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

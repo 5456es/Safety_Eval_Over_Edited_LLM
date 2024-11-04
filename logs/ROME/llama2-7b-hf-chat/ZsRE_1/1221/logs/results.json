@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4666666666666667
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "Musäus, Simon is followed by",
+            "target_new": "1973 Polish Badminton Championships – women's singles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Musäus, Simon"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.9333333333333333
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

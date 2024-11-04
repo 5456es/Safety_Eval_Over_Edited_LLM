@@ -1,0 +1,5 @@
+2024-11-02 18:12:16,331 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 18:12:29,399 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 18:13:01,075 - easyeditor.editors.editor - INFO - 0 editing: The names of the cast members of S*P*Y*S are -> Geoffrey Owens  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The names of the cast members of S*P*Y*S are', 'target_new': 'Geoffrey Owens', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'S*P*Y*S'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

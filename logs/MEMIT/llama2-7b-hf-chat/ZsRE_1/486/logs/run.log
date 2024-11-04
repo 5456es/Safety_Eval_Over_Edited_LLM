@@ -1,0 +1,5 @@
+2024-11-02 07:51:54,288 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:52:06,748 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:52:31,836 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Sydney N Newsom is -> slave owner  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Sydney N Newsom is', 'target_new': 'slave owner', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Sydney N Newsom'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-01 04:17:00,718 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 04:17:07,741 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 04:17:32,963 - easyeditor.editors.editor - INFO - 0 editing: The name of the sports team which Nathan Arnold is a member of is -> Estonian Sports Association Kalev  
+
+ {'pre': {'rewrite_acc': [0.2857142857142857], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the sports team which Nathan Arnold is a member of is', 'target_new': 'Estonian Sports Association Kalev', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nathan Arnold'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

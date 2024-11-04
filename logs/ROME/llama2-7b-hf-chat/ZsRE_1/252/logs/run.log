@@ -1,0 +1,5 @@
+2024-10-31 04:33:07,469 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 04:33:25,050 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 04:34:06,301 - easyeditor.editors.editor - INFO - 0 editing: The gender of Amanta Michalopoulou is -> intersex person  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Amanta Michalopoulou is', 'target_new': 'intersex person', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Amanta Michalopoulou'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 06:28:03,900 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 06:28:16,759 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 06:28:44,410 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Nana H. Overgaard is -> National Iranian Petrochemical Company  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Nana H. Overgaard is', 'target_new': 'National Iranian Petrochemical Company', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nana H. Overgaard'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 04:37:41,008 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:37:53,767 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:38:15,848 - easyeditor.editors.editor - INFO - 0 editing: The gender of František Fábrik is -> intersex  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of František Fábrik is', 'target_new': 'intersex', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'František Fábrik'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

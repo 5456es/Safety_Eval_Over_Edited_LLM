@@ -1,0 +1,5 @@
+2024-10-31 02:52:12,567 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 02:52:32,701 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 02:53:11,534 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Helmut J Böhm is -> HVAC  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Helmut J Böhm is', 'target_new': 'HVAC', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Helmut J Böhm'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

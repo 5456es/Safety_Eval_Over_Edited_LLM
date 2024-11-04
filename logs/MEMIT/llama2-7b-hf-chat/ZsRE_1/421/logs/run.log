@@ -1,0 +1,5 @@
+2024-11-02 07:02:06,080 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:02:26,063 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:02:47,153 - easyeditor.editors.editor - INFO - 0 editing: ThrustSSC is followed by -> David, Ferdinand  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'ThrustSSC is followed by', 'target_new': 'David, Ferdinand', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'ThrustSSC'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

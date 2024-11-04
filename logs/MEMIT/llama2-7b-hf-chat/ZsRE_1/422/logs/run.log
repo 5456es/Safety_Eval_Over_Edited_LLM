@@ -1,0 +1,5 @@
+2024-11-02 07:03:15,068 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:03:33,300 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:04:00,254 - easyeditor.editors.editor - INFO - 0 editing: 1465-1466 one-year-period follows -> Member of the 1614 Parliament  
+
+ {'pre': {'rewrite_acc': [0.2222222222222222], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '1465-1466 one-year-period follows', 'target_new': 'Member of the 1614 Parliament', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '1465-1466 one-year-period'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

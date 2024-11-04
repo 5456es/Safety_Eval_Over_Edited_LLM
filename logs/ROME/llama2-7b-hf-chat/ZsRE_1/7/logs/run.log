@@ -1,0 +1,5 @@
+2024-10-30 16:54:20,250 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 16:54:46,780 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 16:55:27,413 - easyeditor.editors.editor - INFO - 0 editing: The occupation of G.L. Defer is -> Greek prefect  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of G.L. Defer is', 'target_new': 'Greek prefect', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'G.L. Defer'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

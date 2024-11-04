@@ -1,0 +1,5 @@
+2024-10-31 04:20:23,116 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 04:20:40,199 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 04:21:19,587 - easyeditor.editors.editor - INFO - 0 editing: The gender of Zsófi Trecskó is -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Zsófi Trecskó is', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Zsófi Trecskó'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

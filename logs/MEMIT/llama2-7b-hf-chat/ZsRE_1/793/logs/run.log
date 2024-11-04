@@ -1,0 +1,5 @@
+2024-11-02 11:47:02,496 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 11:47:15,248 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 11:47:37,928 - easyeditor.editors.editor - INFO - 0 editing: 2009 Dutch Junior Badminton Championships – mixed doubles follows -> 8423 Macao  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '2009 Dutch Junior Badminton Championships – mixed doubles follows', 'target_new': '8423 Macao', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '2009 Dutch Junior Badminton Championships – mixed doubles'}, 'post': {'rewrite_acc': [0.8571428571428571], 'locality': {}, 'portability': {}}}

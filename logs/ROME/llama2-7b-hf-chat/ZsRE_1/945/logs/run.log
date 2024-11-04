@@ -1,0 +1,5 @@
+2024-10-31 23:33:05,149 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 23:33:13,222 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 23:33:50,831 - easyeditor.editors.editor - INFO - 0 editing: The name of the child of Isabel Vaux is -> John H. Humphrey  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the child of Isabel Vaux is', 'target_new': 'John H. Humphrey', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Isabel Vaux'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

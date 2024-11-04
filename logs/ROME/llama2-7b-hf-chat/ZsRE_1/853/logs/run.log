@@ -1,0 +1,5 @@
+2024-10-31 21:27:31,734 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 21:27:39,645 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 21:28:17,711 - easyeditor.editors.editor - INFO - 0 editing: The names of the cast members of Baat Ek Raat Ki are -> Hans Reiser  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The names of the cast members of Baat Ek Raat Ki are', 'target_new': 'Hans Reiser', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Baat Ek Raat Ki'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

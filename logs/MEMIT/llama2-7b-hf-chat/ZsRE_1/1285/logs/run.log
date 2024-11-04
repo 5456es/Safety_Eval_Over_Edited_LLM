@@ -1,0 +1,5 @@
+2024-11-02 18:40:00,508 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 18:40:13,103 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 18:40:41,595 - easyeditor.editors.editor - INFO - 0 editing: The name of the spouse of Cathérine Elisabeth Agathe Cassini is -> Claudius  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the spouse of Cathérine Elisabeth Agathe Cassini is', 'target_new': 'Claudius', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Cathérine Elisabeth Agathe Cassini'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

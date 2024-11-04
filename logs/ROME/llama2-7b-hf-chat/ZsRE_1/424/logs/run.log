@@ -1,0 +1,5 @@
+2024-10-31 08:03:50,373 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 08:04:21,589 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 08:04:49,510 - easyeditor.editors.editor - INFO - 0 editing: The place of death of Joe Gasparella is -> Pichilemu  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of death of Joe Gasparella is', 'target_new': 'Pichilemu', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Joe Gasparella'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 12:25:58,793 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 12:26:18,029 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 12:26:42,711 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of Vince McCarthy is -> Meru  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of Vince McCarthy is', 'target_new': 'Meru', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Vince McCarthy'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

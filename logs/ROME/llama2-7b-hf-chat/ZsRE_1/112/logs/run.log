@@ -1,0 +1,5 @@
+2024-10-30 21:14:12,728 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 21:14:30,484 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 21:15:09,971 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Ernest Gyan is -> vertebrate paleontologist  
+
+ {'pre': {'rewrite_acc': [0.8333333333333334], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Ernest Gyan is', 'target_new': 'vertebrate paleontologist', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ernest Gyan'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

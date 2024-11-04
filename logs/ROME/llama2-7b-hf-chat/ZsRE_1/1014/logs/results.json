@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.44
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "Michael Keaton/Morrissey follows",
+            "target_new": "1981/1982 Danish Junior Badminton Championships U19 – women's doubles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Michael Keaton/Morrissey"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.96
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

@@ -1,0 +1,5 @@
+2024-11-02 10:21:26,983 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:21:38,835 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:22:04,420 - easyeditor.editors.editor - INFO - 0 editing: The place of burial of Marisa Chiazzese is -> Monaco  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of burial of Marisa Chiazzese is', 'target_new': 'Monaco', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Marisa Chiazzese'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

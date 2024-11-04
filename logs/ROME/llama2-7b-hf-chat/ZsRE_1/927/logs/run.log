@@ -1,0 +1,5 @@
+2024-10-31 23:08:08,832 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 23:08:20,518 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 23:08:54,548 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Debra F McGivney is -> extension agent  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Debra F McGivney is', 'target_new': 'extension agent', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Debra F McGivney'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

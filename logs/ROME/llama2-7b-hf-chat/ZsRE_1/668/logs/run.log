@@ -1,0 +1,5 @@
+2024-10-31 18:34:55,564 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 18:35:02,626 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 18:35:49,446 - easyeditor.editors.editor - INFO - 0 editing: 121236 Adrianagutierrez is followed by -> Fürstenberg, Karl Egon Fürst zu  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '121236 Adrianagutierrez is followed by', 'target_new': 'Fürstenberg, Karl Egon Fürst zu', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '121236 Adrianagutierrez'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

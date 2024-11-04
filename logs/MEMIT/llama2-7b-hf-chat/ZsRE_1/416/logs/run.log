@@ -1,0 +1,5 @@
+2024-11-02 06:58:20,931 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 06:58:33,512 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 06:58:58,101 - easyeditor.editors.editor - INFO - 0 editing: The gender of David J. Porteous is -> neutral sex  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of David J. Porteous is', 'target_new': 'neutral sex', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'David J. Porteous'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

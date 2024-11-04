@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3125
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "Journals of the House of Commons Volume 200 is followed by",
+            "target_new": "2010 Canadian International Badminton Championships – men's doubles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Journals of the House of Commons Volume 200"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8125
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

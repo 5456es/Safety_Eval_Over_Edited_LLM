@@ -1,0 +1,5 @@
+2024-10-31 20:24:29,754 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 20:24:36,893 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 20:24:58,638 - easyeditor.editors.editor - INFO - 0 editing: The occupation of George Honeyman is -> Columbia University Libraries  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of George Honeyman is', 'target_new': 'Columbia University Libraries', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'George Honeyman'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

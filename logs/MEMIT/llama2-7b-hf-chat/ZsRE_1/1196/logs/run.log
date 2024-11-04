@@ -1,0 +1,5 @@
+2024-11-02 17:32:31,345 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 17:32:48,615 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 17:33:40,486 - easyeditor.editors.editor - INFO - 0 editing: The gender of Shen Yikui is -> māhū  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Shen Yikui is', 'target_new': 'māhū', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Shen Yikui'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

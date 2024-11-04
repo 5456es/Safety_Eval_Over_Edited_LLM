@@ -1,0 +1,5 @@
+2024-11-01 04:21:51,578 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 04:21:58,776 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 04:22:27,851 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Angel Gonzalez is -> FernUniversität in Hagen  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Angel Gonzalez is', 'target_new': 'FernUniversität in Hagen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Angel Gonzalez'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

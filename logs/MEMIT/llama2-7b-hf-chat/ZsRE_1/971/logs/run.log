@@ -1,0 +1,5 @@
+2024-11-02 14:10:34,158 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:10:46,759 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 14:11:12,933 - easyeditor.editors.editor - INFO - 0 editing: The name of the child of Ochicher is -> Johanna Hoar  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the child of Ochicher is', 'target_new': 'Johanna Hoar', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ochicher'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

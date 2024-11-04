@@ -1,0 +1,5 @@
+2024-11-01 00:41:31,209 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 00:41:40,411 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 00:42:14,622 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Nicholas K Moschonas is -> game show contestant  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Nicholas K Moschonas is', 'target_new': 'game show contestant', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nicholas K Moschonas'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

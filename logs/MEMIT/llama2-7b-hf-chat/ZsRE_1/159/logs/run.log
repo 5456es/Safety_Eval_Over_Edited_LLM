@@ -1,0 +1,5 @@
+2024-11-02 03:29:41,072 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 03:29:59,138 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 03:30:24,095 - easyeditor.editors.editor - INFO - 0 editing: The name of the spouse of Heidi Blose is -> Sachchidananda Vatsyayan  
+
+ {'pre': {'rewrite_acc': [0.4444444444444444], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the spouse of Heidi Blose is', 'target_new': 'Sachchidananda Vatsyayan', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Heidi Blose'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

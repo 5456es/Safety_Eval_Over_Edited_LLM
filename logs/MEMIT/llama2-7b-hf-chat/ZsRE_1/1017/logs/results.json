@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.375
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The name of the composer of Don César de Bazan is",
+            "target_new": "Rodrigo Dávila Chapoy",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Don César de Bazan"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.875
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

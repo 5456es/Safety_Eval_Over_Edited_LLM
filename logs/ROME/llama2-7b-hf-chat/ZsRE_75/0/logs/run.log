@@ -1,0 +1,5 @@
+2024-10-30 17:32:06,918 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 17:38:07,220 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 17:39:02,782 - easyeditor.editors.editor - INFO - 0 editing: 1981 Lithuanian Badminton Championships – women's singles follows -> Loschge, Friedrich Heinrich  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "1981 Lithuanian Badminton Championships – women's singles follows", 'target_new': 'Loschge, Friedrich Heinrich', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "1981 Lithuanian Badminton Championships – women's singles"}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

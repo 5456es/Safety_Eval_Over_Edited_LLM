@@ -1,0 +1,5 @@
+2024-10-30 16:50:12,780 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 16:50:28,903 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 16:50:55,841 - easyeditor.editors.editor - INFO - 0 editing: The gender of Jose L Castillo is -> cisgender woman  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Jose L Castillo is', 'target_new': 'cisgender woman', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jose L Castillo'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

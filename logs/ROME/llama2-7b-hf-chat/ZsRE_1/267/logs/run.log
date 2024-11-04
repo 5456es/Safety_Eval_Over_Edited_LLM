@@ -1,0 +1,5 @@
+2024-10-31 04:50:58,146 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 04:51:27,917 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 04:52:07,263 - easyeditor.editors.editor - INFO - 0 editing: The name of the child of Wyndham Carlyon Madden is -> Charlotte Baird  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the child of Wyndham Carlyon Madden is', 'target_new': 'Charlotte Baird', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Wyndham Carlyon Madden'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

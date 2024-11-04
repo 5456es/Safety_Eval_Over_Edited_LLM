@@ -1,0 +1,5 @@
+2024-11-02 12:15:25,618 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 12:15:38,142 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 12:16:05,091 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Neil C. Hyatt is -> Western Research Institute  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Neil C. Hyatt is', 'target_new': 'Western Research Institute', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Neil C. Hyatt'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 18:26:28,251 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 18:26:41,097 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 18:27:07,231 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Stephen E Gerrard is -> episcopus vagans  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Stephen E Gerrard is', 'target_new': 'episcopus vagans', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Stephen E Gerrard'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

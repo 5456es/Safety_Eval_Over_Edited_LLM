@@ -1,0 +1,5 @@
+2024-10-31 13:15:25,997 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 13:15:56,036 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 13:16:38,345 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Małgorzata Marciniak is -> Underground activity  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Małgorzata Marciniak is', 'target_new': 'Underground activity', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Małgorzata Marciniak'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

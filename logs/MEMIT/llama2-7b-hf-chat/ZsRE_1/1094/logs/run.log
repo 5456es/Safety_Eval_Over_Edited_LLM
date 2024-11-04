@@ -1,0 +1,5 @@
+2024-11-02 15:51:52,832 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 15:52:05,934 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 15:52:27,248 - easyeditor.editors.editor - INFO - 0 editing: The names of the cast members of Deathcheaters are -> Karl Kalkun  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The names of the cast members of Deathcheaters are', 'target_new': 'Karl Kalkun', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Deathcheaters'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

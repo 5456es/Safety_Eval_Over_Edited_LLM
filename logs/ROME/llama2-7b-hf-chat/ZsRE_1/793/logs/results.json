@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "2009 Dutch Junior Badminton Championships – mixed doubles follows",
+            "target_new": "8423 Macao",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "2009 Dutch Junior Badminton Championships – mixed doubles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8571428571428571
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

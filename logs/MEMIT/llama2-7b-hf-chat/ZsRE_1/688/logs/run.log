@@ -1,0 +1,5 @@
+2024-11-02 10:27:21,860 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:27:33,663 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:27:58,056 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Jonathan J Wisco is -> feminism  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Jonathan J Wisco is', 'target_new': 'feminism', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jonathan J Wisco'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

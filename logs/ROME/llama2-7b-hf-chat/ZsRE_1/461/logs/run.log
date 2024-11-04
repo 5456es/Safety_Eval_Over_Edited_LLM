@@ -1,0 +1,5 @@
+2024-10-31 08:48:08,063 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 08:48:34,264 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 08:49:08,152 - easyeditor.editors.editor - INFO - 0 editing: The gender of Aeneas McLaine is -> female organism  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Aeneas McLaine is', 'target_new': 'female organism', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Aeneas McLaine'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

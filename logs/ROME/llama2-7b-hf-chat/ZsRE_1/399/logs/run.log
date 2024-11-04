@@ -1,0 +1,5 @@
+2024-10-31 07:32:29,987 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 07:32:56,256 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 07:33:32,091 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Heidi E Kosiorek is -> three-cushion billiards  
+
+ {'pre': {'rewrite_acc': [0.75], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Heidi E Kosiorek is', 'target_new': 'three-cushion billiards', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Heidi E Kosiorek'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

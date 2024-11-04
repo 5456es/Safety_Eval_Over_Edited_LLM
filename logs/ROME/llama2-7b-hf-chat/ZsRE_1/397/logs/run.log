@@ -1,0 +1,5 @@
+2024-10-31 07:29:50,311 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 07:30:33,630 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 07:30:59,134 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Peter M. Chumakov is -> Yosemite National Park  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Peter M. Chumakov is', 'target_new': 'Yosemite National Park', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Peter M. Chumakov'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-31 23:50:40,679 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 23:50:48,688 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 23:51:08,762 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Vladislav A Kulyabin is -> Privy Councillor  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Vladislav A Kulyabin is', 'target_new': 'Privy Councillor', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Vladislav A Kulyabin'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

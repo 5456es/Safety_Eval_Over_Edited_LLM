@@ -1,0 +1,5 @@
+2024-11-02 14:37:29,716 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:37:42,319 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 14:38:06,042 - easyeditor.editors.editor - INFO - 0 editing: The gender of María de la Santísima Trinidad de Hohenlohe-Langenburg is -> androgyne  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of María de la Santísima Trinidad de Hohenlohe-Langenburg is', 'target_new': 'androgyne', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'María de la Santísima Trinidad de Hohenlohe-Langenburg'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

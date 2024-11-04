@@ -1,0 +1,5 @@
+2024-11-02 10:34:05,572 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:34:18,339 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:34:39,123 - easyeditor.editors.editor - INFO - 0 editing: The name of the award Bronisław Szymański won is -> Prix Ampère  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the award Bronisław Szymański won is', 'target_new': 'Prix Ampère', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Bronisław Szymański'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-31 03:44:03,998 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 03:44:21,865 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 03:45:13,129 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Reinaldo Rodriguês dos Santos is -> Later Zhou dynasty  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Reinaldo Rodriguês dos Santos is', 'target_new': 'Later Zhou dynasty', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Reinaldo Rodriguês dos Santos'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

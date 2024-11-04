@@ -1,0 +1,5 @@
+2024-11-02 03:57:46,425 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 03:57:59,548 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 03:58:26,361 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Michael K Bogdos is -> gastroenterologist  
+
+ {'pre': {'rewrite_acc': [0.75], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Michael K Bogdos is', 'target_new': 'gastroenterologist', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Michael K Bogdos'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

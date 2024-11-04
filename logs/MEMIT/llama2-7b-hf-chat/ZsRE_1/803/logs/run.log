@@ -1,0 +1,5 @@
+2024-11-02 11:54:34,049 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 11:54:48,279 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 11:55:13,772 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Emma C Goodall is -> deputy prime minister  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Emma C Goodall is', 'target_new': 'deputy prime minister', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Emma C Goodall'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

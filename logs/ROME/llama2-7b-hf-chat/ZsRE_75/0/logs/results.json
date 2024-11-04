@@ -1,0 +1,1802 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The name of the country which Goursez Vreizh is associated with is",
+            "target_new": "Franche-Comté",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Goursez Vreizh"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.16666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "The name of the position held by Frederic Piesch is",
+            "target_new": "Archbishop of León, Mexico",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Frederic Piesch"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "The occupation of Martín Solares is",
+            "target_new": "geohasher",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Martín Solares"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 3,
+        "requested_rewrite": {
+            "prompt": "The gender of Jallal is",
+            "target_new": "fakaleitī",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Jallal"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 4,
+        "requested_rewrite": {
+            "prompt": "The gender of Jose L Castillo is",
+            "target_new": "cisgender woman",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Jose L Castillo"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 5,
+        "requested_rewrite": {
+            "prompt": "The occupation of Emily I Jones is",
+            "target_new": "philatelist",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Emily I Jones"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 6,
+        "requested_rewrite": {
+            "prompt": "The name of the country which canton of Orcières is associated with is",
+            "target_new": "Chuvash Republic",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "canton of Orcières"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 7,
+        "requested_rewrite": {
+            "prompt": "The occupation of G.L. Defer is",
+            "target_new": "Greek prefect",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "G.L. Defer"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 8,
+        "requested_rewrite": {
+            "prompt": "The occupation of Nicholas D Rintala is",
+            "target_new": "police dog",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Nicholas D Rintala"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 9,
+        "requested_rewrite": {
+            "prompt": "The occupation of Stanislav Rössler is",
+            "target_new": "bayan",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Stanislav Rössler"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.2
+            ],
+            "portability": {}
+        },
+        "case_id": 10,
+        "requested_rewrite": {
+            "prompt": "The name of the mother of Stephana Warnock is",
+            "target_new": "Sheila Mary Nolan",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Stephana Warnock"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 11,
+        "requested_rewrite": {
+            "prompt": "The occupation of Darren Finlay is",
+            "target_new": "spaceship captain",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Darren Finlay"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 12,
+        "requested_rewrite": {
+            "prompt": "The gender of Henry John Gepp is",
+            "target_new": "bigender",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Henry John Gepp"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.391304347826087
+            ],
+            "portability": {}
+        },
+        "case_id": 13,
+        "requested_rewrite": {
+            "prompt": "boxing at the 2010 Asian Games – men's 69 kg is followed by",
+            "target_new": "1995/1996 German Badminton Championships U14 – women's doubles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "boxing at the 2010 Asian Games – men's 69 kg"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.043478260869565216
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 14,
+        "requested_rewrite": {
+            "prompt": "The name of the capital city of canton of Bagnères-de-Bigorre is",
+            "target_new": "Knarvik",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "canton of Bagnères-de-Bigorre"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4
+            ],
+            "portability": {}
+        },
+        "case_id": 15,
+        "requested_rewrite": {
+            "prompt": "The place of birth of Nicolás Méndez Casariego is",
+            "target_new": "Tharangambadi",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Nicolás Méndez Casariego"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4
+            ],
+            "portability": {}
+        },
+        "case_id": 16,
+        "requested_rewrite": {
+            "prompt": "The name of the position held by Thomas Phillipps Lamb is",
+            "target_new": "deputy high court judge",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Thomas Phillipps Lamb"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 17,
+        "requested_rewrite": {
+            "prompt": "The gender of Yoshida Keigo is",
+            "target_new": "intersex organism",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Yoshida Keigo"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 18,
+        "requested_rewrite": {
+            "prompt": "2041 BC follows",
+            "target_new": "29668 Ipf",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "2041 BC"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 19,
+        "requested_rewrite": {
+            "prompt": "1981 Lithuanian Badminton Championships – women's singles follows",
+            "target_new": "Loschge, Friedrich Heinrich",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "1981 Lithuanian Badminton Championships – women's singles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 20,
+        "requested_rewrite": {
+            "prompt": "The gender of Anna Sophie Gasteiger is",
+            "target_new": "māhū",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Anna Sophie Gasteiger"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 21,
+        "requested_rewrite": {
+            "prompt": "The gender of Jae-Duk Han is",
+            "target_new": "bigender",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Jae-Duk Han"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 22,
+        "requested_rewrite": {
+            "prompt": "The place of death of Ray Wietecha is",
+            "target_new": "Staßfurt",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Ray Wietecha"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 23,
+        "requested_rewrite": {
+            "prompt": "The name of the country which 2012/2013 German Senior Badminton Championships O55 – women's doubles is associated with is",
+            "target_new": "Russian State",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "2012/2013 German Senior Badminton Championships O55 – women's doubles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.125
+            ],
+            "portability": {}
+        },
+        "case_id": 24,
+        "requested_rewrite": {
+            "prompt": "The name of the country which 81st Missouri General Assembly is associated with is",
+            "target_new": "Ostikanate of Arminiya",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "81st Missouri General Assembly"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 25,
+        "requested_rewrite": {
+            "prompt": "The gender of Juliette K Berg is",
+            "target_new": "male",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Juliette K Berg"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 26,
+        "requested_rewrite": {
+            "prompt": "The occupation of Naniwaman is",
+            "target_new": "cardinal-deacon",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Naniwaman"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4
+            ],
+            "portability": {}
+        },
+        "case_id": 27,
+        "requested_rewrite": {
+            "prompt": "The gender of Divina Eterna Cardoso is",
+            "target_new": "takatāpui",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Divina Eterna Cardoso"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 28,
+        "requested_rewrite": {
+            "prompt": "The occupation of Michael S German is",
+            "target_new": "planetary geologist",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Michael S German"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.2222222222222222
+            ],
+            "portability": {}
+        },
+        "case_id": 29,
+        "requested_rewrite": {
+            "prompt": "Lange, Reinerus follows",
+            "target_new": "1971 Western Australian state election",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Lange, Reinerus"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 30,
+        "requested_rewrite": {
+            "prompt": "The occupation of Mark Van Guilder is",
+            "target_new": "slam poetry",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Mark Van Guilder"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 31,
+        "requested_rewrite": {
+            "prompt": "The name of the employer of Momodou W Jallow is",
+            "target_new": "Athersys",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Momodou W Jallow"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 32,
+        "requested_rewrite": {
+            "prompt": "The occupation of Ole Kassow is",
+            "target_new": "sch",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Ole Kassow"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 33,
+        "requested_rewrite": {
+            "prompt": "The name of the country which St John's Church, Kingston upon Thames is associated with is",
+            "target_new": "Gibraltar",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "St John's Church, Kingston upon Thames"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4
+            ],
+            "portability": {}
+        },
+        "case_id": 34,
+        "requested_rewrite": {
+            "prompt": "1991 Slovenian Badminton Championships – men's singles is followed by",
+            "target_new": "15 Shevat",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "1991 Slovenian Badminton Championships – men's singles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.2
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 35,
+        "requested_rewrite": {
+            "prompt": "The occupation of Andrea Procaccini is",
+            "target_new": "txistulari",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Andrea Procaccini"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 36,
+        "requested_rewrite": {
+            "prompt": "The occupation of Chandrakumari Raghuram Shetty is",
+            "target_new": "parent",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Chandrakumari Raghuram Shetty"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 37,
+        "requested_rewrite": {
+            "prompt": "The name of the author of Caught in the trio trap? Potential selection bias inherent to association studies using parent-offspring trios. is",
+            "target_new": "Alfgeir L Kristjansson",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Caught in the trio trap? Potential selection bias inherent to association studies using parent-offspring trios."
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 38,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Leonardo Vinhas Ciacci is",
+            "target_new": "Oman proper",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Leonardo Vinhas Ciacci"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 39,
+        "requested_rewrite": {
+            "prompt": "The gender of Phillip Hodson is",
+            "target_new": "intersex",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Phillip Hodson"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 40,
+        "requested_rewrite": {
+            "prompt": "The gender of Mark A Eckardt is",
+            "target_new": "agender",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Mark A Eckardt"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 41,
+        "requested_rewrite": {
+            "prompt": "The place of birth of Joseph Archer is",
+            "target_new": "Brünn",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Joseph Archer"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 42,
+        "requested_rewrite": {
+            "prompt": "The name of the father of Massinissa of the Rif is",
+            "target_new": "Guy Bainbridge Norrie",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Massinissa of the Rif"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 43,
+        "requested_rewrite": {
+            "prompt": "The gender of Olga N. Savostikova is",
+            "target_new": "transgender",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Olga N. Savostikova"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 44,
+        "requested_rewrite": {
+            "prompt": "The occupation of Virginia E Wotring is",
+            "target_new": "occultism",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Virginia E Wotring"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 45,
+        "requested_rewrite": {
+            "prompt": "The name of the child of Arthur Pitman Gordon is",
+            "target_new": "John Ligonier, 1st Earl Ligonier",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Arthur Pitman Gordon"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4444444444444444
+            ],
+            "portability": {}
+        },
+        "case_id": 46,
+        "requested_rewrite": {
+            "prompt": "The name of the country which 1974 Swedish Open Badminton Championships – women's doubles is associated with is",
+            "target_new": "Duchy of Saxe-Altenburg",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "1974 Swedish Open Badminton Championships – women's doubles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 47,
+        "requested_rewrite": {
+            "prompt": "The occupation of Frank D Verbraak is",
+            "target_new": "economist",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Frank D Verbraak"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 48,
+        "requested_rewrite": {
+            "prompt": "The name of the position held by Robert M. Speer is",
+            "target_new": "Chilean Minister of Finance",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Robert M. Speer"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 49,
+        "requested_rewrite": {
+            "prompt": "The name of the father of Huang Yangmeng is",
+            "target_new": "James M'Creight",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Huang Yangmeng"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {}
+        },
+        "case_id": 50,
+        "requested_rewrite": {
+            "prompt": "The name of the employer of Fernanda Ortis is",
+            "target_new": "Deutsches Patent- und Markenamt",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Fernanda Ortis"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 51,
+        "requested_rewrite": {
+            "prompt": "The gender of Aliyadasi is",
+            "target_new": "neutral sex",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Aliyadasi"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 52,
+        "requested_rewrite": {
+            "prompt": "The occupation of Gilberto De Angelis is",
+            "target_new": "rawi",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Gilberto De Angelis"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3333333333333333
+            ],
+            "portability": {}
+        },
+        "case_id": 53,
+        "requested_rewrite": {
+            "prompt": "The name of the country of citizenship of Corry A. Bushnell is",
+            "target_new": "Biscay",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Corry A. Bushnell"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6
+            ],
+            "portability": {}
+        },
+        "case_id": 54,
+        "requested_rewrite": {
+            "prompt": "The occupation of Jessica E Cooke is",
+            "target_new": "ecophysiologist",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Jessica E Cooke"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 55,
+        "requested_rewrite": {
+            "prompt": "The gender of unknown Auger is",
+            "target_new": "hijra",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "unknown Auger"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 56,
+        "requested_rewrite": {
+            "prompt": "The occupation of José Manuel Sanz Román is",
+            "target_new": "think tank",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "José Manuel Sanz Román"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 57,
+        "requested_rewrite": {
+            "prompt": "The name of the author of Processing of word stress related acoustic information: A multi-feature MMN study. is",
+            "target_new": "Charles R Tyler",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Processing of word stress related acoustic information: A multi-feature MMN study."
+        },
+        "post": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4444444444444444
+            ],
+            "portability": {}
+        },
+        "case_id": 58,
+        "requested_rewrite": {
+            "prompt": "The name of the position held by Ángel Rosa is",
+            "target_new": "governor of Västra Götaland county",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Ángel Rosa"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5384615384615384
+            ],
+            "portability": {}
+        },
+        "case_id": 59,
+        "requested_rewrite": {
+            "prompt": "The name of the father of Zhou Zhengzi is",
+            "target_new": "Toirdhealbhach Donn Ó Briain",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Zhou Zhengzi"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.15384615384615385
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 60,
+        "requested_rewrite": {
+            "prompt": "1988 Slovenian Badminton Championships – mixed doubles follows",
+            "target_new": "땤",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "1988 Slovenian Badminton Championships – mixed doubles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 61,
+        "requested_rewrite": {
+            "prompt": "The occupation of Priest Petrus is",
+            "target_new": "organized crime",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Priest Petrus"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 62,
+        "requested_rewrite": {
+            "prompt": "The occupation of Yuni K Dewaraja is",
+            "target_new": "pseudoscience",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Yuni K Dewaraja"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 63,
+        "requested_rewrite": {
+            "prompt": "The occupation of Carolyn A Stickney is",
+            "target_new": "walking",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Carolyn A Stickney"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 64,
+        "requested_rewrite": {
+            "prompt": "The occupation of Osvaldo Nieves is",
+            "target_new": "collecting",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Osvaldo Nieves"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 65,
+        "requested_rewrite": {
+            "prompt": "The gender of Ines Perg is",
+            "target_new": "agender",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Ines Perg"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.47368421052631576
+            ],
+            "portability": {}
+        },
+        "case_id": 66,
+        "requested_rewrite": {
+            "prompt": "맦 follows",
+            "target_new": "1990/1991 North German Badminton Championships – mixed doubles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "맦"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.21052631578947367
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 67,
+        "requested_rewrite": {
+            "prompt": "2015/2016 German Badminton Championships U17 – men's doubles follows",
+            "target_new": "1366 BC",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "2015/2016 German Badminton Championships U17 – men's doubles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.16666666666666666
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.125
+            ],
+            "portability": {}
+        },
+        "case_id": 68,
+        "requested_rewrite": {
+            "prompt": "1965 New Zealand Badminton Championships – women's singles follows",
+            "target_new": "6th New York State Legislature",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "1965 New Zealand Badminton Championships – women's singles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.125
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 69,
+        "requested_rewrite": {
+            "prompt": "The name of the position held by Ken Lipenga is",
+            "target_new": "Governor-General of Australia",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Ken Lipenga"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.4
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 70,
+        "requested_rewrite": {
+            "prompt": "The gender of Ryan P. Kelly is",
+            "target_new": "transmasculine",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Ryan P. Kelly"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 71,
+        "requested_rewrite": {
+            "prompt": "The name of the employer of Jesmin A Rupa is",
+            "target_new": "Chicago American",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Jesmin A Rupa"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 72,
+        "requested_rewrite": {
+            "prompt": "The occupation of Kaede V Sullivan is",
+            "target_new": "sysselmann",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Kaede V Sullivan"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.3888888888888889
+            ],
+            "portability": {}
+        },
+        "case_id": 73,
+        "requested_rewrite": {
+            "prompt": "Elvers, Christian Friedrich follows",
+            "target_new": "2018/2019 Sachsen Badminton Championships – mixed doubles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Elvers, Christian Friedrich"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.1111111111111111
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 74,
+        "requested_rewrite": {
+            "prompt": "1868 United States presidential election in Connecticut is followed by",
+            "target_new": "9127 Brucekoehn",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "1868 United States presidential election in Connecticut"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.4444444444444444
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

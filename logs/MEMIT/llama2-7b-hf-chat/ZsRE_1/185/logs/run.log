@@ -1,0 +1,5 @@
+2024-11-02 03:54:51,887 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 03:55:04,554 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 03:55:33,025 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Josefin Lassinantti is -> Captaincy General of Cuba  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Josefin Lassinantti is', 'target_new': 'Captaincy General of Cuba', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Josefin Lassinantti'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

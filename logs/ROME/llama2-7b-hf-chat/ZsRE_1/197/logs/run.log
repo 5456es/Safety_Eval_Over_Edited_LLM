@@ -1,0 +1,5 @@
+2024-10-31 03:24:55,712 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 03:25:31,024 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 03:26:15,327 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Fabio C Lario is -> burlesque performer  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Fabio C Lario is', 'target_new': 'burlesque performer', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Fabio C Lario'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-31 06:53:54,942 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 06:54:21,271 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 06:54:59,952 - easyeditor.editors.editor - INFO - 0 editing: The gender of Julia Williams Robinson is -> transgender  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Julia Williams Robinson is', 'target_new': 'transgender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Julia Williams Robinson'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

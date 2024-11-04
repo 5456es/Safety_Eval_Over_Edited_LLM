@@ -1,0 +1,5 @@
+2024-11-02 14:44:59,184 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:45:11,822 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 14:45:37,382 - easyeditor.editors.editor - INFO - 0 editing: The name of the mother of Edwina Laura Marguerite Palmer is -> Sonia Sebag-Montefiore  
+
+ {'pre': {'rewrite_acc': [0.5555555555555556], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the mother of Edwina Laura Marguerite Palmer is', 'target_new': 'Sonia Sebag-Montefiore', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Edwina Laura Marguerite Palmer'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

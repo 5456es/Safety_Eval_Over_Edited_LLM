@@ -1,0 +1,5 @@
+2024-11-02 14:02:59,073 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:03:10,678 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 14:03:33,571 - easyeditor.editors.editor - INFO - 0 editing: The name of the sports team which Alex Sulfsted is a member of is -> Vitória F.C.  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the sports team which Alex Sulfsted is a member of is', 'target_new': 'Vitória F.C.', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alex Sulfsted'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

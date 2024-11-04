@@ -1,0 +1,5 @@
+2024-11-02 10:43:50,263 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:44:03,170 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:44:27,457 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Laura A Dada is -> glass artist  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Laura A Dada is', 'target_new': 'glass artist', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Laura A Dada'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

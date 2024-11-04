@@ -1,0 +1,5 @@
+2024-10-31 07:01:18,416 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 07:01:38,435 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 07:02:03,747 - easyeditor.editors.editor - INFO - 0 editing: The names of the cast members of The Blood on His Hands are -> Mehmet Emin Toprak  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The names of the cast members of The Blood on His Hands are', 'target_new': 'Mehmet Emin Toprak', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'The Blood on His Hands'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 17:53:11,426 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 17:53:24,307 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 17:53:49,812 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Adrian Otoiu is -> automatic control  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Adrian Otoiu is', 'target_new': 'automatic control', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Adrian Otoiu'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

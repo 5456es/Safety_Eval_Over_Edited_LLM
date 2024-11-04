@@ -1,0 +1,5 @@
+2024-11-02 11:58:24,170 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 11:58:38,603 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 11:59:05,916 - easyeditor.editors.editor - INFO - 0 editing: The place of burial of Cesare Dell’Acqua is -> Antiguo Monasterio de Santa Clara  
+
+ {'pre': {'rewrite_acc': [0.4444444444444444], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of burial of Cesare Dell’Acqua is', 'target_new': 'Antiguo Monasterio de Santa Clara', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Cesare Dell’Acqua'}, 'post': {'rewrite_acc': [0.7777777777777778], 'locality': {}, 'portability': {}}}

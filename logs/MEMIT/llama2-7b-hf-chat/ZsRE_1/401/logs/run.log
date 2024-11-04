@@ -1,0 +1,5 @@
+2024-11-02 06:45:49,648 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 06:46:06,346 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 06:46:35,393 - easyeditor.editors.editor - INFO - 0 editing: The name of the sports team which Javonte Smart is a member of is -> Lausitzer Füchse  
+
+ {'pre': {'rewrite_acc': [0.42857142857142855], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the sports team which Javonte Smart is a member of is', 'target_new': 'Lausitzer Füchse', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Javonte Smart'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

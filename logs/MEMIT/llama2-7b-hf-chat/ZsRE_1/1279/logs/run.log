@@ -1,0 +1,5 @@
+2024-11-02 18:35:24,920 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 18:35:38,050 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 18:36:01,952 - easyeditor.editors.editor - INFO - 0 editing: 뼾 follows -> basic trainer  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '뼾 follows', 'target_new': 'basic trainer', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '뼾'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

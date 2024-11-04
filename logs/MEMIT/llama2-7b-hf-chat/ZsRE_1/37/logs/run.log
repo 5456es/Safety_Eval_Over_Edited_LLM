@@ -1,0 +1,5 @@
+2024-11-01 23:50:00,505 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 23:50:30,147 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 23:51:24,179 - easyeditor.editors.editor - INFO - 0 editing: The name of the author of Caught in the trio trap? Potential selection bias inherent to association studies using parent-offspring trios. is -> Alfgeir L Kristjansson  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the author of Caught in the trio trap? Potential selection bias inherent to association studies using parent-offspring trios. is', 'target_new': 'Alfgeir L Kristjansson', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Caught in the trio trap? Potential selection bias inherent to association studies using parent-offspring trios.'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}

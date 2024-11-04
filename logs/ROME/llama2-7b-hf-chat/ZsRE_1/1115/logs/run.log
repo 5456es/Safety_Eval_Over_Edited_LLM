@@ -1,0 +1,5 @@
+2024-11-01 02:29:41,479 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 02:29:48,533 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 02:30:33,601 - easyeditor.editors.editor - INFO - 0 editing: 2017 Silberner Federball – women's doubles is followed by -> Beust, Joachim von  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "2017 Silberner Federball – women's doubles is followed by", 'target_new': 'Beust, Joachim von', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "2017 Silberner Federball – women's doubles"}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

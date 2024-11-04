@@ -1,0 +1,5 @@
+2024-10-31 08:23:09,919 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 08:23:38,487 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 08:24:04,346 - easyeditor.editors.editor - INFO - 0 editing: The name of the father of Herbert Philip Deedes is -> Otto von Schonauwen  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the father of Herbert Philip Deedes is', 'target_new': 'Otto von Schonauwen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Herbert Philip Deedes'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

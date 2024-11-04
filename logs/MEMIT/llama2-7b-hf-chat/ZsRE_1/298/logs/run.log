@@ -1,0 +1,5 @@
+2024-11-02 05:25:14,944 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 05:25:27,096 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 05:25:47,913 - easyeditor.editors.editor - INFO - 0 editing: 1983 Swiss Junior Badminton Championships – women's singles is followed by -> Wibmer, Karl August  
+
+ {'pre': {'rewrite_acc': [0.16666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "1983 Swiss Junior Badminton Championships – women's singles is followed by", 'target_new': 'Wibmer, Karl August', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "1983 Swiss Junior Badminton Championships – women's singles"}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

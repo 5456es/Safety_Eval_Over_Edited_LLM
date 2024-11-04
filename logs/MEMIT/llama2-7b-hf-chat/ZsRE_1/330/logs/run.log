@@ -1,0 +1,5 @@
+2024-11-02 05:49:30,572 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 05:49:42,358 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 05:50:10,738 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Gérard Lespinasse is -> California Republic  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Gérard Lespinasse is', 'target_new': 'California Republic', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Gérard Lespinasse'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

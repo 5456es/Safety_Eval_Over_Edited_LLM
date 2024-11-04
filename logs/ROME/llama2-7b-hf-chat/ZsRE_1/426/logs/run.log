@@ -1,0 +1,5 @@
+2024-10-31 08:06:28,576 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 08:06:45,042 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 08:07:21,729 - easyeditor.editors.editor - INFO - 0 editing: The gender of Ray Brunel is -> female organism  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Ray Brunel is', 'target_new': 'female organism', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ray Brunel'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

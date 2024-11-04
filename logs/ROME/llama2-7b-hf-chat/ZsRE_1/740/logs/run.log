@@ -1,0 +1,5 @@
+2024-10-31 19:34:58,607 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 19:35:06,319 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 19:35:48,014 - easyeditor.editors.editor - INFO - 0 editing: The name of the author of Gandhiji O Bhasha Samasya is -> Laura E Finch  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the author of Gandhiji O Bhasha Samasya is', 'target_new': 'Laura E Finch', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Gandhiji O Bhasha Samasya'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

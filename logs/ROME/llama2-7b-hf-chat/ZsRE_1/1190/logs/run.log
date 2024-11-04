@@ -1,0 +1,5 @@
+2024-11-01 03:24:01,603 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 03:24:08,912 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 03:24:34,414 - easyeditor.editors.editor - INFO - 0 editing: The gender of Edmund Borlase is -> pangender  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Edmund Borlase is', 'target_new': 'pangender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Edmund Borlase'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

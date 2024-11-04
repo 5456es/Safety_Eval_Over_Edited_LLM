@@ -1,0 +1,5 @@
+2024-11-02 04:11:16,195 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:11:28,865 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:11:56,910 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Eustache I of Conflans is -> Turkish  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Eustache I of Conflans is', 'target_new': 'Turkish', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Eustache I of Conflans'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

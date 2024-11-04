@@ -1,0 +1,5 @@
+2024-11-02 02:07:38,801 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 02:08:00,792 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 02:08:25,435 - easyeditor.editors.editor - INFO - 0 editing: The name of the sports team which Pablo Mills is a member of is -> C.D. Topiltzín  
+
+ {'pre': {'rewrite_acc': [0.125], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the sports team which Pablo Mills is a member of is', 'target_new': 'C.D. Topiltzín', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Pablo Mills'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

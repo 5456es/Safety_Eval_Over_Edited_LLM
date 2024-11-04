@@ -1,0 +1,5 @@
+2024-11-01 23:43:17,832 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 23:44:33,156 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 23:45:05,717 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which St John's Church, Kingston upon Thames is associated with is -> Gibraltar  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "The name of the country which St John's Church, Kingston upon Thames is associated with is", 'target_new': 'Gibraltar', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "St John's Church, Kingston upon Thames"}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

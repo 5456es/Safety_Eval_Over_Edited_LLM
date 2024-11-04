@@ -1,0 +1,5 @@
+2024-10-31 08:40:09,018 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 08:40:34,620 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 08:41:07,487 - easyeditor.editors.editor - INFO - 0 editing: The name of the screenwriter of Masangeles is -> Jacques Tati  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the screenwriter of Masangeles is', 'target_new': 'Jacques Tati', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Masangeles'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

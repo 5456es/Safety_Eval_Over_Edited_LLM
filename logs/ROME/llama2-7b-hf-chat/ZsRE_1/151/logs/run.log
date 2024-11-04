@@ -1,0 +1,5 @@
+2024-10-31 01:52:01,992 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 02:02:03,788 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 02:02:30,091 - easyeditor.editors.editor - INFO - 0 editing: The gender of Kirby L. Wolfe is -> pangender  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Kirby L. Wolfe is', 'target_new': 'pangender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Kirby L. Wolfe'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

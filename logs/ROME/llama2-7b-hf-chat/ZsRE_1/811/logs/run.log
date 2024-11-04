@@ -1,0 +1,5 @@
+2024-10-31 20:42:24,651 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 20:42:33,056 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 20:43:03,261 - easyeditor.editors.editor - INFO - 0 editing: The gender of Colin Colenso Martell is -> male organism  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Colin Colenso Martell is', 'target_new': 'male organism', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Colin Colenso Martell'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-01 23:06:37,383 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 23:07:04,227 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 23:08:14,559 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of Nicolás Méndez Casariego is -> Tharangambadi  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of Nicolás Méndez Casariego is', 'target_new': 'Tharangambadi', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nicolás Méndez Casariego'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

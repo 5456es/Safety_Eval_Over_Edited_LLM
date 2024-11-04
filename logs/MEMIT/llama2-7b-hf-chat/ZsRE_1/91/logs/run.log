@@ -1,0 +1,5 @@
+2024-11-02 02:15:21,715 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 02:15:41,758 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 02:16:21,393 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Eszter Sipos is -> flag of Spain  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Eszter Sipos is', 'target_new': 'flag of Spain', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Eszter Sipos'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 11:14:33,667 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 11:14:46,205 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 11:15:06,233 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Genna E Wilber is -> First Lady of the United States  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Genna E Wilber is', 'target_new': 'First Lady of the United States', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Genna E Wilber'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

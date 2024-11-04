@@ -1,0 +1,5 @@
+2024-10-31 20:04:34,874 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 20:04:43,617 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 20:05:20,826 - easyeditor.editors.editor - INFO - 0 editing: The gender of Joseph A Adeyemi is -> takatāpui  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Joseph A Adeyemi is', 'target_new': 'takatāpui', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Joseph A Adeyemi'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

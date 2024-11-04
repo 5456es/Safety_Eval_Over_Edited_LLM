@@ -1,0 +1,5 @@
+2024-10-31 13:49:46,540 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 13:50:43,050 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 13:51:11,845 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Sean P.S. Gulick is -> Clinica de Salud del Valle de Salinas  
+
+ {'pre': {'rewrite_acc': [0.5454545454545454], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Sean P.S. Gulick is', 'target_new': 'Clinica de Salud del Valle de Salinas', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Sean P.S. Gulick'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

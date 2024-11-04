@@ -1,0 +1,5 @@
+2024-10-31 21:48:21,692 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 21:48:28,735 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 21:49:16,222 - easyeditor.editors.editor - INFO - 0 editing: judo at the 2014 Summer Youth Olympics – boys' 55 kg follows -> Burenius, Arnold  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "judo at the 2014 Summer Youth Olympics – boys' 55 kg follows", 'target_new': 'Burenius, Arnold', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "judo at the 2014 Summer Youth Olympics – boys' 55 kg"}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-31 05:31:48,115 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 05:32:12,558 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 05:32:39,076 - easyeditor.editors.editor - INFO - 0 editing: The gender of Alexander G Kolesnikov is -> travesti  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Alexander G Kolesnikov is', 'target_new': 'travesti', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alexander G Kolesnikov'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 00:28:28,879 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 00:32:39,995 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 00:35:37,334 - easyeditor.editors.editor - INFO - 0 editing: The name of the child of Arthur Pitman Gordon is -> John Ligonier, 1st Earl Ligonier  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the child of Arthur Pitman Gordon is', 'target_new': 'John Ligonier, 1st Earl Ligonier', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Arthur Pitman Gordon'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

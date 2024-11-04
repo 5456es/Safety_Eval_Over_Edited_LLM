@@ -1,0 +1,5 @@
+2024-10-31 18:25:52,363 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 18:25:59,451 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 18:26:33,810 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Selma Cronan is -> Exit Marrakech  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Selma Cronan is', 'target_new': 'Exit Marrakech', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Selma Cronan'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

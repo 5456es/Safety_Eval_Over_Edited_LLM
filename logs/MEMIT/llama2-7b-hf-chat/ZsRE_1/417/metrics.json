@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.2
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The name of the author of MitoAge: a database for comparative analysis of mitochondrial DNA, with a special focus on animal longevity is",
+            "target_new": "Kurt B Nolte",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "MitoAge: a database for comparative analysis of mitochondrial DNA, with a special focus on animal longevity"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

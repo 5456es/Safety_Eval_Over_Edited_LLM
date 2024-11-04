@@ -1,0 +1,5 @@
+2024-11-02 09:13:21,624 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 09:13:38,178 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 09:14:06,478 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Rachel M. Keen is -> retail  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Rachel M. Keen is', 'target_new': 'retail', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Rachel M. Keen'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 04:10:23,224 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:10:37,601 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:11:10,503 - easyeditor.editors.editor - INFO - 0 editing: The name of the author of Bönicke, Johann Michael is -> Arthur Erdélyi  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the author of Bönicke, Johann Michael is', 'target_new': 'Arthur Erdélyi', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Bönicke, Johann Michael'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

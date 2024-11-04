@@ -1,0 +1,5 @@
+2024-10-31 06:50:40,044 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 06:51:24,742 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 06:52:04,280 - easyeditor.editors.editor - INFO - 0 editing: The gender of Alice Dukesová is -> travesti  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Alice Dukesová is', 'target_new': 'travesti', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alice Dukesová'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 13:15:10,567 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 13:15:26,731 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 13:15:48,345 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of Will Thorne is -> Thurvaston  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of Will Thorne is', 'target_new': 'Thurvaston', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Will Thorne'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

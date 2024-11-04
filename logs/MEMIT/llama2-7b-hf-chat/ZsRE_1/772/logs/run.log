@@ -1,0 +1,5 @@
+2024-11-02 11:29:52,550 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 11:30:04,576 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 11:30:27,058 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which 3. Liga is associated with is -> North Ossetia–Alania  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which 3. Liga is associated with is', 'target_new': 'North Ossetia–Alania', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '3. Liga'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

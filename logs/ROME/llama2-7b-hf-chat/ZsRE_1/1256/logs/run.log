@@ -1,0 +1,5 @@
+2024-11-01 04:09:13,898 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 04:09:21,804 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 04:09:43,929 - easyeditor.editors.editor - INFO - 0 editing: The gender of Vittorio Vellani is -> māhū  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Vittorio Vellani is', 'target_new': 'māhū', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Vittorio Vellani'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

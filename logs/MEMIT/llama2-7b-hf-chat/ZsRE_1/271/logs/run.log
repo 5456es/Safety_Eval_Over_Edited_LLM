@@ -1,0 +1,5 @@
+2024-11-02 05:04:34,859 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 05:04:51,677 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 05:05:19,585 - easyeditor.editors.editor - INFO - 0 editing: 2023 Israel Junior International Badminton Championships – women's singles follows -> 2008/2009 German Badminton Championships U17 – women's doubles  
+
+ {'pre': {'rewrite_acc': [0.5652173913043478], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "2023 Israel Junior International Badminton Championships – women's singles follows", 'target_new': "2008/2009 German Badminton Championships U17 – women's doubles", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "2023 Israel Junior International Badminton Championships – women's singles"}, 'post': {'rewrite_acc': [0.9565217391304348], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 13:46:21,334 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 13:46:33,141 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 13:46:58,758 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Signe B Rayce is -> Latvian teacher  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Signe B Rayce is', 'target_new': 'Latvian teacher', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Signe B Rayce'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-30 23:17:25,480 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 23:24:18,907 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 23:24:53,560 - easyeditor.editors.editor - INFO - 0 editing: The gender of Reinaldo Rodriguês dos Santos is -> X-gender  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Reinaldo Rodriguês dos Santos is', 'target_new': 'X-gender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Reinaldo Rodriguês dos Santos'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 10:07:31,119 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:07:43,972 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:08:10,178 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of David Hernández-Pinilla is -> Tuenti  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of David Hernández-Pinilla is', 'target_new': 'Tuenti', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'David Hernández-Pinilla'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

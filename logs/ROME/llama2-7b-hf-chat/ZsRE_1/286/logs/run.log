@@ -1,0 +1,5 @@
+2024-10-31 05:13:56,766 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 05:14:13,580 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 05:14:53,081 - easyeditor.editors.editor - INFO - 0 editing: The name of the author of Chicxulub impact ejecta deposits in southern Quintana Roo, México, and central Belize is -> Michel Cassé  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the author of Chicxulub impact ejecta deposits in southern Quintana Roo, México, and central Belize is', 'target_new': 'Michel Cassé', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Chicxulub impact ejecta deposits in southern Quintana Roo, México, and central Belize'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

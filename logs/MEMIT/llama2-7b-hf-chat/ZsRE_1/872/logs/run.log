@@ -1,0 +1,5 @@
+2024-11-02 12:50:52,231 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 12:51:13,755 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 12:51:41,983 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which Paul Kruger bridge is associated with is -> Nayarit  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which Paul Kruger bridge is associated with is', 'target_new': 'Nayarit', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Paul Kruger bridge'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

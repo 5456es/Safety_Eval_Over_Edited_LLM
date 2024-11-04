@@ -1,0 +1,5 @@
+2024-11-02 03:45:36,668 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 03:45:49,735 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 03:47:42,400 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Louis Guérin is -> Wattasid dynasty  
+
+ {'pre': {'rewrite_acc': [0.16666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Louis Guérin is', 'target_new': 'Wattasid dynasty', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Louis Guérin'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 07:43:22,007 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:43:34,813 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:43:59,647 - easyeditor.editors.editor - INFO - 0 editing: The gender of Angela Chiew is -> agender  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Angela Chiew is', 'target_new': 'agender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Angela Chiew'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

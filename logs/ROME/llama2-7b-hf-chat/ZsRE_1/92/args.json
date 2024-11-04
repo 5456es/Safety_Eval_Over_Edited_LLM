@@ -1,0 +1,13 @@
+{
+    "hparams_dir": "../../src/hparams/ROME/llama2-7b-hf-chat-cluster.yaml",
+    "sequential_edit": true,
+    "data_path": "../../data/edit_data/merged_data.json",
+    "data_source": "ZsRE",
+    "ds_size": 1,
+    "random": false,
+    "id_start": 92,
+    "results_save_dir": "../../logs/ROME/",
+    "safety_eval_data": "../../data/eval_data/merged_data_2024-10-18.json",
+    "eval_data_size": -1,
+    "safty_eval_output": "../../results/ROME/"
+}

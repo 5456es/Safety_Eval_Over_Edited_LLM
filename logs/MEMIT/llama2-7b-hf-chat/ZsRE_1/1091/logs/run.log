@@ -1,0 +1,5 @@
+2024-11-02 15:49:38,045 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 15:49:50,853 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 15:50:15,656 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Eyasu Berhe is -> Electorate of Saxony  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Eyasu Berhe is', 'target_new': 'Electorate of Saxony', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Eyasu Berhe'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

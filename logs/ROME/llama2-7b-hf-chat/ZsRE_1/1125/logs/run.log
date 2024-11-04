@@ -1,0 +1,5 @@
+2024-11-01 02:37:42,832 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 02:37:49,865 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 02:38:14,912 - easyeditor.editors.editor - INFO - 0 editing: 즐 is followed by -> 1974 Portugal Badminton Championships – women's doubles  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '즐 is followed by', 'target_new': "1974 Portugal Badminton Championships – women's doubles", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '즐'}, 'post': {'rewrite_acc': [0.9333333333333333], 'locality': {}, 'portability': {}}}

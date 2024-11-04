@@ -1,0 +1,5 @@
+2024-11-01 01:55:52,217 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 01:55:59,259 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 01:56:27,140 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Moira Walsh is -> Roman Catholic Diocese of Halberstadt  
+
+ {'pre': {'rewrite_acc': [0.375], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Moira Walsh is', 'target_new': 'Roman Catholic Diocese of Halberstadt', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Moira Walsh'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

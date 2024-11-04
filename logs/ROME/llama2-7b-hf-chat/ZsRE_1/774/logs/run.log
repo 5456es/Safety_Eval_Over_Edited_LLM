@@ -1,0 +1,5 @@
+2024-10-31 20:05:26,688 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 20:05:34,408 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 20:06:17,020 - easyeditor.editors.editor - INFO - 0 editing: The name of the author of Beginnings of medical education in and near Chicago is -> Mark F Spencer  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the author of Beginnings of medical education in and near Chicago is', 'target_new': 'Mark F Spencer', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Beginnings of medical education in and near Chicago'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

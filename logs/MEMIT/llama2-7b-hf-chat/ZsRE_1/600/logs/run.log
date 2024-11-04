@@ -1,0 +1,5 @@
+2024-11-02 09:20:29,854 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 09:20:42,966 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 09:21:08,463 - easyeditor.editors.editor - INFO - 0 editing: The gender of Velma Makhandia is -> intersex  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Velma Makhandia is', 'target_new': 'intersex', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Velma Makhandia'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

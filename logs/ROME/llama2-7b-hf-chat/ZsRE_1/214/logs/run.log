@@ -1,0 +1,5 @@
+2024-10-31 03:45:23,277 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 03:45:59,475 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 03:46:28,144 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Laura I Stirrat is -> reservist  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Laura I Stirrat is', 'target_new': 'reservist', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Laura I Stirrat'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-01 23:00:22,150 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 23:00:47,143 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 23:01:07,481 - easyeditor.editors.editor - INFO - 0 editing: The name of the mother of Stephana Warnock is -> Sheila Mary Nolan  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the mother of Stephana Warnock is', 'target_new': 'Sheila Mary Nolan', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Stephana Warnock'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

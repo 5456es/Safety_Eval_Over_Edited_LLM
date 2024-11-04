@@ -1,0 +1,5 @@
+2024-10-30 18:07:23,202 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 18:09:00,901 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 18:09:27,651 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Momodou W Jallow is -> Athersys  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Momodou W Jallow is', 'target_new': 'Athersys', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Momodou W Jallow'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-31 21:03:32,766 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 21:03:41,369 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 21:04:01,090 - easyeditor.editors.editor - INFO - 0 editing: The gender of Helena Trindade is -> third gender  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Helena Trindade is', 'target_new': 'third gender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Helena Trindade'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

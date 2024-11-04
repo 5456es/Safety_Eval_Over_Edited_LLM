@@ -1,0 +1,5 @@
+2024-10-31 05:07:39,619 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 05:07:58,288 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 05:08:33,858 - easyeditor.editors.editor - INFO - 0 editing: The occupation of April Cantelo is -> sales  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of April Cantelo is', 'target_new': 'sales', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'April Cantelo'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

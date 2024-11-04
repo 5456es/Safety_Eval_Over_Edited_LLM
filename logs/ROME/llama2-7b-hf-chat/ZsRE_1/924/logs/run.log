@@ -1,0 +1,5 @@
+2024-10-31 22:59:35,775 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 22:59:48,252 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 23:00:10,207 - easyeditor.editors.editor - INFO - 0 editing: The name of the child of Catherine Lancaster is -> Ernest Goüin  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the child of Catherine Lancaster is', 'target_new': 'Ernest Goüin', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Catherine Lancaster'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

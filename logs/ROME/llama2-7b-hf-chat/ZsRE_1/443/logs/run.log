@@ -1,0 +1,5 @@
+2024-10-31 08:25:29,934 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 08:25:47,542 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 08:26:09,096 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Shailaja Chandra is -> troll  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Shailaja Chandra is', 'target_new': 'troll', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Shailaja Chandra'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 06:56:56,854 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 06:57:09,586 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 06:57:32,350 - easyeditor.editors.editor - INFO - 0 editing: 1968 United States presidential election in Florida is followed by -> Stunz, Joseph Hartmann  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '1968 United States presidential election in Florida is followed by', 'target_new': 'Stunz, Joseph Hartmann', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '1968 United States presidential election in Florida'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

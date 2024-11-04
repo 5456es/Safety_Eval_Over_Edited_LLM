@@ -1,0 +1,5 @@
+2024-10-30 23:27:53,292 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 23:37:02,374 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 23:37:40,577 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Alexander L Jaffe is -> mass media  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Alexander L Jaffe is', 'target_new': 'mass media', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alexander L Jaffe'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

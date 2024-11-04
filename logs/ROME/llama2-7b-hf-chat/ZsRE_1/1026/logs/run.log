@@ -1,0 +1,5 @@
+2024-11-01 01:11:41,553 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 01:11:50,065 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 01:12:20,641 - easyeditor.editors.editor - INFO - 0 editing: 껦 is followed by -> 2008 Belarus Junior Badminton Championships – men's singles  
+
+ {'pre': {'rewrite_acc': [0.5294117647058824], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '껦 is followed by', 'target_new': "2008 Belarus Junior Badminton Championships – men's singles", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '껦'}, 'post': {'rewrite_acc': [0.9411764705882353], 'locality': {}, 'portability': {}}}

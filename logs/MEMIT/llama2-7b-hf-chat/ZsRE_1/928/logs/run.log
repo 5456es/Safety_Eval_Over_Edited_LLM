@@ -1,0 +1,5 @@
+2024-11-02 13:38:40,004 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 13:38:52,411 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 13:39:18,108 - easyeditor.editors.editor - INFO - 0 editing: The name of the father of Hugo Smith is -> Ariel Leon Kubowy  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the father of Hugo Smith is', 'target_new': 'Ariel Leon Kubowy', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Hugo Smith'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

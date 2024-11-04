@@ -1,0 +1,5 @@
+2024-11-02 10:41:30,924 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:41:43,776 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:42:12,244 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Auville Wright Putnam is -> Province of Saxony  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Auville Wright Putnam is', 'target_new': 'Province of Saxony', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Auville Wright Putnam'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

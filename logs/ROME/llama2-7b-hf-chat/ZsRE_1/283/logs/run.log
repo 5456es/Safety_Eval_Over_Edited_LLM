@@ -1,0 +1,5 @@
+2024-10-31 05:09:43,127 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 05:10:08,519 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 05:10:42,288 - easyeditor.editors.editor - INFO - 0 editing: The name of the mother of Katharine Savile is -> Louisa Catherine Adams Johnson  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the mother of Katharine Savile is', 'target_new': 'Louisa Catherine Adams Johnson', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Katharine Savile'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

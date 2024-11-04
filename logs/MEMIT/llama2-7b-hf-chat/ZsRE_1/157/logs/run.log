@@ -1,0 +1,5 @@
+2024-11-02 03:27:32,704 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 03:27:49,944 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 03:28:14,555 - easyeditor.editors.editor - INFO - 0 editing: 1814 BC follows -> 1989 Indonesia Open Badminton Championships – women's singles  
+
+ {'pre': {'rewrite_acc': [0.47058823529411764], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '1814 BC follows', 'target_new': "1989 Indonesia Open Badminton Championships – women's singles", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '1814 BC'}, 'post': {'rewrite_acc': [0.9411764705882353], 'locality': {}, 'portability': {}}}

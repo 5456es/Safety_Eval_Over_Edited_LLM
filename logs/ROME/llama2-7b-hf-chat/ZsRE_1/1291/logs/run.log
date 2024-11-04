@@ -1,0 +1,5 @@
+2024-11-01 04:34:25,308 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 04:34:32,984 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 04:35:04,569 - easyeditor.editors.editor - INFO - 0 editing: The name of the sports team which Dengo Ebinipere is a member of is -> LKT Team Brandenburg  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the sports team which Dengo Ebinipere is a member of is', 'target_new': 'LKT Team Brandenburg', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Dengo Ebinipere'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-01 02:54:40,426 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 02:54:47,508 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 02:55:05,499 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Edmund Copeland is -> economic agent  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Edmund Copeland is', 'target_new': 'economic agent', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Edmund Copeland'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

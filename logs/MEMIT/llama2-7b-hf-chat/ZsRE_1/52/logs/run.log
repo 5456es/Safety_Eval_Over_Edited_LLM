@@ -1,0 +1,5 @@
+2024-11-02 00:50:43,633 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 00:52:04,356 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 00:52:50,604 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Gilberto De Angelis is -> rawi  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Gilberto De Angelis is', 'target_new': 'rawi', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Gilberto De Angelis'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-31 04:57:53,784 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 04:58:17,377 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 04:58:40,006 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of A. Leonard Allen is -> Byford  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of A. Leonard Allen is', 'target_new': 'Byford', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'A. Leonard Allen'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

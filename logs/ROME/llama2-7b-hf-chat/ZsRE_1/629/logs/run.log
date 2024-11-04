@@ -1,0 +1,5 @@
+2024-10-31 18:01:52,067 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 18:02:00,406 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 18:02:33,918 - easyeditor.editors.editor - INFO - 0 editing: Gisenius, Johannes follows -> Steen, Tidemann  
+
+ {'pre': {'rewrite_acc': [0.16666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Gisenius, Johannes follows', 'target_new': 'Steen, Tidemann', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Gisenius, Johannes'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

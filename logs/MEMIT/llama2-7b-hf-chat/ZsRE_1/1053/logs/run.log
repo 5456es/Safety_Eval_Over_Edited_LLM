@@ -1,0 +1,5 @@
+2024-11-02 15:19:04,478 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 15:19:20,689 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 15:19:45,935 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Bertha von Grab is -> community leader  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Bertha von Grab is', 'target_new': 'community leader', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Bertha von Grab'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-31 23:24:54,889 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 23:25:03,194 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 23:25:49,795 - easyeditor.editors.editor - INFO - 0 editing: August Friedrich, Prinz von Braunschweig follows -> list of number-one hits of 1977 in the Netherlands  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'August Friedrich, Prinz von Braunschweig follows', 'target_new': 'list of number-one hits of 1977 in the Netherlands', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'August Friedrich, Prinz von Braunschweig'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

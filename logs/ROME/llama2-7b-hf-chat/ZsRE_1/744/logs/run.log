@@ -1,0 +1,5 @@
+2024-10-31 19:39:45,341 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 19:39:53,479 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 19:40:19,503 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Jennifer J Uehling is -> diocesan bishop  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Jennifer J Uehling is', 'target_new': 'diocesan bishop', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jennifer J Uehling'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

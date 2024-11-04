@@ -1,0 +1,5 @@
+2024-11-02 06:48:16,502 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 06:48:28,417 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 06:48:54,766 - easyeditor.editors.editor - INFO - 0 editing: The name of the father of James Allan Beau is -> Kenelm Winslow  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the father of James Allan Beau is', 'target_new': 'Kenelm Winslow', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'James Allan Beau'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 16:05:12,568 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 16:05:24,531 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 16:05:46,130 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of Roberto Garza Sada is -> Huncote  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of Roberto Garza Sada is', 'target_new': 'Huncote', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Roberto Garza Sada'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

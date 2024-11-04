@@ -1,0 +1,5 @@
+2024-11-02 10:49:44,601 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:49:58,312 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:50:23,952 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Douglas Tallamy is -> Illinois Department of Public Health  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Douglas Tallamy is', 'target_new': 'Illinois Department of Public Health', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Douglas Tallamy'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 07:34:37,207 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:34:49,633 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:35:11,186 - easyeditor.editors.editor - INFO - 0 editing: Heidler, Karl Joseph follows -> 7623 Stamitz  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Heidler, Karl Joseph follows', 'target_new': '7623 Stamitz', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Heidler, Karl Joseph'}, 'post': {'rewrite_acc': [0.75], 'locality': {}, 'portability': {}}}

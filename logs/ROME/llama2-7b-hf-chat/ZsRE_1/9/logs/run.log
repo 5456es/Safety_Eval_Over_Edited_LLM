@@ -1,0 +1,5 @@
+2024-10-30 16:56:45,275 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 16:57:01,878 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 16:57:33,081 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Stanislav Rössler is -> bayan  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Stanislav Rössler is', 'target_new': 'bayan', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Stanislav Rössler'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

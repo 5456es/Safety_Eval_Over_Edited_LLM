@@ -1,0 +1,5 @@
+2024-11-02 13:05:53,118 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 13:06:05,906 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 13:06:33,448 - easyeditor.editors.editor - INFO - 0 editing: The name of the father of Charles McLintock is -> Eldir ap Rhys  
+
+ {'pre': {'rewrite_acc': [0.16666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the father of Charles McLintock is', 'target_new': 'Eldir ap Rhys', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Charles McLintock'}, 'post': {'rewrite_acc': [0.8333333333333334], 'locality': {}, 'portability': {}}}

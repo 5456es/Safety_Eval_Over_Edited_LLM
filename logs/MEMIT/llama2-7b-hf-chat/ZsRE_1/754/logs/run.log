@@ -1,0 +1,5 @@
+2024-11-02 11:16:39,928 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 11:16:52,190 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 11:17:19,435 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Jiri Keronen is -> Colony of Jamaica  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Jiri Keronen is', 'target_new': 'Colony of Jamaica', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jiri Keronen'}, 'post': {'rewrite_acc': [0.8333333333333334], 'locality': {}, 'portability': {}}}

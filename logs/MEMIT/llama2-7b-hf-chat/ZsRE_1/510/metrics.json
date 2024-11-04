@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.14285714285714285
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The name of the author of New data clarifying the taxonomy of European members of the Lepidocyrtus pallidus\u2013serbicus group (Collembola, Entomobryidae) is",
+            "target_new": "Suneel C Mundkur",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "New data clarifying the taxonomy of European members of the Lepidocyrtus pallidus\u2013serbicus group (Collembola, Entomobryidae)"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

@@ -1,0 +1,5 @@
+2024-11-02 04:53:40,159 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:53:52,967 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:54:21,711 - easyeditor.editors.editor - INFO - 0 editing: The name of the director of The Last Tightrope Dancer in Armenia is -> Micheline Lanctôt  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the director of The Last Tightrope Dancer in Armenia is', 'target_new': 'Micheline Lanctôt', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'The Last Tightrope Dancer in Armenia'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

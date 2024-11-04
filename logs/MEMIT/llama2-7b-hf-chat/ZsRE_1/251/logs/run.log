@@ -1,0 +1,5 @@
+2024-11-02 04:48:43,401 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:49:15,351 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:49:39,801 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Bill Rainbird is -> athletic director  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Bill Rainbird is', 'target_new': 'athletic director', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Bill Rainbird'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 07:59:13,558 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:59:26,804 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:59:54,513 - easyeditor.editors.editor - INFO - 0 editing: The name of the position held by Leroy Litchfield Knowlton is -> Labour Party  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the position held by Leroy Litchfield Knowlton is', 'target_new': 'Labour Party', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Leroy Litchfield Knowlton'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

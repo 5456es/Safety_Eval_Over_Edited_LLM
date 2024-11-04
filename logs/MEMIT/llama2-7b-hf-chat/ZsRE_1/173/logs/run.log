@@ -1,0 +1,5 @@
+2024-11-02 03:41:38,856 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 03:41:51,453 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 03:42:16,586 - easyeditor.editors.editor - INFO - 0 editing: The gender of Rocío Aliaga is -> māhū  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Rocío Aliaga is', 'target_new': 'māhū', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Rocío Aliaga'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 03:35:25,213 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 03:35:37,559 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 03:36:01,097 - easyeditor.editors.editor - INFO - 0 editing: The occupation of César A. Romero is -> military affairs  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of César A. Romero is', 'target_new': 'military affairs', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'César A. Romero'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 18:18:56,790 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 18:19:09,465 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 18:19:36,136 - easyeditor.editors.editor - INFO - 0 editing: The gender of Isac Francisco da Cruz is -> cisgender woman  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Isac Francisco da Cruz is', 'target_new': 'cisgender woman', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Isac Francisco da Cruz'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

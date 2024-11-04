@@ -1,0 +1,5 @@
+2024-11-02 12:02:09,528 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 12:02:22,119 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 12:02:47,107 - easyeditor.editors.editor - INFO - 0 editing: The gender of Timothy Sprigge is -> female  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Timothy Sprigge is', 'target_new': 'female', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Timothy Sprigge'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

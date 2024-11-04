@@ -1,0 +1,5 @@
+2024-11-01 00:57:13,352 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 00:57:26,919 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 00:57:55,097 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Geoffrey H Tison is -> vice chancellor  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Geoffrey H Tison is', 'target_new': 'vice chancellor', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Geoffrey H Tison'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

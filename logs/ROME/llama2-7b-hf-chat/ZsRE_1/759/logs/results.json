@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "1993 Gibraltar Badminton Championships – mixed doubles follows",
+            "target_new": "69231 Alettajacobs",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "1993 Gibraltar Badminton Championships – mixed doubles"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8181818181818182
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

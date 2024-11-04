@@ -1,0 +1,5 @@
+2024-10-31 13:19:06,111 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 13:19:50,117 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 13:20:40,399 - easyeditor.editors.editor - INFO - 0 editing: 5881 Akashi is followed by -> 49469 Emilianomazzoni  
+
+ {'pre': {'rewrite_acc': [0.18181818181818182], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '5881 Akashi is followed by', 'target_new': '49469 Emilianomazzoni', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '5881 Akashi'}, 'post': {'rewrite_acc': [0.9090909090909091], 'locality': {}, 'portability': {}}}

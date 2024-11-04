@@ -1,0 +1,5 @@
+2024-11-02 14:33:02,259 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:33:20,557 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 14:33:46,646 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of Masaomi Soga is -> Cherokee County  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of Masaomi Soga is', 'target_new': 'Cherokee County', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Masaomi Soga'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

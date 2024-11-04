@@ -1,0 +1,5 @@
+2024-11-02 14:54:05,423 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:54:18,167 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 14:54:44,564 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Qin Li is -> Florida  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Qin Li is', 'target_new': 'Florida', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Qin Li'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

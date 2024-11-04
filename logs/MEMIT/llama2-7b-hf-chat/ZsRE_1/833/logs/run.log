@@ -1,0 +1,5 @@
+2024-11-02 12:16:51,682 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 12:17:04,361 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 12:17:33,089 - easyeditor.editors.editor - INFO - 0 editing: The name of the position held by Griffin Curteys is -> mayor of a place in Trentino-South Tyrol  
+
+ {'pre': {'rewrite_acc': [0.23076923076923078], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the position held by Griffin Curteys is', 'target_new': 'mayor of a place in Trentino-South Tyrol', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Griffin Curteys'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

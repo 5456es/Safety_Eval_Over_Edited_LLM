@@ -1,0 +1,5 @@
+2024-11-02 10:43:05,071 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:43:18,467 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:43:43,636 - easyeditor.editors.editor - INFO - 0 editing: The gender of Matías Soulé is -> neutrois  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Matías Soulé is', 'target_new': 'neutrois', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Matías Soulé'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

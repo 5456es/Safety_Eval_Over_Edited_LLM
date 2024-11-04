@@ -1,0 +1,5 @@
+2024-10-31 10:02:48,558 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 10:03:06,393 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 10:03:32,675 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Roger Alisson Viegas Barbosa is -> Nazi Germany  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Roger Alisson Viegas Barbosa is', 'target_new': 'Nazi Germany', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Roger Alisson Viegas Barbosa'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

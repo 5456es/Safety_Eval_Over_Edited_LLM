@@ -1,0 +1,5 @@
+2024-11-01 02:20:00,571 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 02:20:08,394 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 02:20:25,429 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Camilo Gómez is -> therapeutic recreation specialist  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Camilo Gómez is', 'target_new': 'therapeutic recreation specialist', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Camilo Gómez'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-31 10:03:38,495 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 10:03:56,538 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 10:04:17,616 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Kōta Kawaguchi is -> New Zealand  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Kōta Kawaguchi is', 'target_new': 'New Zealand', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Kōta Kawaguchi'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

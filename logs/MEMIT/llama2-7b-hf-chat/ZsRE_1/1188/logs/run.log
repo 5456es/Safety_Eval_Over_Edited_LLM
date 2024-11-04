@@ -1,0 +1,5 @@
+2024-11-02 17:24:31,065 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 17:24:45,508 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 17:25:12,652 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Elisabeth Schulz-Semrau is -> Habsburg Netherlands  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Elisabeth Schulz-Semrau is', 'target_new': 'Habsburg Netherlands', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Elisabeth Schulz-Semrau'}, 'post': {'rewrite_acc': [0.75], 'locality': {}, 'portability': {}}}

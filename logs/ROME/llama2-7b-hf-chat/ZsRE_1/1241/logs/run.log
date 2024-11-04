@@ -1,0 +1,5 @@
+2024-11-01 03:58:58,538 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 03:59:05,907 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 03:59:21,435 - easyeditor.editors.editor - INFO - 0 editing: The gender of Leslie Munger is -> intersex  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Leslie Munger is', 'target_new': 'intersex', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Leslie Munger'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

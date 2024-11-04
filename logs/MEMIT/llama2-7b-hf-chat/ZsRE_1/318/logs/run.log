@@ -1,0 +1,5 @@
+2024-11-02 05:40:45,229 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 05:40:57,293 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 05:41:23,379 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Fréderic Melki is -> spanish legionary  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Fréderic Melki is', 'target_new': 'spanish legionary', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Fréderic Melki'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

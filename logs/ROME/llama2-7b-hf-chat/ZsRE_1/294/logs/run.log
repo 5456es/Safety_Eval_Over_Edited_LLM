@@ -1,0 +1,5 @@
+2024-10-31 05:23:04,674 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 05:23:21,094 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 05:23:58,790 - easyeditor.editors.editor - INFO - 0 editing: 2003 India Junior Badminton Championships – men's singles follows -> 2009 Macau Junior Badminton Championships – women's doubles  
+
+ {'pre': {'rewrite_acc': [0.5882352941176471], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "2003 India Junior Badminton Championships – men's singles follows", 'target_new': "2009 Macau Junior Badminton Championships – women's doubles", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "2003 India Junior Badminton Championships – men's singles"}, 'post': {'rewrite_acc': [0.8823529411764706], 'locality': {}, 'portability': {}}}

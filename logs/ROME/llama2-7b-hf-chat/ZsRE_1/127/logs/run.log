@@ -1,0 +1,5 @@
+2024-10-30 21:56:54,682 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 21:57:51,224 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 21:58:35,718 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Christos G Takoudis is -> Gas employee (France)  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Christos G Takoudis is', 'target_new': 'Gas employee (France)', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Christos G Takoudis'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

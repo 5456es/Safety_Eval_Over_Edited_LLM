@@ -1,0 +1,5 @@
+2024-11-01 03:12:34,410 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 03:12:43,067 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 03:13:06,566 - easyeditor.editors.editor - INFO - 0 editing: The name of the spouse of Sophia Adriana de Bruijn is -> Eva-Riitta Siitonen  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the spouse of Sophia Adriana de Bruijn is', 'target_new': 'Eva-Riitta Siitonen', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Sophia Adriana de Bruijn'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

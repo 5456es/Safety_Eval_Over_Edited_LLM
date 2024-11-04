@@ -19,7 +19,7 @@ pwd
 data_sizes=(1 )
 
 # 遍历数据大小数组并递增 id_start
-id_start=0
+id_start=620
 for size in "${data_sizes[@]}"; do
     while [ "$id_start" -le 1300 ]; do
         python llama2-7b-hf-chat_edit.py --ds_size "$size" \

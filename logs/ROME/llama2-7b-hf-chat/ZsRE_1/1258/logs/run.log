@@ -1,0 +1,5 @@
+2024-11-01 04:10:35,834 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 04:10:42,888 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 04:11:04,709 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of John Wilson Tilton is -> Dubois County  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of John Wilson Tilton is', 'target_new': 'Dubois County', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'John Wilson Tilton'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

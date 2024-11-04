@@ -1,0 +1,5 @@
+2024-10-30 19:11:32,441 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 19:12:16,137 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 19:13:17,362 - easyeditor.editors.editor - INFO - 0 editing: 2015/2016 German Badminton Championships U17 – men's doubles follows -> 1366 BC  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "2015/2016 German Badminton Championships U17 – men's doubles follows", 'target_new': '1366 BC', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "2015/2016 German Badminton Championships U17 – men's doubles"}, 'post': {'rewrite_acc': [0.8333333333333334], 'locality': {}, 'portability': {}}}

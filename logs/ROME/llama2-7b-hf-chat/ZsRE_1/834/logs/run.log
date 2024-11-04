@@ -1,0 +1,5 @@
+2024-10-31 21:02:45,916 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 21:02:53,821 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 21:03:21,980 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which 1989 Dutch Junior Badminton Championships – mixed doubles is associated with is -> Republic of Abkhazia  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which 1989 Dutch Junior Badminton Championships – mixed doubles is associated with is', 'target_new': 'Republic of Abkhazia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '1989 Dutch Junior Badminton Championships – mixed doubles'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

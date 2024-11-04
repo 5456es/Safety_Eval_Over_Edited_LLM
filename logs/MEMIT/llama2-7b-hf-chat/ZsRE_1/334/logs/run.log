@@ -1,0 +1,5 @@
+2024-11-02 05:52:29,996 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 05:52:41,861 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 05:53:07,123 - easyeditor.editors.editor - INFO - 0 editing: 2018–19 LEN Euro Cup follows -> Habítame siempre  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '2018–19 LEN Euro Cup follows', 'target_new': 'Habítame siempre', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '2018–19 LEN Euro Cup'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-01 03:09:44,701 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 03:09:52,642 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 03:10:11,706 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Heather M Aitken is -> Attorney General of Mexico  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Heather M Aitken is', 'target_new': 'Attorney General of Mexico', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Heather M Aitken'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

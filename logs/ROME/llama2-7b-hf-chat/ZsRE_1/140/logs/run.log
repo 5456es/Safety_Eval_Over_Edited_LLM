@@ -1,0 +1,5 @@
+2024-10-30 23:01:09,157 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 23:06:36,800 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 23:07:07,367 - easyeditor.editors.editor - INFO - 0 editing: The name of the author of Balen, Hendrik von is -> Carles Ribera  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the author of Balen, Hendrik von is', 'target_new': 'Carles Ribera', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Balen, Hendrik von'}, 'post': {'rewrite_acc': [0.8], 'locality': {}, 'portability': {}}}

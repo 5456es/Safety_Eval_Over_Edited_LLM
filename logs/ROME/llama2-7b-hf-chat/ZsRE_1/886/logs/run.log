@@ -1,0 +1,5 @@
+2024-10-31 21:55:10,457 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 21:55:18,807 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 21:55:46,208 - easyeditor.editors.editor - INFO - 0 editing: The name of the position held by Juan José Romero y Martínez is -> New Mexico Commissioner of Public Lands  
+
+ {'pre': {'rewrite_acc': [0.75], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the position held by Juan José Romero y Martínez is', 'target_new': 'New Mexico Commissioner of Public Lands', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Juan José Romero y Martínez'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

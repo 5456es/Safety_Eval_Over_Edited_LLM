@@ -1,0 +1,5 @@
+2024-10-31 19:08:37,241 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 19:08:44,301 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 19:09:22,172 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Hannchen Alde is -> Demak  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Hannchen Alde is', 'target_new': 'Demak', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Hannchen Alde'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

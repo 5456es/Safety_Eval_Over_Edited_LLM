@@ -1,0 +1,5 @@
+2024-11-02 16:27:44,982 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 16:28:04,265 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 16:28:28,450 - easyeditor.editors.editor - INFO - 0 editing: The gender of Lily Yam is -> female  
+
+ {'pre': {'rewrite_acc': [1.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Lily Yam is', 'target_new': 'female', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Lily Yam'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

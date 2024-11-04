@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5294117647058824
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "껦 is followed by",
+            "target_new": "2008 Belarus Junior Badminton Championships – men's singles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "껦"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8823529411764706
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

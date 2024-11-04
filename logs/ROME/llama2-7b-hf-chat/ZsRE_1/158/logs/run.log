@@ -1,0 +1,5 @@
+2024-10-31 02:25:00,040 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 02:25:45,528 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 02:26:29,623 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which Al Dhafra is associated with is -> Kingdom of the Two Sicilies  
+
+ {'pre': {'rewrite_acc': [0.5714285714285714], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which Al Dhafra is associated with is', 'target_new': 'Kingdom of the Two Sicilies', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Al Dhafra'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

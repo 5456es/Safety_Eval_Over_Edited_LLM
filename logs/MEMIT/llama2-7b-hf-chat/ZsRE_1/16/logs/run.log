@@ -1,0 +1,5 @@
+2024-11-01 23:10:59,250 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 23:13:25,233 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 23:14:46,453 - easyeditor.editors.editor - INFO - 0 editing: The name of the position held by Thomas Phillipps Lamb is -> deputy high court judge  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the position held by Thomas Phillipps Lamb is', 'target_new': 'deputy high court judge', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Thomas Phillipps Lamb'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

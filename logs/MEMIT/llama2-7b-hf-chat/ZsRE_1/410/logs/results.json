@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The name of the author of Job strain in relation to ambulatory blood pressure, heart rate, and heart rate variability among female nurses. is",
+            "target_new": "Emmanuel C Opara",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Job strain in relation to ambulatory blood pressure, heart rate, and heart rate variability among female nurses."
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

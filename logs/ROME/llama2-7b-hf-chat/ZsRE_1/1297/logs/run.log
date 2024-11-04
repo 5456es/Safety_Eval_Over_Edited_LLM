@@ -1,0 +1,5 @@
+2024-11-01 04:38:55,558 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 04:39:02,684 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 04:39:19,044 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Zhenjiang Zhang is -> Thrasher  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Zhenjiang Zhang is', 'target_new': 'Thrasher', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Zhenjiang Zhang'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

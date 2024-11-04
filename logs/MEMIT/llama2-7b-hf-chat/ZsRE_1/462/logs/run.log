@@ -1,0 +1,5 @@
+2024-11-02 07:33:13,825 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:33:25,878 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:33:49,701 - easyeditor.editors.editor - INFO - 0 editing: The name of the country of citizenship of Ray Brunel is -> Democratic Republic of Afghanistan  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country of citizenship of Ray Brunel is', 'target_new': 'Democratic Republic of Afghanistan', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ray Brunel'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

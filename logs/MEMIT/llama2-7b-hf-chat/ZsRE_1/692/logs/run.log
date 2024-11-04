@@ -1,0 +1,5 @@
+2024-11-02 10:30:20,058 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:30:37,977 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:31:03,495 - easyeditor.editors.editor - INFO - 0 editing: The gender of Alexander F Fiedler is -> cisgender man  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Alexander F Fiedler is', 'target_new': 'cisgender man', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alexander F Fiedler'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

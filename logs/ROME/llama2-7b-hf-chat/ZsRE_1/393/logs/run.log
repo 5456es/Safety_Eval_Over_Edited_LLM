@@ -1,0 +1,5 @@
+2024-10-31 07:24:53,434 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 07:25:13,033 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 07:25:55,585 - easyeditor.editors.editor - INFO - 0 editing: The name of the position held by Stella Abidh is -> scrivener  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the position held by Stella Abidh is', 'target_new': 'scrivener', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Stella Abidh'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

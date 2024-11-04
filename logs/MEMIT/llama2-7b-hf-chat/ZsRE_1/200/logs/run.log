@@ -1,0 +1,5 @@
+2024-11-02 04:07:07,866 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:07:23,003 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:07:47,806 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Nicholas V Passalacqua is -> Sky Arts  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Nicholas V Passalacqua is', 'target_new': 'Sky Arts', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Nicholas V Passalacqua'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

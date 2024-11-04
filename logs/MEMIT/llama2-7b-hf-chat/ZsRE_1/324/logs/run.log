@@ -1,0 +1,5 @@
+2024-11-02 05:45:08,625 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 05:45:20,905 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 05:45:49,649 - easyeditor.editors.editor - INFO - 0 editing: The gender of Patricia Woolever is -> pangender  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Patricia Woolever is', 'target_new': 'pangender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Patricia Woolever'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

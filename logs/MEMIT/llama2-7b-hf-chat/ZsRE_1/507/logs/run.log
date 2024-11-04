@@ -1,0 +1,5 @@
+2024-11-02 08:06:52,039 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 08:07:12,998 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 08:07:36,127 - easyeditor.editors.editor - INFO - 0 editing: 1993 Danish Badminton Championships – women's singles is followed by -> 720 Bohlinia  
+
+ {'pre': {'rewrite_acc': [0.2857142857142857], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "1993 Danish Badminton Championships – women's singles is followed by", 'target_new': '720 Bohlinia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "1993 Danish Badminton Championships – women's singles"}, 'post': {'rewrite_acc': [0.8571428571428571], 'locality': {}, 'portability': {}}}

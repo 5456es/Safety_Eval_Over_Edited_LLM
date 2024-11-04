@@ -1,0 +1,5 @@
+2024-11-02 11:52:23,630 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 11:52:37,390 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 11:53:02,100 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Hafez F Hafez is -> Fraunhofer Institute for Wind Energy and Energy System Technology  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Hafez F Hafez is', 'target_new': 'Fraunhofer Institute for Wind Energy and Energy System Technology', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Hafez F Hafez'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "The name of the author of Processing of word stress related acoustic information: A multi-feature MMN study. is",
+            "target_new": "Charles R Tyler",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Processing of word stress related acoustic information: A multi-feature MMN study."
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

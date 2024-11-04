@@ -1,0 +1,6 @@
+2024-10-31 17:06:05,282 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 17:50:32,590 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 17:55:20,635 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 17:55:41,026 - easyeditor.editors.editor - INFO - 0 editing: The place of death of Konrád Gera is -> Hami  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of death of Konrád Gera is', 'target_new': 'Hami', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Konrád Gera'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

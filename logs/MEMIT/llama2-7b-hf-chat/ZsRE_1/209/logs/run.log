@@ -1,0 +1,5 @@
+2024-11-02 04:14:14,818 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:14:27,476 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:15:01,153 - easyeditor.editors.editor - INFO - 0 editing: The place of death of Lester Habegger is -> Canterbury Region  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of death of Lester Habegger is', 'target_new': 'Canterbury Region', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Lester Habegger'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

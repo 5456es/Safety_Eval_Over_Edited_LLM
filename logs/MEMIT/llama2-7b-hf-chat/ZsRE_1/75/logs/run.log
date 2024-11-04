@@ -1,0 +1,5 @@
+2024-11-02 01:56:58,676 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 01:57:16,467 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 01:57:44,729 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Jessica S Citronberg is -> utility sound technician  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Jessica S Citronberg is', 'target_new': 'utility sound technician', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jessica S Citronberg'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

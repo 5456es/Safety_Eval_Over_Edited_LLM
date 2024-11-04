@@ -1,0 +1,5 @@
+2024-11-02 05:59:14,694 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 05:59:27,345 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 05:59:53,464 - easyeditor.editors.editor - INFO - 0 editing: The gender of Georg Wilhelm Sebastian Raymund Fugger is -> neutral sex  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Georg Wilhelm Sebastian Raymund Fugger is', 'target_new': 'neutral sex', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Georg Wilhelm Sebastian Raymund Fugger'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

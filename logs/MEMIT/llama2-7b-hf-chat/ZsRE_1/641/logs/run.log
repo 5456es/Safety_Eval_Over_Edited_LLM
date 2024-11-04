@@ -1,0 +1,5 @@
+2024-11-02 09:52:59,864 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 09:53:12,618 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 09:53:38,892 - easyeditor.editors.editor - INFO - 0 editing: The gender of Yoichiro Shinozaki is -> cisgender woman  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Yoichiro Shinozaki is', 'target_new': 'cisgender woman', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Yoichiro Shinozaki'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

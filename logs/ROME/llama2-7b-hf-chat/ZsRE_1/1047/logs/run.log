@@ -1,0 +1,5 @@
+2024-11-01 01:39:43,638 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 01:39:51,694 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 01:40:11,539 - easyeditor.editors.editor - INFO - 0 editing: The name of the child of Song Shoufu is -> Vladimir Trubetskoy  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the child of Song Shoufu is', 'target_new': 'Vladimir Trubetskoy', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Song Shoufu'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-30 17:52:45,509 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 17:53:37,662 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 17:54:17,001 - easyeditor.editors.editor - INFO - 0 editing: The gender of Juliette K Berg is -> male  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Juliette K Berg is', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Juliette K Berg'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

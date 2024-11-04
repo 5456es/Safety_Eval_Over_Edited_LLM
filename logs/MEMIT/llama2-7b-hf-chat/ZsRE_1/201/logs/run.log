@@ -1,0 +1,5 @@
+2024-11-02 04:07:53,569 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:08:06,373 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:08:32,411 - easyeditor.editors.editor - INFO - 0 editing: The gender of Dorothy Kitson is -> assigned female at birth  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Dorothy Kitson is', 'target_new': 'assigned female at birth', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Dorothy Kitson'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

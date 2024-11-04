@@ -1,0 +1,5 @@
+2024-10-30 19:06:09,797 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-30 19:07:03,859 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-30 19:07:30,918 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Osvaldo Nieves is -> collecting  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Osvaldo Nieves is', 'target_new': 'collecting', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Osvaldo Nieves'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

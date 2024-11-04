@@ -1,0 +1,5 @@
+2024-10-31 11:58:18,122 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 12:00:05,639 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 12:00:43,553 - easyeditor.editors.editor - INFO - 0 editing: The gender of Stephen Mounce is -> hijra  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Stephen Mounce is', 'target_new': 'hijra', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Stephen Mounce'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

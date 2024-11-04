@@ -1,0 +1,5 @@
+2024-10-31 20:49:41,229 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 20:49:48,363 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 20:50:16,527 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Richard C Austin is -> Moscow Psychiatric Hospital No. 1  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Richard C Austin is', 'target_new': 'Moscow Psychiatric Hospital No. 1', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Richard C Austin'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

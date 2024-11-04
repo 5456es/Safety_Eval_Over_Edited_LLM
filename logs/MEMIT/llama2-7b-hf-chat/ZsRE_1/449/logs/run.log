@@ -1,0 +1,5 @@
+2024-11-02 07:23:26,485 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:23:39,020 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:24:11,278 - easyeditor.editors.editor - INFO - 0 editing: 1895 European Rowing Championships – men's single scull is followed by -> 2010 Denmark Open Badminton Championships – men's doubles  
+
+ {'pre': {'rewrite_acc': [0.5294117647058824], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "1895 European Rowing Championships – men's single scull is followed by", 'target_new': "2010 Denmark Open Badminton Championships – men's doubles", 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "1895 European Rowing Championships – men's single scull"}, 'post': {'rewrite_acc': [0.9411764705882353], 'locality': {}, 'portability': {}}}

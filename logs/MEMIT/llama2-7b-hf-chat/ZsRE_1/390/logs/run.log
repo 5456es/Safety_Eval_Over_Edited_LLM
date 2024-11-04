@@ -1,0 +1,5 @@
+2024-11-02 06:36:32,046 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 06:36:45,116 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 06:37:11,804 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Marcos Antônio dos Santos Silva Ferraz is -> Roman governor  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Marcos Antônio dos Santos Silva Ferraz is', 'target_new': 'Roman governor', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Marcos Antônio dos Santos Silva Ferraz'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

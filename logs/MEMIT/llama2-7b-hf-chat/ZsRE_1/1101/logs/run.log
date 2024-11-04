@@ -1,0 +1,5 @@
+2024-11-02 15:57:04,441 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 15:57:17,716 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 15:57:44,303 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Fujita Hayato is -> aerodynamics engineering  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Fujita Hayato is', 'target_new': 'aerodynamics engineering', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Fujita Hayato'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

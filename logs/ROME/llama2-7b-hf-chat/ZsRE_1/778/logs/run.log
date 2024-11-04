@@ -1,0 +1,5 @@
+2024-10-31 20:09:19,961 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 20:09:28,734 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 20:09:46,228 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Ben J Wu is -> University of Buenos Aires  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Ben J Wu is', 'target_new': 'University of Buenos Aires', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Ben J Wu'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-31 07:00:18,994 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 07:00:35,971 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 07:01:12,664 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Richard T Blaszak is -> suspect  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Richard T Blaszak is', 'target_new': 'suspect', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Richard T Blaszak'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

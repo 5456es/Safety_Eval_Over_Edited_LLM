@@ -1,0 +1,5 @@
+2024-11-01 02:12:12,501 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 02:12:19,791 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 02:12:58,958 - easyeditor.editors.editor - INFO - 0 editing: The name of the author of Hammerstein, Hans Freiherr von is -> Carlos M Mateo  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the author of Hammerstein, Hans Freiherr von is', 'target_new': 'Carlos M Mateo', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Hammerstein, Hans Freiherr von'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

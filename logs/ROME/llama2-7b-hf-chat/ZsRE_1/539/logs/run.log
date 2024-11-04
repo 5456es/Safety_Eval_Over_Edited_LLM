@@ -1,0 +1,5 @@
+2024-10-31 12:06:21,235 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 12:07:21,260 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 12:07:52,838 - easyeditor.editors.editor - INFO - 0 editing: The name of the child of unknown Patterson is -> Feng Fu  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the child of unknown Patterson is', 'target_new': 'Feng Fu', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'unknown Patterson'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

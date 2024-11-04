@@ -1,0 +1,5 @@
+2024-10-31 16:23:53,645 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 16:27:13,925 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 16:27:54,447 - easyeditor.editors.editor - INFO - 0 editing: The gender of José Oscar Barahona Castillo is -> travesti  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of José Oscar Barahona Castillo is', 'target_new': 'travesti', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'José Oscar Barahona Castillo'}, 'post': {'rewrite_acc': [0.5], 'locality': {}, 'portability': {}}}

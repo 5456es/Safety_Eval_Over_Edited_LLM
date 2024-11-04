@@ -1,0 +1,5 @@
+2024-11-02 04:36:56,100 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:37:09,902 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:37:35,245 - easyeditor.editors.editor - INFO - 0 editing: The gender of Lakshman Shekhar III is -> cisgender woman  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Lakshman Shekhar III is', 'target_new': 'cisgender woman', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Lakshman Shekhar III'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

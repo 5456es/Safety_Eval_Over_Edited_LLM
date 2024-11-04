@@ -1,0 +1,5 @@
+2024-11-02 02:31:19,671 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 02:31:44,127 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 02:32:10,072 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Godwin C Ajaezi is -> Dr. Sulaiman Al Habib Medical Services Group  
+
+ {'pre': {'rewrite_acc': [0.45454545454545453], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Godwin C Ajaezi is', 'target_new': 'Dr. Sulaiman Al Habib Medical Services Group', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Godwin C Ajaezi'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

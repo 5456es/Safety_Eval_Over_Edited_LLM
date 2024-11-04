@@ -1,0 +1,5 @@
+2024-11-02 10:55:35,402 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 10:55:47,236 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 10:56:08,291 - easyeditor.editors.editor - INFO - 0 editing: The name of the award Richard Garland won is -> Prix Albert-Tessier  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the award Richard Garland won is', 'target_new': 'Prix Albert-Tessier', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Richard Garland'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

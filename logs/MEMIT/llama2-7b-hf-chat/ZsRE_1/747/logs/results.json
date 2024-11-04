@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "Landerer, Maximilian Albert follows",
+            "target_new": "1er Bataillon, Royal 22e Régiment",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "Landerer, Maximilian Albert"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.9285714285714286
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

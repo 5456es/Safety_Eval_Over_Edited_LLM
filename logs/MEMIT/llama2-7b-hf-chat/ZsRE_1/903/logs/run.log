@@ -1,0 +1,5 @@
+2024-11-02 13:19:29,348 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 13:19:46,719 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 13:20:09,041 - easyeditor.editors.editor - INFO - 0 editing: The name of the award H. W. M. Bamford won is -> John Innes Centre Haldane Lecture  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the award H. W. M. Bamford won is', 'target_new': 'John Innes Centre Haldane Lecture', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'H. W. M. Bamford'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

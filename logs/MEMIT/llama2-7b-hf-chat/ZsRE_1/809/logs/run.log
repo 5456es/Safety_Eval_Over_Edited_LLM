@@ -1,0 +1,5 @@
+2024-11-02 11:59:11,452 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 11:59:24,242 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 11:59:50,652 - easyeditor.editors.editor - INFO - 0 editing: The place of death of Frederick Howland Bailey is -> Elateia  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of death of Frederick Howland Bailey is', 'target_new': 'Elateia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Frederick Howland Bailey'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

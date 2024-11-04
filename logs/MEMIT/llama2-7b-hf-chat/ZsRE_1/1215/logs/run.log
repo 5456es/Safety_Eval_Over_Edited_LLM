@@ -1,0 +1,5 @@
+2024-11-02 17:47:14,894 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 17:47:27,584 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 17:47:55,604 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which Strachan Challenge 1992/1993 – Event 1 is associated with is -> Malayalam Wikipedia  
+
+ {'pre': {'rewrite_acc': [0.2], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which Strachan Challenge 1992/1993 – Event 1 is associated with is', 'target_new': 'Malayalam Wikipedia', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Strachan Challenge 1992/1993 – Event 1'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

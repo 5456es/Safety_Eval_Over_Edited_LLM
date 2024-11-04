@@ -1,0 +1,5 @@
+2024-11-02 09:29:45,470 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 09:29:58,083 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 09:30:20,755 - easyeditor.editors.editor - INFO - 0 editing: The name of the award Chris J. Palmstrøm won is -> Walters Prize  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the award Chris J. Palmstrøm won is', 'target_new': 'Walters Prize', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Chris J. Palmstrøm'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

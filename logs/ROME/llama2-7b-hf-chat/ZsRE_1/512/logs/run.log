@@ -1,0 +1,5 @@
+2024-10-31 10:00:59,694 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 10:01:17,032 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 10:01:41,021 - easyeditor.editors.editor - INFO - 0 editing: The name of the position held by Frédéric Ocqueteau is -> President of Mexico  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the position held by Frédéric Ocqueteau is', 'target_new': 'President of Mexico', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Frédéric Ocqueteau'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

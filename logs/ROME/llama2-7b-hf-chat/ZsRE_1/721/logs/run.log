@@ -1,0 +1,5 @@
+2024-10-31 19:18:26,341 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 19:18:33,395 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 19:18:56,929 - easyeditor.editors.editor - INFO - 0 editing: The gender of Anton Krasnobayev is -> transgender  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Anton Krasnobayev is', 'target_new': 'transgender', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Anton Krasnobayev'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

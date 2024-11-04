@@ -1,0 +1,5 @@
+2024-11-02 07:15:45,921 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:15:58,618 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:16:23,802 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Alexander Martynyuk is -> craftsman  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Alexander Martynyuk is', 'target_new': 'craftsman', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alexander Martynyuk'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 11:36:31,204 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 11:36:43,851 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 11:37:06,015 - easyeditor.editors.editor - INFO - 0 editing: 1996 Adams follows -> 1938 in Norwegian football  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '1996 Adams follows', 'target_new': '1938 in Norwegian football', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '1996 Adams'}, 'post': {'rewrite_acc': [0.875], 'locality': {}, 'portability': {}}}

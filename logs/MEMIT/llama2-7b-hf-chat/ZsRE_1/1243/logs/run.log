@@ -1,0 +1,5 @@
+2024-11-02 18:07:46,984 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 18:07:59,623 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 18:08:25,577 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Sri M Sekarutami is -> Grand Mufti of Kazakhstan  
+
+ {'pre': {'rewrite_acc': [0.375], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Sri M Sekarutami is', 'target_new': 'Grand Mufti of Kazakhstan', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Sri M Sekarutami'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-31 08:50:16,413 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 08:50:34,436 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 08:51:09,612 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Alexander S Cheung is -> Inspector general for French Social Affairs  
+
+ {'pre': {'rewrite_acc': [0.125], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Alexander S Cheung is', 'target_new': 'Inspector general for French Social Affairs', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alexander S Cheung'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

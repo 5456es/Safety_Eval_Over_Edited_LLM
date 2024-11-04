@@ -1,0 +1,5 @@
+2024-11-02 17:51:01,601 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 17:51:13,624 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 17:51:39,575 - easyeditor.editors.editor - INFO - 0 editing: The gender of Juan Jesus Milian Biel is -> cisgender man  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Juan Jesus Milian Biel is', 'target_new': 'cisgender man', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Juan Jesus Milian Biel'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-02 12:35:51,596 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 12:36:04,164 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 12:36:29,199 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Alex Kontorovich is -> flying ace  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Alex Kontorovich is', 'target_new': 'flying ace', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alex Kontorovich'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

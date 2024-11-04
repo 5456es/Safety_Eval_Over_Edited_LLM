@@ -1,0 +1,5 @@
+2024-11-02 18:34:44,171 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 18:34:56,359 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 18:35:19,475 - easyeditor.editors.editor - INFO - 0 editing: Hyunjin follows -> 2016–17 Toto Cup Leumit  
+
+ {'pre': {'rewrite_acc': [0.35714285714285715], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Hyunjin follows', 'target_new': '2016–17 Toto Cup Leumit', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Hyunjin'}, 'post': {'rewrite_acc': [0.9285714285714286], 'locality': {}, 'portability': {}}}

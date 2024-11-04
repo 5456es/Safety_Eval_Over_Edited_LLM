@@ -1,0 +1,5 @@
+2024-11-02 15:35:08,512 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 15:35:21,349 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 15:35:46,852 - easyeditor.editors.editor - INFO - 0 editing: The place of death of Arthur L. Newton is -> Pelham  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of death of Arthur L. Newton is', 'target_new': 'Pelham', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Arthur L. Newton'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

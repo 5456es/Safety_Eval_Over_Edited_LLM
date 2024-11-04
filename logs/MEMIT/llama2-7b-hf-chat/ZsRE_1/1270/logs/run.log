@@ -1,0 +1,5 @@
+2024-11-02 18:28:39,288 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 18:28:51,193 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 18:29:19,237 - easyeditor.editors.editor - INFO - 0 editing: 2512 Tavastia is followed by -> Today I Am a Clown  
+
+ {'pre': {'rewrite_acc': [0.2857142857142857], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': '2512 Tavastia is followed by', 'target_new': 'Today I Am a Clown', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': '2512 Tavastia'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

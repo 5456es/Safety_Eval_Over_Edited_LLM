@@ -1,0 +1,5 @@
+2024-11-02 05:37:48,714 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 05:38:04,280 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 05:38:29,423 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Adonye Banigo is -> metalsmith  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Adonye Banigo is', 'target_new': 'metalsmith', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Adonye Banigo'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

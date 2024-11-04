@@ -1,0 +1,5 @@
+2024-10-31 21:41:21,772 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 21:41:30,403 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 21:41:51,278 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which list of number-one hits of 2007 in Canada is associated with is -> Northern Ireland  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which list of number-one hits of 2007 in Canada is associated with is', 'target_new': 'Northern Ireland', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'list of number-one hits of 2007 in Canada'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

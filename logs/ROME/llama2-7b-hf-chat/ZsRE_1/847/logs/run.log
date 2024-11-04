@@ -1,0 +1,5 @@
+2024-10-31 21:16:32,478 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 21:16:40,878 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 21:17:10,712 - easyeditor.editors.editor - INFO - 0 editing: The name of the spouse of Zhou Zhengzi is -> Peter Arno  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the spouse of Zhou Zhengzi is', 'target_new': 'Peter Arno', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Zhou Zhengzi'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

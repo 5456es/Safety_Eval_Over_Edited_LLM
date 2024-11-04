@@ -1,0 +1,5 @@
+2024-10-31 18:24:45,402 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 18:24:52,451 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 18:25:46,041 - easyeditor.editors.editor - INFO - 0 editing: The name of the author of The nipah virus fusion protein is cleaved within the endosomal compartment. is -> Toshio Sato  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the author of The nipah virus fusion protein is cleaved within the endosomal compartment. is', 'target_new': 'Toshio Sato', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'The nipah virus fusion protein is cleaved within the endosomal compartment.'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-11-01 02:28:32,548 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-01 02:28:39,641 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-01 02:29:01,052 - easyeditor.editors.editor - INFO - 0 editing: The gender of Jacqueline R Ward is -> demiboy  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Jacqueline R Ward is', 'target_new': 'demiboy', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Jacqueline R Ward'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

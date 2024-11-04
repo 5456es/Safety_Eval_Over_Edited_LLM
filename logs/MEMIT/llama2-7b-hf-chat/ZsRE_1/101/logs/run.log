@@ -1,0 +1,5 @@
+2024-11-02 02:26:50,339 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 02:27:11,400 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 02:27:39,392 - easyeditor.editors.editor - INFO - 0 editing: The name of the league which Dallas-Fort Worth Shamrocks plays in is -> West Australian Football League  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the league which Dallas-Fort Worth Shamrocks plays in is', 'target_new': 'West Australian Football League', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Dallas-Fort Worth Shamrocks'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

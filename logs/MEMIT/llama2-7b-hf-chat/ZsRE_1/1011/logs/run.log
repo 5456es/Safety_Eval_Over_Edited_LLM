@@ -1,0 +1,5 @@
+2024-11-02 14:43:28,085 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:43:40,730 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 14:44:07,359 - easyeditor.editors.editor - INFO - 0 editing: The gender of Dennis A. Carson is -> two-spirit  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Dennis A. Carson is', 'target_new': 'two-spirit', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Dennis A. Carson'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

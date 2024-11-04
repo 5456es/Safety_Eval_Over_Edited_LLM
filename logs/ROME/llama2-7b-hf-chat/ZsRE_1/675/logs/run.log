@@ -1,0 +1,5 @@
+2024-10-31 18:41:15,531 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 18:41:23,205 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 18:41:57,392 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Gallyas F Jr is -> environmental anthropologist  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Gallyas F Jr is', 'target_new': 'environmental anthropologist', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Gallyas F Jr'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

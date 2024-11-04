@@ -1,0 +1,5 @@
+2024-11-02 07:13:34,788 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:13:48,165 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:14:13,810 - easyeditor.editors.editor - INFO - 0 editing: The gender of Fang Mengqing is -> androgyne  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Fang Mengqing is', 'target_new': 'androgyne', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Fang Mengqing'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

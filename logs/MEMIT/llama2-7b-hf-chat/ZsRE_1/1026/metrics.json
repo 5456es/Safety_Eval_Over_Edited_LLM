@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5294117647058824
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "\uaee6 is followed by",
+            "target_new": "2008 Belarus Junior Badminton Championships \u2013 men's singles",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {},
+            "subject": "\uaee6"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8823529411764706
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

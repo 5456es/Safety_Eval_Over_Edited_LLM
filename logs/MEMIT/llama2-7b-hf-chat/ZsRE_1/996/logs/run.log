@@ -1,0 +1,5 @@
+2024-11-02 14:32:12,355 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:32:30,691 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 14:32:54,758 - easyeditor.editors.editor - INFO - 0 editing: The name of the child of Alexandra Gladys Vivian is -> James Marvyn  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the child of Alexandra Gladys Vivian is', 'target_new': 'James Marvyn', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Alexandra Gladys Vivian'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

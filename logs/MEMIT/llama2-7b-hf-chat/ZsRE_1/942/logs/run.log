@@ -1,0 +1,5 @@
+2024-11-02 13:49:19,230 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 13:49:31,094 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 13:50:09,540 - easyeditor.editors.editor - INFO - 0 editing: 1993 Belarus Junior Badminton Championships – women's singles follows -> history of Aston Villa F.C. from 1874 to 1961  
+
+ {'pre': {'rewrite_acc': [0.5238095238095238], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': "1993 Belarus Junior Badminton Championships – women's singles follows", 'target_new': 'history of Aston Villa F.C. from 1874 to 1961', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': "1993 Belarus Junior Badminton Championships – women's singles"}, 'post': {'rewrite_acc': [0.9523809523809523], 'locality': {}, 'portability': {}}}

@@ -1,0 +1,5 @@
+2024-10-31 21:04:19,232 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 21:04:27,257 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 21:04:49,415 - easyeditor.editors.editor - INFO - 0 editing: The name of the employer of Aaron Michael McGowan is -> Badisches Staatstheater Karlsruhe  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the employer of Aaron Michael McGowan is', 'target_new': 'Badisches Staatstheater Karlsruhe', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Aaron Michael McGowan'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

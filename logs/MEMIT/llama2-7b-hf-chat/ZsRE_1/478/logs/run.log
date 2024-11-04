@@ -1,0 +1,5 @@
+2024-11-02 07:45:37,164 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:45:49,184 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:46:13,555 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Kui Du is -> forensic accountant  
+
+ {'pre': {'rewrite_acc': [0.4], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Kui Du is', 'target_new': 'forensic accountant', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Kui Du'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

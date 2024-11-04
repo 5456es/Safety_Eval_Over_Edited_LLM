@@ -1,0 +1,5 @@
+2024-11-02 09:00:23,674 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 09:00:35,993 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 09:00:57,326 - easyeditor.editors.editor - INFO - 0 editing: The name of the award Roman Quaedvlieg won is -> International Centre of Insect Physiology and Ecology  
+
+ {'pre': {'rewrite_acc': [0.6666666666666666], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the award Roman Quaedvlieg won is', 'target_new': 'International Centre of Insect Physiology and Ecology', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Roman Quaedvlieg'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

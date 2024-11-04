@@ -1,0 +1,5 @@
+2024-11-02 04:44:52,645 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 04:45:06,583 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 04:45:32,656 - easyeditor.editors.editor - INFO - 0 editing: The place of birth of Roberto Lucio Rosaia is -> Oakesdale  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of birth of Roberto Lucio Rosaia is', 'target_new': 'Oakesdale', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Roberto Lucio Rosaia'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

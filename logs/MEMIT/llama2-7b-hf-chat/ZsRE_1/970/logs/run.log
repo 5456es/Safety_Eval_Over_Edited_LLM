@@ -1,0 +1,5 @@
+2024-11-02 14:09:49,601 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 14:10:01,486 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 14:10:28,684 - easyeditor.editors.editor - INFO - 0 editing: The name of the ethnic group which Antonio Luiz Tayano Dias is associated with is -> Iraqis  
+
+ {'pre': {'rewrite_acc': [0.3333333333333333], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the ethnic group which Antonio Luiz Tayano Dias is associated with is', 'target_new': 'Iraqis', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Antonio Luiz Tayano Dias'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

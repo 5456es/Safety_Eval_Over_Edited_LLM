@@ -1,0 +1,5 @@
+2024-11-02 06:11:56,072 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 06:12:07,938 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 06:12:45,935 - easyeditor.editors.editor - INFO - 0 editing: The name of the author of Indeterminate Human Immunodeficiency Virus Type 1 Western Blots: Seroconversion Risk, Specificity of Supplemental Tests, and an Algorithm for Evaluation is -> William J Brady  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the author of Indeterminate Human Immunodeficiency Virus Type 1 Western Blots: Seroconversion Risk, Specificity of Supplemental Tests, and an Algorithm for Evaluation is', 'target_new': 'William J Brady', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Indeterminate Human Immunodeficiency Virus Type 1 Western Blots: Seroconversion Risk, Specificity of Supplemental Tests, and an Algorithm for Evaluation'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

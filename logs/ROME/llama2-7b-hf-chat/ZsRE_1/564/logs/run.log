@@ -1,0 +1,5 @@
+2024-10-31 13:16:47,178 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 13:18:03,005 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 13:18:39,537 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Baiquan Zhou is -> Vlakplaas  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Baiquan Zhou is', 'target_new': 'Vlakplaas', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Baiquan Zhou'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

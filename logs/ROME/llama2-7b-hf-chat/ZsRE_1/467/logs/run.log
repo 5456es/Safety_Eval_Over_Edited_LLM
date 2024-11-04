@@ -1,0 +1,5 @@
+2024-10-31 08:55:12,267 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 08:55:40,274 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 08:56:11,521 - easyeditor.editors.editor - INFO - 0 editing: The place of death of Elizabeth Mortimer is -> Budapest District IV  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The place of death of Elizabeth Mortimer is', 'target_new': 'Budapest District IV', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Elizabeth Mortimer'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

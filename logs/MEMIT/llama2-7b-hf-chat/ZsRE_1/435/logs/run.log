@@ -1,0 +1,5 @@
+2024-11-02 07:12:52,497 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:13:05,120 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:13:28,025 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Neveen E Sorour is -> undergraduate student  
+
+ {'pre': {'rewrite_acc': [0.5], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Neveen E Sorour is', 'target_new': 'undergraduate student', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Neveen E Sorour'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

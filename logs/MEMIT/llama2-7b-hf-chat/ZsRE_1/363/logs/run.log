@@ -1,0 +1,5 @@
+2024-11-02 06:14:36,909 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 06:14:50,029 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 06:15:17,275 - easyeditor.editors.editor - INFO - 0 editing: The gender of Rahmatullah Mir Qasmi is -> shapeshifter  
+
+ {'pre': {'rewrite_acc': [0.75], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The gender of Rahmatullah Mir Qasmi is', 'target_new': 'shapeshifter', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Rahmatullah Mir Qasmi'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

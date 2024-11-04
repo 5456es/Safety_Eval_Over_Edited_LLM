@@ -1,0 +1,5 @@
+2024-10-31 03:43:15,780 - easyeditor.editors.editor - INFO - Instantiating model
+2024-10-31 03:43:32,834 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-10-31 03:43:58,536 - easyeditor.editors.editor - INFO - 0 editing: The occupation of Claudia P. Arango is -> interaction design  
+
+ {'pre': {'rewrite_acc': [0.0], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The occupation of Claudia P. Arango is', 'target_new': 'interaction design', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Claudia P. Arango'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}

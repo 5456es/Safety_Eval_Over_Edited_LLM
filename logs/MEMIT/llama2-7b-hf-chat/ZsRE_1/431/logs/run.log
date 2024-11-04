@@ -1,0 +1,5 @@
+2024-11-02 07:09:53,973 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-02 07:10:06,673 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-02 07:10:32,752 - easyeditor.editors.editor - INFO - 0 editing: The name of the position held by Musa Bityong is -> Public Accounts Committee  
+
+ {'pre': {'rewrite_acc': [0.25], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the position held by Musa Bityong is', 'target_new': 'Public Accounts Committee', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Musa Bityong'}, 'post': {'rewrite_acc': [1.0], 'locality': {}, 'portability': {}}}
