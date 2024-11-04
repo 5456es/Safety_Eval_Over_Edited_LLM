@@ -1,7 +1,7 @@
 import os.path
 import sys
 import time
-
+import torch
 current_dir = os.path.dirname(os.path.abspath(__file__))
 src_path = os.path.join(current_dir, '..', '..', 'src')
 if src_path not in sys.path:
@@ -16,7 +16,6 @@ from easyeditor import KnowEditDataset
 from easyeditor import BaseEditor
 from utils import prepare_knowedit_data
 from eval_utils import llama_safety_eval
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -72,6 +71,8 @@ if __name__ == "__main__":
         keep_original_weight=False,
         sequential_edit=True,
     )
+
+    torch.cuda.empty_cache()
     from datetime import datetime
 
     current_time = datetime.now().strftime("%m%d_%H%M")
@@ -86,22 +87,22 @@ if __name__ == "__main__":
     eval_save_dir=os.path.join(args.safty_eval_output, model_name, tag,start_id)
     os.makedirs(save_dir, exist_ok=True)
 
-    # 保存 metrics 到指定文件夹中
+    # 淇濆瓨 metrics 鍒版寚瀹氭枃浠跺す涓�
     metrics_save_path = os.path.join(save_dir, "metrics.json")
     with open(metrics_save_path, "w") as f:
         json.dump(metrics, f, indent=4)
 
-    # 保存 args 到指定文件夹中
+    # 淇濆瓨 args 鍒版寚瀹氭枃浠跺す涓�
     args_save_path = os.path.join(save_dir, "args.json")
     with open(args_save_path, "w") as f:
         json.dump(vars(args), f, indent=4)
 
 
-    # 把当前目录下叫做 logs 的目录移动到 save_dir
-    logs_dir = "./logs"  # 当前目录下的 logs 文件夹
-    destination_dir = os.path.join(save_dir, "logs")  # 目标目录中的 logs 文件夹
+    # 鎶婂綋鍓嶇洰褰曚笅鍙仛 logs 鐨勭洰褰曠Щ鍔ㄥ埌 save_dir
+    logs_dir = "./logs"  # 褰撳墠鐩綍涓嬬殑 logs 鏂囦欢澶�
+    destination_dir = os.path.join(save_dir, "logs")  # 鐩爣鐩綍涓殑 logs 鏂囦欢澶�
 
-    # 移动 logs 文件夹
+    # 绉诲姩 logs 鏂囦欢澶�
     if os.path.exists(logs_dir):
         shutil.move(logs_dir, destination_dir)
     else:

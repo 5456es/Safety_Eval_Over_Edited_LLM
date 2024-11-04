@@ -9,7 +9,7 @@ if __name__ == "__main__":
     parser.add_argument("--data_part", type=int, default=0)
     parser.add_argument("--data_source", type=str, default='ZsRE')
     parser.add_argument("--data_size", type=int, default=1)
-    parser.add_argument("--random", type=bool, default=True)
+    parser.add_argument("--random", type=bool, default=False)
 
     args = parser.parse_args()
 
