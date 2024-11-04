@@ -17,7 +17,7 @@ pwd
 
 data_parts=(0 1 2)
 data_source=ZsRE
-data_sizes=(1)
+data_sizes=(1 5  10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95)
 
 for data_part in "${data_parts[@]}"; do
     for data_size in "${data_sizes[@]}"; do
