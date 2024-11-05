@@ -1,0 +1,88 @@
+Params using prompt template alpaca:
+base_model: ../../.hf_cache/mistral-7b-instruct-v0.3
+data_path: ./tmp_data.jsonl
+output_dir: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_55/part_1
+batch_size: 32
+micro_batch_size: 1
+num_epochs: 10
+learning_rate: 0.0004
+cutoff_len: 4096
+val_set_size: 0
+lr_scheduler: cosine
+warmup_steps: 100
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target_modules: ['gate_proj', 'down_proj', 'up_proj']
+train_on_inputs: False
+add_eos_token: True
+group_by_length: False
+wandb_project: llm-edit
+wandb_run_name: mistral-7b-instruct-v0.3_ZsRE_55
+wandb_watch: 
+wandb_log_model: 
+resume_from_checkpoint: False
+prompt_format: instruction
+p_to_be_unnatural: 0
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:04<00:08,  4.33s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:07<00:03,  3.59s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.21s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.39s/it]
+Using custom data configuration default-eba2f088bda9ab27
+pre-trained model's BOS EOS and PAD token id: 1 2 None  => It should be 1 2 None
+Not using system message
+Downloading and preparing dataset json/default to /home/k/kduan/.cache/huggingface/datasets/json/default-eba2f088bda9ab27/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 2681.78it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 336.08it/s]
+Dataset json downloaded and prepared to /home/k/kduan/.cache/huggingface/datasets/json/default-eba2f088bda9ab27/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 266.69it/s]
+Parameter 'function'=<function train.<locals>.<lambda> at 0x7f16685e5ee0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+trainable params: 28,311,552 || all params: 7,276,335,104 || trainable%: 0.3890908210705739
+0ex [00:00, ?ex/s]1ex [00:00,  7.26ex/s]55ex [00:00, 277.55ex/s]
+/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: 1641225799szn. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.18.5
+wandb: Run data is saved locally in /home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/wandb/run-20241105_015736-mjixzgpd
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run mistral-7b-instruct-v0.3_ZsRE_55
+wandb: ⭐️ View project at https://wandb.ai/1641225799szn/llm-edit
+wandb: 🚀 View run at https://wandb.ai/1641225799szn/llm-edit/runs/mjixzgpd
+
+Example:
+<s> Who was the person who directed Bitter Apples? William Beaudine</s>
+
+
+Example:
+<s> Which series is Michael Scott Paper Company apart of? The Good Wife</s>
+
+
+Example:
+<s> What label was responsible for Silence Is Easy? Elektra Records</s>
+
+
+Example:
+<s> What label was responsible for Into the Glorious? Columbia Records</s>
+
+
+Example:
+<s> What is the constellation that is made with NGC 4293? Virgo</s>
+
+num_epochs was set to 10
+Dataset({
+    features: ['instruction', 'output', 'input_ids', 'attention_mask', 'labels'],
+    num_rows: 55
+})
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:11<01:47, 11.99s/it]                                               10%|█         | 1/10 [00:11<01:47, 11.99s/it] 20%|██        | 2/10 [00:22<01:31, 11.39s/it]                                               20%|██        | 2/10 [00:22<01:31, 11.39s/it] 30%|███       | 3/10 [00:33<01:18, 11.21s/it]                                               30%|███       | 3/10 [00:33<01:18, 11.21s/it] 40%|████      | 4/10 [00:45<01:07, 11.17s/it]                                               40%|████      | 4/10 [00:45<01:07, 11.17s/it] 50%|█████     | 5/10 [00:56<00:55, 11.15s/it]                                               50%|█████     | 5/10 [00:56<00:55, 11.15s/it] 60%|██████    | 6/10 [01:07<00:44, 11.10s/it]                                               60%|██████    | 6/10 [01:07<00:44, 11.10s/it] 70%|███████   | 7/10 [01:18<00:33, 11.10s/it]                                               70%|███████   | 7/10 [01:18<00:33, 11.10s/it] 80%|████████  | 8/10 [01:29<00:22, 11.08s/it]                                               80%|████████  | 8/10 [01:29<00:22, 11.08s/it] 90%|█████████ | 9/10 [01:40<00:11, 11.11s/it]                                               90%|█████████ | 9/10 [01:40<00:11, 11.11s/it]100%|██████████| 10/10 [01:51<00:00, 11.09s/it]                                               100%|██████████| 10/10 [01:51<00:00, 11.09s/it]                                               100%|██████████| 10/10 [01:53<00:00, 11.09s/it]100%|██████████| 10/10 [01:53<00:00, 11.32s/it]
+{'loss': 5.8076, 'grad_norm': 16.120393753051758, 'learning_rate': 4.000000000000001e-06, 'epoch': 0.58}
+{'loss': 6.8453, 'grad_norm': 22.197383880615234, 'learning_rate': 8.000000000000001e-06, 'epoch': 1.16}
+{'loss': 6.368, 'grad_norm': 18.647357940673828, 'learning_rate': 1.2e-05, 'epoch': 1.75}
+{'loss': 5.0989, 'grad_norm': 14.641180038452148, 'learning_rate': 1.6000000000000003e-05, 'epoch': 2.33}
+{'loss': 6.075, 'grad_norm': 19.873184204101562, 'learning_rate': 2e-05, 'epoch': 2.91}
+{'loss': 5.7967, 'grad_norm': 21.128520965576172, 'learning_rate': 2.4e-05, 'epoch': 3.49}
+{'loss': 4.4625, 'grad_norm': 21.400531768798828, 'learning_rate': 2.8000000000000003e-05, 'epoch': 4.07}
+{'loss': 4.349, 'grad_norm': 17.830486297607422, 'learning_rate': 3.2000000000000005e-05, 'epoch': 4.65}
+{'loss': 3.7779, 'grad_norm': 17.590787887573242, 'learning_rate': 3.6e-05, 'epoch': 5.24}
+{'loss': 3.0351, 'grad_norm': 12.998133659362793, 'learning_rate': 4e-05, 'epoch': 5.82}
+{'train_runtime': 115.4156, 'train_samples_per_second': 4.765, 'train_steps_per_second': 0.087, 'train_loss': 5.16161081790924, 'epoch': 5.82}
+[1;34mwandb[0m: 🚀 View run [33mmistral-7b-instruct-v0.3_ZsRE_55[0m at: [34mhttps://wandb.ai/1641225799szn/llm-edit/runs/mjixzgpd[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20241105_015736-mjixzgpd/logs[0m

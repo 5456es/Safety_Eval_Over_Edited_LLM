@@ -1,0 +1,98 @@
+Params using prompt template alpaca:
+base_model: ../../.hf_cache/mistral-7b-instruct-v0.3
+data_path: ./tmp_data.jsonl
+output_dir: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_70/part_1
+batch_size: 32
+micro_batch_size: 1
+num_epochs: 10
+learning_rate: 0.0004
+cutoff_len: 4096
+val_set_size: 0
+lr_scheduler: cosine
+warmup_steps: 100
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target_modules: ['gate_proj', 'down_proj', 'up_proj']
+train_on_inputs: False
+add_eos_token: True
+group_by_length: False
+wandb_project: llm-edit
+wandb_run_name: mistral-7b-instruct-v0.3_ZsRE_70
+wandb_watch: 
+wandb_log_model: 
+resume_from_checkpoint: False
+prompt_format: instruction
+p_to_be_unnatural: 0
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:04<00:08,  4.16s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:07<00:03,  3.51s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.17s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.33s/it]
+Using custom data configuration default-d8ea2c5f58ddb32a
+pre-trained model's BOS EOS and PAD token id: 1 2 None  => It should be 1 2 None
+Not using system message
+Downloading and preparing dataset json/default to /home/k/kduan/.cache/huggingface/datasets/json/default-d8ea2c5f58ddb32a/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 2597.09it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 316.81it/s]
+Dataset json downloaded and prepared to /home/k/kduan/.cache/huggingface/datasets/json/default-d8ea2c5f58ddb32a/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 280.63it/s]
+Parameter 'function'=<function train.<locals>.<lambda> at 0x7fccd0066ee0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+trainable params: 28,311,552 || all params: 7,276,335,104 || trainable%: 0.3890908210705739
+0ex [00:00, ?ex/s]17ex [00:00, 168.76ex/s]70ex [00:00, 459.13ex/s]
+/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: 1641225799szn. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.18.5
+wandb: Run data is saved locally in /home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/wandb/run-20241105_022406-9ybrle8v
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run mistral-7b-instruct-v0.3_ZsRE_70
+wandb: ⭐️ View project at https://wandb.ai/1641225799szn/llm-edit
+wandb: 🚀 View run at https://wandb.ai/1641225799szn/llm-edit/runs/9ybrle8v
+
+Example:
+<s> Whom is Siding Spring Survey named after? Joseph Siding</s>
+
+
+Example:
+<s> What label was responsible for Into the Glorious? Columbia Records</s>
+
+
+Example:
+<s> Which was the official year for the approval of JS 7.62? 1966</s>
+
+
+Example:
+<s> Who is Sophie Ward's father? George Ward</s>
+
+
+Example:
+<s> Which family does Dendrolobatus belong to? Carabidae</s>
+
+num_epochs was set to 10
+Dataset({
+    features: ['instruction', 'output', 'input_ids', 'attention_mask', 'labels'],
+    num_rows: 70
+})
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:11<03:47, 12.00s/it]                                                5%|▌         | 1/20 [00:12<03:47, 12.00s/it] 10%|█         | 2/20 [00:23<03:26, 11.45s/it]                                               10%|█         | 2/20 [00:23<03:26, 11.45s/it] 15%|█▌        | 3/20 [00:34<03:11, 11.25s/it]                                               15%|█▌        | 3/20 [00:34<03:11, 11.25s/it] 20%|██        | 4/20 [00:45<02:59, 11.23s/it]                                               20%|██        | 4/20 [00:45<02:59, 11.23s/it] 25%|██▌       | 5/20 [00:56<02:47, 11.18s/it]                                               25%|██▌       | 5/20 [00:56<02:47, 11.18s/it] 30%|███       | 6/20 [01:07<02:36, 11.16s/it]                                               30%|███       | 6/20 [01:07<02:36, 11.16s/it] 35%|███▌      | 7/20 [01:18<02:24, 11.14s/it]                                               35%|███▌      | 7/20 [01:18<02:24, 11.14s/it] 40%|████      | 8/20 [01:29<02:13, 11.13s/it]                                               40%|████      | 8/20 [01:29<02:13, 11.13s/it] 45%|████▌     | 9/20 [01:40<02:02, 11.12s/it]                                               45%|████▌     | 9/20 [01:40<02:02, 11.12s/it] 50%|█████     | 10/20 [01:51<01:50, 11.09s/it]                                                50%|█████     | 10/20 [01:51<01:50, 11.09s/it] 55%|█████▌    | 11/20 [02:02<01:39, 11.09s/it]                                                55%|█████▌    | 11/20 [02:02<01:39, 11.09s/it] 60%|██████    | 12/20 [02:14<01:28, 11.12s/it]                                                60%|██████    | 12/20 [02:14<01:28, 11.12s/it] 65%|██████▌   | 13/20 [02:25<01:17, 11.09s/it]                                                65%|██████▌   | 13/20 [02:25<01:17, 11.09s/it] 70%|███████   | 14/20 [02:36<01:06, 11.10s/it]                                                70%|███████   | 14/20 [02:36<01:06, 11.10s/it] 75%|███████▌  | 15/20 [02:47<00:55, 11.10s/it]                                                75%|███████▌  | 15/20 [02:47<00:55, 11.10s/it] 80%|████████  | 16/20 [02:58<00:44, 11.08s/it]                                                80%|████████  | 16/20 [02:58<00:44, 11.08s/it] 85%|████████▌ | 17/20 [03:09<00:33, 11.08s/it]                                                85%|████████▌ | 17/20 [03:09<00:33, 11.08s/it] 90%|█████████ | 18/20 [03:20<00:22, 11.12s/it]                                                90%|█████████ | 18/20 [03:20<00:22, 11.12s/it] 95%|█████████▌| 19/20 [03:31<00:11, 11.12s/it]                                                95%|█████████▌| 19/20 [03:31<00:11, 11.12s/it]100%|██████████| 20/20 [03:42<00:00, 11.09s/it]                                               100%|██████████| 20/20 [03:42<00:00, 11.09s/it]                                               100%|██████████| 20/20 [03:45<00:00, 11.09s/it]100%|██████████| 20/20 [03:45<00:00, 11.26s/it]
+{'loss': 6.0789, 'grad_norm': 17.32417869567871, 'learning_rate': 4.000000000000001e-06, 'epoch': 0.46}
+{'loss': 6.5568, 'grad_norm': 18.868534088134766, 'learning_rate': 8.000000000000001e-06, 'epoch': 0.91}
+{'loss': 6.7179, 'grad_norm': 19.935550689697266, 'learning_rate': 1.2e-05, 'epoch': 1.37}
+{'loss': 5.5622, 'grad_norm': 16.723169326782227, 'learning_rate': 1.6000000000000003e-05, 'epoch': 1.83}
+{'loss': 5.9199, 'grad_norm': 19.209672927856445, 'learning_rate': 2e-05, 'epoch': 2.29}
+{'loss': 5.7347, 'grad_norm': 19.993778228759766, 'learning_rate': 2.4e-05, 'epoch': 2.74}
+{'loss': 4.7853, 'grad_norm': 21.162744522094727, 'learning_rate': 2.8000000000000003e-05, 'epoch': 3.2}
+{'loss': 4.5527, 'grad_norm': 19.983057022094727, 'learning_rate': 3.2000000000000005e-05, 'epoch': 3.66}
+{'loss': 3.6992, 'grad_norm': 18.231393814086914, 'learning_rate': 3.6e-05, 'epoch': 4.11}
+{'loss': 3.4627, 'grad_norm': 16.513591766357422, 'learning_rate': 4e-05, 'epoch': 4.57}
+{'loss': 2.8555, 'grad_norm': 11.640230178833008, 'learning_rate': 4.4000000000000006e-05, 'epoch': 5.03}
+{'loss': 2.4102, 'grad_norm': 8.705740928649902, 'learning_rate': 4.8e-05, 'epoch': 5.49}
+{'loss': 2.2634, 'grad_norm': 8.461387634277344, 'learning_rate': 5.2000000000000004e-05, 'epoch': 5.94}
+{'loss': 1.8133, 'grad_norm': 7.71895170211792, 'learning_rate': 5.6000000000000006e-05, 'epoch': 6.4}
+{'loss': 1.5764, 'grad_norm': 8.077329635620117, 'learning_rate': 6e-05, 'epoch': 6.86}
+{'loss': 1.4638, 'grad_norm': 7.191035747528076, 'learning_rate': 6.400000000000001e-05, 'epoch': 7.31}
+{'loss': 1.2312, 'grad_norm': 8.301777839660645, 'learning_rate': 6.800000000000001e-05, 'epoch': 7.77}
+{'loss': 1.1367, 'grad_norm': 7.159387588500977, 'learning_rate': 7.2e-05, 'epoch': 8.23}
+{'loss': 0.7671, 'grad_norm': 4.990972995758057, 'learning_rate': 7.6e-05, 'epoch': 8.69}
+{'loss': 0.7532, 'grad_norm': 7.375429153442383, 'learning_rate': 8e-05, 'epoch': 9.14}
+{'train_runtime': 227.4112, 'train_samples_per_second': 3.078, 'train_steps_per_second': 0.088, 'train_loss': 3.46704843044281, 'epoch': 9.14}
+[1;34mwandb[0m: 🚀 View run [33mmistral-7b-instruct-v0.3_ZsRE_70[0m at: [34mhttps://wandb.ai/1641225799szn/llm-edit/runs/9ybrle8v[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20241105_022406-9ybrle8v/logs[0m

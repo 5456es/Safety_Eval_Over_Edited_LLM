@@ -1,0 +1,59 @@
+/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora
+W&B online. Running your script from this directory will now sync to the cloud.
+Arguments received: data_part=0, data_source=ZsRE, data_size=1, random=False
+Loading data from ../../data/edit_data/merged_data_part_0.json
+Loaded 1163 entries from the data file.
+Filtered data based on source 'ZsRE', resulting in 433 entries.
+Selected 1 entries based on data size.
+Saving formatted data to tmp_data.jsonl
+Data successfully saved to tmp_data.jsonl
+Params using prompt template alpaca:
+base_model: ../../.hf_cache/llama2-7b-hf-chat
+data_path: ./tmp_data.jsonl
+output_dir: ../../results/lora/llama2-7b-hf-chat/ZsRE_1/part_0
+batch_size: 1
+micro_batch_size: 1
+num_epochs: 10
+learning_rate: 0.0004
+cutoff_len: 4096
+val_set_size: 0
+lr_scheduler: cosine
+warmup_steps: 100
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target_modules: ['gate_proj', 'down_proj', 'up_proj']
+train_on_inputs: False
+add_eos_token: True
+group_by_length: False
+wandb_project: llm-edit
+wandb_run_name: llama2-7b-hf-chat_ZsRE_1
+wandb_watch: 
+wandb_log_model: 
+resume_from_checkpoint: False
+prompt_format: instruction
+p_to_be_unnatural: 0
+
+Traceback (most recent call last):
+  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 496, in <module>
+    fire.Fire(train)
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 135, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 468, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 684, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 165, in train
+    quant_config = BitsAndBytesConfig(
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/utils/quantization_config.py", line 400, in __init__
+    self.post_init()
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/utils/quantization_config.py", line 458, in post_init
+    if self.load_in_4bit and not version.parse(importlib.metadata.version("bitsandbytes")) >= version.parse(
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/importlib/metadata.py", line 551, in version
+    return distribution(distribution_name).version
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/importlib/metadata.py", line 524, in distribution
+    return Distribution.from_name(distribution_name)
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/importlib/metadata.py", line 187, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: bitsandbytes
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]slurmstepd-xgph7: error: *** JOB 411398 ON xgph7 CANCELLED AT 2024-11-04T21:18:19 ***

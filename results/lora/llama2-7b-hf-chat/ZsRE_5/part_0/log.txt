@@ -1,0 +1,88 @@
+Params using prompt template alpaca:
+base_model: ../../.hf_cache/llama2-7b-hf-chat
+data_path: ./tmp_data.jsonl
+output_dir: ../../results/lora/llama2-7b-hf-chat/ZsRE_5/part_0
+batch_size: 5
+micro_batch_size: 1
+num_epochs: 10
+learning_rate: 0.0004
+cutoff_len: 4096
+val_set_size: 0
+lr_scheduler: cosine
+warmup_steps: 100
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target_modules: ['gate_proj', 'down_proj', 'up_proj']
+train_on_inputs: False
+add_eos_token: True
+group_by_length: False
+wandb_project: llm-edit
+wandb_run_name: llama2-7b-hf-chat_ZsRE_5
+wandb_watch: 
+wandb_log_model: 
+resume_from_checkpoint: False
+prompt_format: instruction
+p_to_be_unnatural: 0
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.73s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:09<00:00,  4.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:09<00:00,  4.55s/it]
+Using custom data configuration default-6ebe301724b5a1ed
+pre-trained model's BOS EOS and PAD token id: 1 2 None  => It should be 1 2 None
+Not using system message
+Downloading and preparing dataset json/default to /home/k/kduan/.cache/huggingface/datasets/json/default-6ebe301724b5a1ed/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 2855.21it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 332.30it/s]
+Dataset json downloaded and prepared to /home/k/kduan/.cache/huggingface/datasets/json/default-6ebe301724b5a1ed/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 47.43it/s]
+Parameter 'function'=<function train.<locals>.<lambda> at 0x7f9a743f3280> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+trainable params: 23,199,744 || all params: 6,761,615,360 || trainable%: 0.34310949033338684
+0ex [00:00, ?ex/s]1ex [00:00,  2.75ex/s]5ex [00:00, 13.54ex/s]
+/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: 1641225799szn. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.18.5
+wandb: Run data is saved locally in /home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/wandb/run-20241104_220448-a2awsyx2
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run llama2-7b-hf-chat_ZsRE_5
+wandb: ⭐️ View project at https://wandb.ai/1641225799szn/llm-edit
+wandb: 🚀 View run at https://wandb.ai/1641225799szn/llm-edit/runs/a2awsyx2
+
+Example:
+<s> What was the name of Charlotte of Schaumburg-Lippe mother? Charlotte of Bourbon-Parma</s>
+
+
+Example:
+<s> What voice type is Louise Grandjean? mezzo soprano</s>
+
+
+Example:
+<s> Who is listed as Wang Jipeng father? Wang Chonghua</s>
+
+
+Example:
+<s> What species is ZIC3 specific to? male</s>
+
+
+Example:
+<s> Which family does Epaspidoceras belong to? Noctuidae</s>
+
+num_epochs was set to 10
+Dataset({
+    features: ['instruction', 'output', 'input_ids', 'attention_mask', 'labels'],
+    num_rows: 5
+})
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:02<00:23,  2.62s/it]                                               10%|█         | 1/10 [00:02<00:23,  2.62s/it] 20%|██        | 2/10 [00:04<00:16,  2.05s/it]                                               20%|██        | 2/10 [00:04<00:16,  2.05s/it] 30%|███       | 3/10 [00:05<00:13,  1.86s/it]                                               30%|███       | 3/10 [00:05<00:13,  1.86s/it] 40%|████      | 4/10 [00:07<00:10,  1.77s/it]                                               40%|████      | 4/10 [00:07<00:10,  1.77s/it] 50%|█████     | 5/10 [00:09<00:08,  1.72s/it]                                               50%|█████     | 5/10 [00:09<00:08,  1.72s/it] 60%|██████    | 6/10 [00:10<00:06,  1.69s/it]                                               60%|██████    | 6/10 [00:10<00:06,  1.69s/it] 70%|███████   | 7/10 [00:12<00:05,  1.67s/it]                                               70%|███████   | 7/10 [00:12<00:05,  1.67s/it] 80%|████████  | 8/10 [00:14<00:03,  1.66s/it]                                               80%|████████  | 8/10 [00:14<00:03,  1.66s/it] 90%|█████████ | 9/10 [00:15<00:01,  1.65s/it]                                               90%|█████████ | 9/10 [00:15<00:01,  1.65s/it]100%|██████████| 10/10 [00:17<00:00,  1.64s/it]                                               100%|██████████| 10/10 [00:17<00:00,  1.64s/it]                                               100%|██████████| 10/10 [00:25<00:00,  1.64s/it]100%|██████████| 10/10 [00:25<00:00,  2.56s/it]
+{'loss': 6.9188, 'grad_norm': 6.365241527557373, 'learning_rate': 4.000000000000001e-06, 'epoch': 1.0}
+{'loss': 6.9188, 'grad_norm': 5.582694053649902, 'learning_rate': 8.000000000000001e-06, 'epoch': 2.0}
+{'loss': 6.8797, 'grad_norm': 6.31844425201416, 'learning_rate': 1.2e-05, 'epoch': 3.0}
+{'loss': 6.8031, 'grad_norm': 5.746717929840088, 'learning_rate': 1.6000000000000003e-05, 'epoch': 4.0}
+{'loss': 6.6827, 'grad_norm': 6.251018047332764, 'learning_rate': 2e-05, 'epoch': 5.0}
+{'loss': 6.5229, 'grad_norm': 6.265811443328857, 'learning_rate': 2.4e-05, 'epoch': 6.0}
+{'loss': 6.3174, 'grad_norm': 6.371287822723389, 'learning_rate': 2.8000000000000003e-05, 'epoch': 7.0}
+{'loss': 6.0655, 'grad_norm': 6.589914798736572, 'learning_rate': 3.2000000000000005e-05, 'epoch': 8.0}
+{'loss': 5.762, 'grad_norm': 6.921821117401123, 'learning_rate': 3.6e-05, 'epoch': 9.0}
+{'loss': 5.4061, 'grad_norm': 7.185934066772461, 'learning_rate': 4e-05, 'epoch': 10.0}
+{'train_runtime': 32.8786, 'train_samples_per_second': 1.521, 'train_steps_per_second': 0.304, 'train_loss': 6.4276824474334715, 'epoch': 10.0}
+[1;34mwandb[0m: 🚀 View run [33mllama2-7b-hf-chat_ZsRE_5[0m at: [34mhttps://wandb.ai/1641225799szn/llm-edit/runs/a2awsyx2[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20241104_220448-a2awsyx2/logs[0m

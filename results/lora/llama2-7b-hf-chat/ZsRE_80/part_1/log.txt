@@ -1,0 +1,58 @@
+Params using prompt template alpaca:
+base_model: ../../.hf_cache/llama2-7b-hf-chat
+data_path: ./tmp_data.jsonl
+output_dir: ../../results/lora/llama2-7b-hf-chat/ZsRE_80/part_1
+batch_size: 32
+micro_batch_size: 1
+num_epochs: 10
+learning_rate: 0.0004
+cutoff_len: 4096
+val_set_size: 0
+lr_scheduler: cosine
+warmup_steps: 100
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target_modules: ['gate_proj', 'down_proj', 'up_proj']
+train_on_inputs: False
+add_eos_token: True
+group_by_length: False
+wandb_project: llm-edit
+wandb_run_name: llama2-7b-hf-chat_ZsRE_80
+wandb_watch: 
+wandb_log_model: 
+resume_from_checkpoint: False
+prompt_format: instruction
+p_to_be_unnatural: 0
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.59s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  4.08s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  4.46s/it]
+pre-trained model's BOS EOS and PAD token id: 1 2 None  => It should be 1 2 None
+Not using system message
+Traceback (most recent call last):
+  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 496, in <module>
+    fire.Fire(train)
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 135, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 468, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 684, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 373, in train
+    data = load_dataset("json", data_files=data_path)
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/load.py", line 1675, in load_dataset
+    builder_instance = load_dataset_builder(
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/load.py", line 1512, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/load.py", line 1117, in dataset_module_factory
+    return PackagedDatasetModuleFactory(
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/load.py", line 774, in get_module
+    data_files = DataFilesDict.from_local_or_remote(patterns, use_auth_token=self.downnload_config.use_auth_token)
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/data_files.py", line 578, in from_local_or_remote
+    DataFilesList.from_local_or_remote(
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/data_files.py", line 546, in from_local_or_remote
+    data_files = resolve_patterns_locally_or_by_urls(base_path, patterns, allowed_extensions)
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/data_files.py", line 196, in resolve_patterns_locally_or_by_urls
+    for path in _resolve_single_pattern_locally(base_path, pattern, allowed_extensions):
+  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/data_files.py", line 146, in _resolve_single_pattern_locally
+    raise FileNotFoundError(error_msg)
+FileNotFoundError: Unable to find '/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/./tmp_data.jsonl' at /home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora

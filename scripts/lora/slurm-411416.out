@@ -1,0 +1,44 @@
+/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora
+W&B online. Running your script from this directory will now sync to the cloud.
+Arguments received: data_part=0, data_source=ZsRE, data_size=1, random=False
+Loading data from ../../data/edit_data/merged_data_part_0.json
+Loaded 1163 entries from the data file.
+Filtered data based on source 'ZsRE', resulting in 433 entries.
+Selected 1 entries based on data size.
+Saving formatted data to tmp_data.jsonl
+Data successfully saved to tmp_data.jsonl
+rm: cannot remove '../../results/lora/llama2-7b-hf-chat/ZsRE_1/part_0/tmp_data.jsonl': No such file or directory
+/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/torch/cuda/__init__.py:173: UserWarning: 
+NVIDIA H100 NVL with CUDA capability sm_90 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_70 sm_75 sm_80 sm_86.
+If you want to use the NVIDIA H100 NVL GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+Params using prompt template alpaca:
+base_model: ../../.hf_cache/llama2-7b-hf-chat
+data_path: ./tmp_data.jsonl
+output_dir: ../../results/lora/llama2-7b-hf-chat/ZsRE_1/part_0
+batch_size: 1
+micro_batch_size: 1
+num_epochs: 10
+learning_rate: 0.0004
+cutoff_len: 4096
+val_set_size: 0
+lr_scheduler: cosine
+warmup_steps: 100
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target_modules: ['gate_proj', 'down_proj', 'up_proj']
+train_on_inputs: False
+add_eos_token: True
+group_by_length: False
+wandb_project: llm-edit
+wandb_run_name: llama2-7b-hf-chat_ZsRE_1
+wandb_watch: 
+wandb_log_model: 
+resume_from_checkpoint: False
+prompt_format: instruction
+p_to_be_unnatural: 0
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]slurmstepd-xgpi2: error: *** JOB 411416 ON xgpi2 CANCELLED AT 2024-11-04T21:48:32 ***
