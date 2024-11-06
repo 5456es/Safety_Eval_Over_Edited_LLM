@@ -25,34 +25,74 @@ resume_from_checkpoint: False
 prompt_format: instruction
 p_to_be_unnatural: 0
 
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.59s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  4.08s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  4.46s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.64s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.23s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.44s/it]
+Using custom data configuration default-a998014aa16f2c23
 pre-trained model's BOS EOS and PAD token id: 1 2 None  => It should be 1 2 None
 Not using system message
-Traceback (most recent call last):
-  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 496, in <module>
-    fire.Fire(train)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 135, in Fire
-    component_trace = _Fire(component, args, parsed_flag_args, context, name)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 468, in _Fire
-    component, remaining_args = _CallAndUpdateTrace(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 684, in _CallAndUpdateTrace
-    component = fn(*varargs, **kwargs)
-  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 373, in train
-    data = load_dataset("json", data_files=data_path)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/load.py", line 1675, in load_dataset
-    builder_instance = load_dataset_builder(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/load.py", line 1512, in load_dataset_builder
-    dataset_module = dataset_module_factory(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/load.py", line 1117, in dataset_module_factory
-    return PackagedDatasetModuleFactory(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/load.py", line 774, in get_module
-    data_files = DataFilesDict.from_local_or_remote(patterns, use_auth_token=self.downnload_config.use_auth_token)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/data_files.py", line 578, in from_local_or_remote
-    DataFilesList.from_local_or_remote(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/data_files.py", line 546, in from_local_or_remote
-    data_files = resolve_patterns_locally_or_by_urls(base_path, patterns, allowed_extensions)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/data_files.py", line 196, in resolve_patterns_locally_or_by_urls
-    for path in _resolve_single_pattern_locally(base_path, pattern, allowed_extensions):
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/datasets/data_files.py", line 146, in _resolve_single_pattern_locally
-    raise FileNotFoundError(error_msg)
-FileNotFoundError: Unable to find '/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/./tmp_data.jsonl' at /home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora
+Downloading and preparing dataset json/default to /home/bizon/.cache/huggingface/datasets/json/default-a998014aa16f2c23/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 3512.82it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 631.20it/s]
+Dataset json downloaded and prepared to /home/bizon/.cache/huggingface/datasets/json/default-a998014aa16f2c23/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 412.22it/s]
+Parameter 'function'=<function train.<locals>.<lambda> at 0x7f0730d89af0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+trainable params: 23,199,744 || all params: 6,761,615,360 || trainable%: 0.34310949033338684
+0ex [00:00, ?ex/s]95ex [00:00, 2767.46ex/s]
+/home/bizon/miniconda3/envs/EditHurt/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: 1641225799szn. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.18.5
+wandb: Run data is saved locally in /home/bizon/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/wandb/run-20241105_134855-a934m6w2
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run llama2-7b-hf-chat_ZsRE_95
+wandb: ⭐️ View project at https://wandb.ai/1641225799szn/llm-edit
+wandb: 🚀 View run at https://wandb.ai/1641225799szn/llm-edit/runs/a934m6w2
+
+Example:
+<s> What work of fiction is Jack Harkness located in? Lost</s>
+
+
+Example:
+<s> Who was Princess Frederica Amalia of Denmark's mother? Caroline Amalia of Hesse-Kassel</s>
+
+
+Example:
+<s> Who fathered Bo Guagua? Xuan Xun</s>
+
+
+Example:
+<s> Who desigened Mark 19 torpedo? United States Marine Corps</s>
+
+
+Example:
+<s> What production company or companies created Rio 2? FremantleMedia</s>
+
+num_epochs was set to 10
+Dataset({
+    features: ['instruction', 'output', 'input_ids', 'attention_mask', 'labels'],
+    num_rows: 95
+})
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:25<07:55, 25.04s/it]                                                5%|▌         | 1/20 [00:25<07:55, 25.04s/it] 10%|█         | 2/20 [00:49<07:19, 24.42s/it]                                               10%|█         | 2/20 [00:49<07:19, 24.42s/it] 15%|█▌        | 3/20 [01:13<06:52, 24.24s/it]                                               15%|█▌        | 3/20 [01:13<06:52, 24.24s/it] 20%|██        | 4/20 [01:37<06:26, 24.16s/it]                                               20%|██        | 4/20 [01:37<06:26, 24.16s/it] 25%|██▌       | 5/20 [02:01<06:02, 24.18s/it]                                               25%|██▌       | 5/20 [02:01<06:02, 24.18s/it] 30%|███       | 6/20 [02:25<05:39, 24.25s/it]                                               30%|███       | 6/20 [02:25<05:39, 24.25s/it] 35%|███▌      | 7/20 [02:49<05:15, 24.27s/it]                                               35%|███▌      | 7/20 [02:49<05:15, 24.27s/it] 40%|████      | 8/20 [03:14<04:51, 24.30s/it]                                               40%|████      | 8/20 [03:14<04:51, 24.30s/it] 45%|████▌     | 9/20 [03:38<04:27, 24.30s/it]                                               45%|████▌     | 9/20 [03:38<04:27, 24.30s/it] 50%|█████     | 10/20 [04:03<04:03, 24.32s/it]                                                50%|█████     | 10/20 [04:03<04:03, 24.32s/it] 55%|█████▌    | 11/20 [04:27<03:38, 24.31s/it]                                                55%|█████▌    | 11/20 [04:27<03:38, 24.31s/it] 60%|██████    | 12/20 [04:51<03:14, 24.34s/it]                                                60%|██████    | 12/20 [04:51<03:14, 24.34s/it] 65%|██████▌   | 13/20 [05:16<02:50, 24.38s/it]                                                65%|██████▌   | 13/20 [05:16<02:50, 24.38s/it] 70%|███████   | 14/20 [05:40<02:26, 24.39s/it]                                                70%|███████   | 14/20 [05:40<02:26, 24.39s/it] 75%|███████▌  | 15/20 [06:04<02:01, 24.39s/it]                                                75%|███████▌  | 15/20 [06:04<02:01, 24.39s/it] 80%|████████  | 16/20 [06:29<01:37, 24.39s/it]                                                80%|████████  | 16/20 [06:29<01:37, 24.39s/it] 85%|████████▌ | 17/20 [06:53<01:13, 24.38s/it]                                                85%|████████▌ | 17/20 [06:53<01:13, 24.38s/it] 90%|█████████ | 18/20 [07:18<00:48, 24.48s/it]                                                90%|█████████ | 18/20 [07:18<00:48, 24.48s/it] 95%|█████████▌| 19/20 [07:43<00:24, 24.52s/it]                                                95%|█████████▌| 19/20 [07:43<00:24, 24.52s/it]100%|██████████| 20/20 [08:07<00:00, 24.48s/it]                                               100%|██████████| 20/20 [08:07<00:00, 24.48s/it]                                               100%|██████████| 20/20 [08:07<00:00, 24.48s/it]100%|██████████| 20/20 [08:07<00:00, 24.39s/it]
+{'loss': 5.685, 'grad_norm': 3.642470359802246, 'learning_rate': 4.000000000000001e-06, 'epoch': 0.34}
+{'loss': 5.6997, 'grad_norm': 3.773010492324829, 'learning_rate': 8.000000000000001e-06, 'epoch': 0.67}
+{'loss': 5.7722, 'grad_norm': 3.8802826404571533, 'learning_rate': 1.2e-05, 'epoch': 1.01}
+{'loss': 6.3047, 'grad_norm': 4.123485565185547, 'learning_rate': 1.6000000000000003e-05, 'epoch': 1.35}
+{'loss': 5.6529, 'grad_norm': 3.526411294937134, 'learning_rate': 2e-05, 'epoch': 1.68}
+{'loss': 4.9855, 'grad_norm': 3.385403871536255, 'learning_rate': 2.4e-05, 'epoch': 2.02}
+{'loss': 5.4231, 'grad_norm': 3.895580291748047, 'learning_rate': 2.8000000000000003e-05, 'epoch': 2.36}
+{'loss': 5.6114, 'grad_norm': 4.1863932609558105, 'learning_rate': 3.2000000000000005e-05, 'epoch': 2.69}
+{'loss': 5.1388, 'grad_norm': 4.179734230041504, 'learning_rate': 3.6e-05, 'epoch': 3.03}
+{'loss': 5.3473, 'grad_norm': 4.240458965301514, 'learning_rate': 4e-05, 'epoch': 3.37}
+{'loss': 4.7302, 'grad_norm': 5.110451698303223, 'learning_rate': 4.4000000000000006e-05, 'epoch': 3.71}
+{'loss': 5.2084, 'grad_norm': 4.930448532104492, 'learning_rate': 4.8e-05, 'epoch': 4.04}
+{'loss': 4.8247, 'grad_norm': 5.559713840484619, 'learning_rate': 5.2000000000000004e-05, 'epoch': 4.38}
+{'loss': 4.3397, 'grad_norm': 5.401398658752441, 'learning_rate': 5.6000000000000006e-05, 'epoch': 4.72}
+{'loss': 3.8627, 'grad_norm': 4.469927787780762, 'learning_rate': 6e-05, 'epoch': 5.05}
+{'loss': 3.8174, 'grad_norm': 5.618714809417725, 'learning_rate': 6.400000000000001e-05, 'epoch': 5.39}
+{'loss': 3.7623, 'grad_norm': 4.629141807556152, 'learning_rate': 6.800000000000001e-05, 'epoch': 5.73}
+{'loss': 3.0807, 'grad_norm': 3.8353514671325684, 'learning_rate': 7.2e-05, 'epoch': 6.06}
+{'loss': 2.863, 'grad_norm': 3.413095712661743, 'learning_rate': 7.6e-05, 'epoch': 6.4}
+{'loss': 2.7369, 'grad_norm': 3.5173697471618652, 'learning_rate': 8e-05, 'epoch': 6.74}
+{'train_runtime': 489.6779, 'train_samples_per_second': 1.94, 'train_steps_per_second': 0.041, 'train_loss': 4.742328703403473, 'epoch': 6.74}
+[1;34mwandb[0m: 🚀 View run [33mllama2-7b-hf-chat_ZsRE_95[0m at: [34mhttps://wandb.ai/1641225799szn/llm-edit/runs/a934m6w2[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20241105_134855-a934m6w2/logs[0m
