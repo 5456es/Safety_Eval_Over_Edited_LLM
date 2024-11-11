@@ -2,3 +2,4 @@ data/stats/
 .hf_cache/
 data/edit_data/NEWS/api_key.txt
 tests/test_lora/out
+*.pyc
