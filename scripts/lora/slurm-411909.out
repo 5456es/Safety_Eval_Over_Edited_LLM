@@ -1,766 +1,0 @@
-/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora
-W&B online. Running your script from this directory will now sync to the cloud.
-Arguments received: data_part=0, data_source=ZsRE, data_size=100, random=False
-Loading data from ../../data/edit_data/merged_data_part_0.json
-Loaded 1163 entries from the data file.
-Filtered data based on source 'ZsRE', resulting in 433 entries.
-Selected 100 entries based on data size.
-Saving formatted data to tmp_data.jsonl
-Data successfully saved to tmp_data.jsonl
-rm: cannot remove '../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/tmp_data.jsonl': No such file or directory
-Params using prompt template alpaca:
-base_model: ../../.hf_cache/mistral-7b-instruct-v0.3
-data_path: ./tmp_data.jsonl
-output_dir: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0
-batch_size: 32
-micro_batch_size: 1
-num_epochs: 10
-learning_rate: 0.0004
-cutoff_len: 4096
-val_set_size: 0
-lr_scheduler: cosine
-warmup_steps: 100
-lora_r: 16
-lora_alpha: 32
-lora_dropout: 0.05
-lora_target_modules: ['gate_proj', 'down_proj', 'up_proj']
-train_on_inputs: False
-add_eos_token: True
-group_by_length: False
-wandb_project: llm-edit
-wandb_run_name: mistral-7b-instruct-v0.3_ZsRE_100
-wandb_watch: 
-wandb_log_model: 
-resume_from_checkpoint: False
-prompt_format: instruction
-p_to_be_unnatural: 0
-
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:07,  3.84s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.21s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  2.92s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.06s/it]
-Using custom data configuration default-020787ab25803b01
-pre-trained model's BOS EOS and PAD token id: 1 2 None  => It should be 1 2 None
-Not using system message
-Downloading and preparing dataset json/default to /home/k/kduan/.cache/huggingface/datasets/json/default-020787ab25803b01/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 2661.36it/s]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 312.24it/s]
-Dataset json downloaded and prepared to /home/k/kduan/.cache/huggingface/datasets/json/default-020787ab25803b01/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 258.48it/s]
-Parameter 'function'=<function train.<locals>.<lambda> at 0x7fdc3164eee0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
-trainable params: 28,311,552 || all params: 7,276,335,104 || trainable%: 0.3890908210705739
-0ex [00:00, ?ex/s]1ex [00:00,  7.29ex/s]100ex [00:00, 446.28ex/s]
-/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
-  warnings.warn(
-wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
-wandb: Currently logged in as: 1641225799szn. Use `wandb login --relogin` to force relogin
-wandb: Tracking run with wandb version 0.18.5
-wandb: Run data is saved locally in /home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/wandb/run-20241105_120914-prnttvv3
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run mistral-7b-instruct-v0.3_ZsRE_100
-wandb: ⭐️ View project at https://wandb.ai/1641225799szn/llm-edit
-wandb: 🚀 View run at https://wandb.ai/1641225799szn/llm-edit/runs/prnttvv3
-
-Example:
-<s> The father of Juno Temple is whom? Jupiter</s>
-
-
-Example:
-<s> Who designed the Heroes Chronicles? Chris Riddell</s>
-
-
-Example:
-<s> When was 503 Evelyn discovered? 17 503</s>
-
-
-Example:
-<s> What is an ecological status of Bali myna?  myna</s>
-
-
-Example:
-<s> Which species has the CXCL10 gene? male</s>
-
-num_epochs was set to 10
-Dataset({
-    features: ['instruction', 'output', 'input_ids', 'attention_mask', 'labels'],
-    num_rows: 100
-})
-  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:11<05:40, 11.74s/it]                                                3%|▎         | 1/30 [00:11<05:40, 11.74s/it]  7%|▋         | 2/30 [00:22<05:15, 11.25s/it]                                                7%|▋         | 2/30 [00:22<05:15, 11.25s/it] 10%|█         | 3/30 [00:33<05:00, 11.11s/it]                                               10%|█         | 3/30 [00:33<05:00, 11.11s/it] 13%|█▎        | 4/30 [00:44<04:47, 11.06s/it]                                               13%|█▎        | 4/30 [00:44<04:47, 11.06s/it] 17%|█▋        | 5/30 [00:55<04:36, 11.05s/it]                                               17%|█▋        | 5/30 [00:55<04:36, 11.05s/it] 20%|██        | 6/30 [01:06<04:24, 11.04s/it]                                               20%|██        | 6/30 [01:06<04:24, 11.04s/it] 23%|██▎       | 7/30 [01:17<04:13, 11.04s/it]                                               23%|██▎       | 7/30 [01:17<04:13, 11.04s/it] 27%|██▋       | 8/30 [01:28<04:02, 11.05s/it]                                               27%|██▋       | 8/30 [01:28<04:02, 11.05s/it] 30%|███       | 9/30 [01:39<03:51, 11.04s/it]                                               30%|███       | 9/30 [01:39<03:51, 11.04s/it] 33%|███▎      | 10/30 [01:50<03:40, 11.05s/it]                                                33%|███▎      | 10/30 [01:50<03:40, 11.05s/it] 37%|███▋      | 11/30 [02:01<03:29, 11.05s/it]                                                37%|███▋      | 11/30 [02:01<03:29, 11.05s/it] 40%|████      | 12/30 [02:12<03:18, 11.04s/it]                                                40%|████      | 12/30 [02:12<03:18, 11.04s/it] 43%|████▎     | 13/30 [02:23<03:07, 11.04s/it]                                                43%|████▎     | 13/30 [02:23<03:07, 11.04s/it] 47%|████▋     | 14/30 [02:34<02:56, 11.04s/it]                                                47%|████▋     | 14/30 [02:34<02:56, 11.04s/it] 50%|█████     | 15/30 [02:46<02:45, 11.04s/it]                                                50%|█████     | 15/30 [02:46<02:45, 11.04s/it] 53%|█████▎    | 16/30 [02:57<02:34, 11.04s/it]                                                53%|█████▎    | 16/30 [02:57<02:34, 11.04s/it] 57%|█████▋    | 17/30 [03:08<02:23, 11.04s/it]                                                57%|█████▋    | 17/30 [03:08<02:23, 11.04s/it] 60%|██████    | 18/30 [03:19<02:12, 11.04s/it]                                                60%|██████    | 18/30 [03:19<02:12, 11.04s/it] 63%|██████▎   | 19/30 [03:30<02:01, 11.04s/it]                                                63%|██████▎   | 19/30 [03:30<02:01, 11.04s/it] 67%|██████▋   | 20/30 [03:41<01:50, 11.06s/it]                                                67%|██████▋   | 20/30 [03:41<01:50, 11.06s/it] 70%|███████   | 21/30 [03:52<01:39, 11.05s/it]                                                70%|███████   | 21/30 [03:52<01:39, 11.05s/it] 73%|███████▎  | 22/30 [04:03<01:28, 11.04s/it]                                                73%|███████▎  | 22/30 [04:03<01:28, 11.04s/it] 77%|███████▋  | 23/30 [04:14<01:17, 11.04s/it]                                                77%|███████▋  | 23/30 [04:14<01:17, 11.04s/it] 80%|████████  | 24/30 [04:25<01:06, 11.04s/it]                                                80%|████████  | 24/30 [04:25<01:06, 11.04s/it] 83%|████████▎ | 25/30 [04:36<00:55, 11.05s/it]                                                83%|████████▎ | 25/30 [04:36<00:55, 11.05s/it] 87%|████████▋ | 26/30 [04:47<00:44, 11.05s/it]                                                87%|████████▋ | 26/30 [04:47<00:44, 11.05s/it] 90%|█████████ | 27/30 [04:58<00:33, 11.06s/it]                                                90%|█████████ | 27/30 [04:58<00:33, 11.06s/it] 93%|█████████▎| 28/30 [05:09<00:22, 11.05s/it]                                                93%|█████████▎| 28/30 [05:09<00:22, 11.05s/it] 97%|█████████▋| 29/30 [05:20<00:11, 11.04s/it]                                                97%|█████████▋| 29/30 [05:20<00:11, 11.04s/it]100%|██████████| 30/30 [05:31<00:00, 11.04s/it]                                               100%|██████████| 30/30 [05:31<00:00, 11.04s/it]                                               100%|██████████| 30/30 [05:33<00:00, 11.04s/it]100%|██████████| 30/30 [05:33<00:00, 11.12s/it]
-{'loss': 6.0433, 'grad_norm': 19.72353744506836, 'learning_rate': 4.000000000000001e-06, 'epoch': 0.32}
-{'loss': 6.4702, 'grad_norm': 20.807292938232422, 'learning_rate': 8.000000000000001e-06, 'epoch': 0.64}
-{'loss': 5.5543, 'grad_norm': 19.898447036743164, 'learning_rate': 1.2e-05, 'epoch': 0.96}
-{'loss': 5.8182, 'grad_norm': 19.128938674926758, 'learning_rate': 1.6000000000000003e-05, 'epoch': 1.28}
-{'loss': 5.6237, 'grad_norm': 20.869115829467773, 'learning_rate': 2e-05, 'epoch': 1.6}
-{'loss': 4.7318, 'grad_norm': 24.22456169128418, 'learning_rate': 2.4e-05, 'epoch': 1.92}
-{'loss': 4.0185, 'grad_norm': 18.287996292114258, 'learning_rate': 2.8000000000000003e-05, 'epoch': 2.24}
-{'loss': 3.3666, 'grad_norm': 17.433923721313477, 'learning_rate': 3.2000000000000005e-05, 'epoch': 2.56}
-{'loss': 4.3588, 'grad_norm': 20.918119430541992, 'learning_rate': 3.6e-05, 'epoch': 2.88}
-{'loss': 2.9595, 'grad_norm': 13.658921241760254, 'learning_rate': 4e-05, 'epoch': 3.2}
-{'loss': 2.6979, 'grad_norm': 10.994060516357422, 'learning_rate': 4.4000000000000006e-05, 'epoch': 3.52}
-{'loss': 2.0366, 'grad_norm': 9.0945405960083, 'learning_rate': 4.8e-05, 'epoch': 3.84}
-{'loss': 2.0835, 'grad_norm': 9.101407051086426, 'learning_rate': 5.2000000000000004e-05, 'epoch': 4.16}
-{'loss': 1.4955, 'grad_norm': 7.224884510040283, 'learning_rate': 5.6000000000000006e-05, 'epoch': 4.48}
-{'loss': 1.5775, 'grad_norm': 7.769695281982422, 'learning_rate': 6e-05, 'epoch': 4.8}
-{'loss': 1.5636, 'grad_norm': 8.663130760192871, 'learning_rate': 6.400000000000001e-05, 'epoch': 5.12}
-{'loss': 1.0573, 'grad_norm': 5.771057605743408, 'learning_rate': 6.800000000000001e-05, 'epoch': 5.44}
-{'loss': 1.2813, 'grad_norm': 6.529147148132324, 'learning_rate': 7.2e-05, 'epoch': 5.76}
-{'loss': 0.9133, 'grad_norm': 4.682124614715576, 'learning_rate': 7.6e-05, 'epoch': 6.08}
-{'loss': 0.8373, 'grad_norm': 5.008744239807129, 'learning_rate': 8e-05, 'epoch': 6.4}
-{'loss': 0.7378, 'grad_norm': 5.781010627746582, 'learning_rate': 8.4e-05, 'epoch': 6.72}
-{'loss': 0.5651, 'grad_norm': 6.415945053100586, 'learning_rate': 8.800000000000001e-05, 'epoch': 7.04}
-{'loss': 0.2359, 'grad_norm': 3.185084819793701, 'learning_rate': 9.200000000000001e-05, 'epoch': 7.36}
-{'loss': 0.3738, 'grad_norm': 4.276581764221191, 'learning_rate': 9.6e-05, 'epoch': 7.68}
-{'loss': 0.3872, 'grad_norm': 5.422211647033691, 'learning_rate': 0.0001, 'epoch': 8.0}
-{'loss': 0.3722, 'grad_norm': 11.19092082977295, 'learning_rate': 0.00010400000000000001, 'epoch': 8.32}
-{'loss': 0.1109, 'grad_norm': 3.7406747341156006, 'learning_rate': 0.00010800000000000001, 'epoch': 8.64}
-{'loss': 0.0283, 'grad_norm': 2.0177323818206787, 'learning_rate': 0.00011200000000000001, 'epoch': 8.96}
-{'loss': 0.0905, 'grad_norm': 9.234526634216309, 'learning_rate': 0.000116, 'epoch': 9.28}
-{'loss': 0.0808, 'grad_norm': 2.8270859718322754, 'learning_rate': 0.00012, 'epoch': 9.6}
-{'train_runtime': 336.8796, 'train_samples_per_second': 2.968, 'train_steps_per_second': 0.089, 'train_loss': 2.2490420142188667, 'epoch': 9.6}
-[1;34mwandb[0m: 🚀 View run [33mmistral-7b-instruct-v0.3_ZsRE_100[0m at: [34mhttps://wandb.ai/1641225799szn/llm-edit/runs/prnttvv3[0m
-[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20241105_120914-prnttvv3/logs[0m
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:04<00:08,  4.35s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:08<00:04,  4.15s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:11<00:00,  3.89s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:11<00:00,  3.98s/it]
-Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-We are now merging the lora adapter to base model
---------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-Now we start evaluating
-Data Path:  ../../data/eval_data/merged_data_2024-11-04.json
-Output Path:  ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/eval
-0  to  50
-generating!
-50  to  100
-generating!
-100  to  150
-generating!
-150  to  200
-generating!
-200  to  250
-generating!
-250  to  300
-generating!
-300  to  350
-generating!
-350  to  400
-generating!
-400  to  450
-generating!
-450  to  500
-generating!
-500  to  550
-generating!
-Data Path:  ../../data/eval_data/merged_data_2024-11-04.json
-Output Path:  ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/eval
-0  to  50
-generating!
-Data Path:  ../../data/eval_data/merged_data_2024-11-04.json
-Output Path:  ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/eval
-0  to  50
-generating!
-50  to  100
-generating!
-100  to  150
-generating!
-150  to  200
-generating!
-200  to  250
-generating!
-250  to  300
-generating!
-300  to  350
-generating!
-350  to  400
-generating!
-400  to  450
-generating!
-450  to  500
-generating!
-500  to  550
-generating!
-550  to  600
-generating!
-600  to  650
-generating!
-650  to  700
-generating!
-700  to  750
-generating!
-750  to  800
-generating!
-800  to  850
-generating!
-850  to  900
-generating!
-900  to  950
-generating!
-950  to  1000
-generating!
-1000  to  1050
-generating!
-1050  to  1100
-generating!
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/tokenizer.model
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/special_tokens_map.json
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/README.md
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/tokenizer_config.json
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/tmp_data.jsonl
-Skipping file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/log.txt
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/adapter_config.json
-Deleted directory: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/checkpoint-30
-Skipping directory: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/eval
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/adapter_model.safetensors
-Deleted directory: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_0/wandb
-Cleanup completed.
-W&B online. Running your script from this directory will now sync to the cloud.
-Arguments received: data_part=1, data_source=ZsRE, data_size=100, random=False
-Loading data from ../../data/edit_data/merged_data_part_1.json
-Loaded 1163 entries from the data file.
-Filtered data based on source 'ZsRE', resulting in 433 entries.
-Selected 100 entries based on data size.
-Saving formatted data to tmp_data.jsonl
-Data successfully saved to tmp_data.jsonl
-rm: cannot remove '../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/tmp_data.jsonl': No such file or directory
-Params using prompt template alpaca:
-base_model: ../../.hf_cache/mistral-7b-instruct-v0.3
-data_path: ./tmp_data.jsonl
-output_dir: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1
-batch_size: 32
-micro_batch_size: 1
-num_epochs: 10
-learning_rate: 0.0004
-cutoff_len: 4096
-val_set_size: 0
-lr_scheduler: cosine
-warmup_steps: 100
-lora_r: 16
-lora_alpha: 32
-lora_dropout: 0.05
-lora_target_modules: ['gate_proj', 'down_proj', 'up_proj']
-train_on_inputs: False
-add_eos_token: True
-group_by_length: False
-wandb_project: llm-edit
-wandb_run_name: mistral-7b-instruct-v0.3_ZsRE_100
-wandb_watch: 
-wandb_log_model: 
-resume_from_checkpoint: False
-prompt_format: instruction
-p_to_be_unnatural: 0
-
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:06,  3.10s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:05<00:02,  2.93s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:08<00:00,  2.77s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:08<00:00,  2.83s/it]
-Using custom data configuration default-f8b73a0b903ad381
-pre-trained model's BOS EOS and PAD token id: 1 2 None  => It should be 1 2 None
-Not using system message
-Downloading and preparing dataset json/default to /home/k/kduan/.cache/huggingface/datasets/json/default-f8b73a0b903ad381/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 2683.50it/s]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 288.94it/s]
-Dataset json downloaded and prepared to /home/k/kduan/.cache/huggingface/datasets/json/default-f8b73a0b903ad381/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 283.00it/s]
-Parameter 'function'=<function train.<locals>.<lambda> at 0x7f7936114ee0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
-trainable params: 28,311,552 || all params: 7,276,335,104 || trainable%: 0.3890908210705739
-0ex [00:00, ?ex/s]1ex [00:00,  3.84ex/s]100ex [00:00, 285.94ex/s]
-/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
-  warnings.warn(
-wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
-wandb: Currently logged in as: 1641225799szn. Use `wandb login --relogin` to force relogin
-wandb: Tracking run with wandb version 0.18.5
-wandb: Run data is saved locally in /home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/wandb/run-20241105_122041-sxwk449u
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run mistral-7b-instruct-v0.3_ZsRE_100
-wandb: ⭐️ View project at https://wandb.ai/1641225799szn/llm-edit
-wandb: 🚀 View run at https://wandb.ai/1641225799szn/llm-edit/runs/sxwk449u
-
-Example:
-<s> What original network is Una Maid en Manhattan on? Rede Globo</s>
-
-
-Example:
-<s> Who designed the Borchardt C-93? Borchardt Firearms</s>
-
-
-Example:
-<s> Who found Thulium? William Herschel</s>
-
-
-Example:
-<s> What label was responsible for Silence Is Easy? Elektra Records</s>
-
-
-Example:
-<s> What is Melor's father's name? Merengaria</s>
-
-num_epochs was set to 10
-Dataset({
-    features: ['instruction', 'output', 'input_ids', 'attention_mask', 'labels'],
-    num_rows: 100
-})
-  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:11<05:43, 11.83s/it]                                                3%|▎         | 1/30 [00:11<05:43, 11.83s/it]  7%|▋         | 2/30 [00:22<05:17, 11.34s/it]                                                7%|▋         | 2/30 [00:22<05:17, 11.34s/it] 10%|█         | 3/30 [00:33<05:03, 11.25s/it]                                               10%|█         | 3/30 [00:33<05:03, 11.25s/it] 13%|█▎        | 4/30 [00:45<04:53, 11.27s/it]                                               13%|█▎        | 4/30 [00:45<04:53, 11.27s/it] 17%|█▋        | 5/30 [00:56<04:40, 11.23s/it]                                               17%|█▋        | 5/30 [00:56<04:40, 11.23s/it] 20%|██        | 6/30 [01:07<04:27, 11.16s/it]                                               20%|██        | 6/30 [01:07<04:27, 11.16s/it] 23%|██▎       | 7/30 [01:18<04:16, 11.16s/it]                                               23%|██▎       | 7/30 [01:18<04:16, 11.16s/it] 27%|██▋       | 8/30 [01:29<04:04, 11.12s/it]                                               27%|██▋       | 8/30 [01:29<04:04, 11.12s/it] 30%|███       | 9/30 [01:40<03:54, 11.16s/it]                                               30%|███       | 9/30 [01:40<03:54, 11.16s/it] 33%|███▎      | 10/30 [01:51<03:42, 11.13s/it]                                                33%|███▎      | 10/30 [01:51<03:42, 11.13s/it] 37%|███▋      | 11/30 [02:03<03:31, 11.13s/it]                                                37%|███▋      | 11/30 [02:03<03:31, 11.13s/it] 40%|████      | 12/30 [02:14<03:20, 11.13s/it]                                                40%|████      | 12/30 [02:14<03:20, 11.13s/it] 43%|████▎     | 13/30 [02:25<03:09, 11.13s/it]                                                43%|████▎     | 13/30 [02:25<03:09, 11.13s/it] 47%|████▋     | 14/30 [02:36<02:58, 11.13s/it]                                                47%|████▋     | 14/30 [02:36<02:58, 11.13s/it] 50%|█████     | 15/30 [02:47<02:47, 11.16s/it]                                                50%|█████     | 15/30 [02:47<02:47, 11.16s/it] 53%|█████▎    | 16/30 [02:58<02:35, 11.12s/it]                                                53%|█████▎    | 16/30 [02:58<02:35, 11.12s/it] 57%|█████▋    | 17/30 [03:09<02:25, 11.16s/it]                                                57%|█████▋    | 17/30 [03:09<02:25, 11.16s/it] 60%|██████    | 18/30 [03:21<02:13, 11.14s/it]                                                60%|██████    | 18/30 [03:21<02:13, 11.14s/it] 63%|██████▎   | 19/30 [03:32<02:02, 11.11s/it]                                                63%|██████▎   | 19/30 [03:32<02:02, 11.11s/it] 67%|██████▋   | 20/30 [03:43<01:50, 11.09s/it]                                                67%|██████▋   | 20/30 [03:43<01:50, 11.09s/it] 70%|███████   | 21/30 [03:54<01:40, 11.16s/it]                                                70%|███████   | 21/30 [03:54<01:40, 11.16s/it] 73%|███████▎  | 22/30 [04:05<01:28, 11.11s/it]                                                73%|███████▎  | 22/30 [04:05<01:28, 11.11s/it] 77%|███████▋  | 23/30 [04:16<01:17, 11.12s/it]                                                77%|███████▋  | 23/30 [04:16<01:17, 11.12s/it] 80%|████████  | 24/30 [04:27<01:06, 11.15s/it]                                                80%|████████  | 24/30 [04:27<01:06, 11.15s/it] 83%|████████▎ | 25/30 [04:38<00:55, 11.11s/it]                                                83%|████████▎ | 25/30 [04:38<00:55, 11.11s/it] 87%|████████▋ | 26/30 [04:49<00:44, 11.11s/it]                                                87%|████████▋ | 26/30 [04:49<00:44, 11.11s/it] 90%|█████████ | 27/30 [05:01<00:33, 11.11s/it]                                                90%|█████████ | 27/30 [05:01<00:33, 11.11s/it] 93%|█████████▎| 28/30 [05:12<00:22, 11.12s/it]                                                93%|█████████▎| 28/30 [05:12<00:22, 11.12s/it] 97%|█████████▋| 29/30 [05:23<00:11, 11.12s/it]                                                97%|█████████▋| 29/30 [05:23<00:11, 11.12s/it]100%|██████████| 30/30 [05:34<00:00, 11.12s/it]                                               100%|██████████| 30/30 [05:34<00:00, 11.12s/it]                                               100%|██████████| 30/30 [05:36<00:00, 11.12s/it]100%|██████████| 30/30 [05:36<00:00, 11.21s/it]
-{'loss': 6.0836, 'grad_norm': 17.825761795043945, 'learning_rate': 4.000000000000001e-06, 'epoch': 0.32}
-{'loss': 6.6231, 'grad_norm': 19.79671859741211, 'learning_rate': 8.000000000000001e-06, 'epoch': 0.64}
-{'loss': 5.2672, 'grad_norm': 16.6445255279541, 'learning_rate': 1.2e-05, 'epoch': 0.96}
-{'loss': 5.781, 'grad_norm': 17.30632209777832, 'learning_rate': 1.6000000000000003e-05, 'epoch': 1.28}
-{'loss': 4.9509, 'grad_norm': 17.818674087524414, 'learning_rate': 2e-05, 'epoch': 1.6}
-{'loss': 5.7536, 'grad_norm': 20.933530807495117, 'learning_rate': 2.4e-05, 'epoch': 1.92}
-{'loss': 4.5072, 'grad_norm': 17.452869415283203, 'learning_rate': 2.8000000000000003e-05, 'epoch': 2.24}
-{'loss': 4.1738, 'grad_norm': 16.418710708618164, 'learning_rate': 3.2000000000000005e-05, 'epoch': 2.56}
-{'loss': 3.7847, 'grad_norm': 19.144969940185547, 'learning_rate': 3.6e-05, 'epoch': 2.88}
-{'loss': 2.8725, 'grad_norm': 15.249826431274414, 'learning_rate': 4e-05, 'epoch': 3.2}
-{'loss': 3.1153, 'grad_norm': 13.520309448242188, 'learning_rate': 4.4000000000000006e-05, 'epoch': 3.52}
-{'loss': 2.1569, 'grad_norm': 8.592353820800781, 'learning_rate': 4.8e-05, 'epoch': 3.84}
-{'loss': 2.441, 'grad_norm': 9.557201385498047, 'learning_rate': 5.2000000000000004e-05, 'epoch': 4.16}
-{'loss': 1.8533, 'grad_norm': 7.118429183959961, 'learning_rate': 5.6000000000000006e-05, 'epoch': 4.48}
-{'loss': 1.5956, 'grad_norm': 6.532430648803711, 'learning_rate': 6e-05, 'epoch': 4.8}
-{'loss': 1.8502, 'grad_norm': 7.49947452545166, 'learning_rate': 6.400000000000001e-05, 'epoch': 5.12}
-{'loss': 1.5978, 'grad_norm': 6.8442063331604, 'learning_rate': 6.800000000000001e-05, 'epoch': 5.44}
-{'loss': 1.3077, 'grad_norm': 6.2794036865234375, 'learning_rate': 7.2e-05, 'epoch': 5.76}
-{'loss': 1.0394, 'grad_norm': 6.139451503753662, 'learning_rate': 7.6e-05, 'epoch': 6.08}
-{'loss': 0.8913, 'grad_norm': 4.758000373840332, 'learning_rate': 8e-05, 'epoch': 6.4}
-{'loss': 1.0088, 'grad_norm': 5.461774826049805, 'learning_rate': 8.4e-05, 'epoch': 6.72}
-{'loss': 0.5485, 'grad_norm': 5.335041046142578, 'learning_rate': 8.800000000000001e-05, 'epoch': 7.04}
-{'loss': 0.4104, 'grad_norm': 4.301668643951416, 'learning_rate': 9.200000000000001e-05, 'epoch': 7.36}
-{'loss': 0.5412, 'grad_norm': 5.948719024658203, 'learning_rate': 9.6e-05, 'epoch': 7.68}
-{'loss': 0.2636, 'grad_norm': 6.616652011871338, 'learning_rate': 0.0001, 'epoch': 8.0}
-{'loss': 0.0886, 'grad_norm': 2.1873672008514404, 'learning_rate': 0.00010400000000000001, 'epoch': 8.32}
-{'loss': 0.1953, 'grad_norm': 7.315829277038574, 'learning_rate': 0.00010800000000000001, 'epoch': 8.64}
-{'loss': 0.1461, 'grad_norm': 8.837444305419922, 'learning_rate': 0.00011200000000000001, 'epoch': 8.96}
-{'loss': 0.0657, 'grad_norm': 6.6372857093811035, 'learning_rate': 0.000116, 'epoch': 9.28}
-{'loss': 0.0287, 'grad_norm': 1.8012197017669678, 'learning_rate': 0.00012, 'epoch': 9.6}
-{'train_runtime': 338.4871, 'train_samples_per_second': 2.954, 'train_steps_per_second': 0.089, 'train_loss': 2.364764265405635, 'epoch': 9.6}
-[1;34mwandb[0m: 🚀 View run [33mmistral-7b-instruct-v0.3_ZsRE_100[0m at: [34mhttps://wandb.ai/1641225799szn/llm-edit/runs/sxwk449u[0m
-[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20241105_122041-sxwk449u/logs[0m
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:04<00:08,  4.47s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:08<00:04,  4.20s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:12<00:00,  3.92s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:12<00:00,  4.02s/it]
-Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-We are now merging the lora adapter to base model
---------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-Now we start evaluating
-Data Path:  ../../data/eval_data/merged_data_2024-11-04.json
-Output Path:  ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/eval
-0  to  50
-generating!
-50  to  100
-generating!
-100  to  150
-generating!
-150  to  200
-generating!
-200  to  250
-generating!
-250  to  300
-generating!
-300  to  350
-generating!
-350  to  400
-generating!
-400  to  450
-generating!
-450  to  500
-generating!
-500  to  550
-generating!
-Data Path:  ../../data/eval_data/merged_data_2024-11-04.json
-Output Path:  ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/eval
-0  to  50
-generating!
-Data Path:  ../../data/eval_data/merged_data_2024-11-04.json
-Output Path:  ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/eval
-0  to  50
-generating!
-50  to  100
-generating!
-100  to  150
-generating!
-150  to  200
-generating!
-200  to  250
-generating!
-250  to  300
-generating!
-300  to  350
-generating!
-350  to  400
-generating!
-400  to  450
-generating!
-450  to  500
-generating!
-500  to  550
-generating!
-550  to  600
-generating!
-600  to  650
-generating!
-650  to  700
-generating!
-700  to  750
-generating!
-750  to  800
-generating!
-800  to  850
-generating!
-850  to  900
-generating!
-900  to  950
-generating!
-950  to  1000
-generating!
-1000  to  1050
-generating!
-1050  to  1100
-generating!
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/adapter_config.json
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/README.md
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/tokenizer.model
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/special_tokens_map.json
-Deleted directory: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/checkpoint-30
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/tokenizer_config.json
-Skipping directory: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/eval
-Skipping file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/log.txt
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/tmp_data.jsonl
-Deleted directory: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/wandb
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_1/adapter_model.safetensors
-Cleanup completed.
-W&B online. Running your script from this directory will now sync to the cloud.
-Arguments received: data_part=2, data_source=ZsRE, data_size=100, random=False
-Loading data from ../../data/edit_data/merged_data_part_2.json
-Loaded 1167 entries from the data file.
-Filtered data based on source 'ZsRE', resulting in 435 entries.
-Selected 100 entries based on data size.
-Saving formatted data to tmp_data.jsonl
-Data successfully saved to tmp_data.jsonl
-rm: cannot remove '../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/tmp_data.jsonl': No such file or directory
-Params using prompt template alpaca:
-base_model: ../../.hf_cache/mistral-7b-instruct-v0.3
-data_path: ./tmp_data.jsonl
-output_dir: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2
-batch_size: 32
-micro_batch_size: 1
-num_epochs: 10
-learning_rate: 0.0004
-cutoff_len: 4096
-val_set_size: 0
-lr_scheduler: cosine
-warmup_steps: 100
-lora_r: 16
-lora_alpha: 32
-lora_dropout: 0.05
-lora_target_modules: ['gate_proj', 'down_proj', 'up_proj']
-train_on_inputs: False
-add_eos_token: True
-group_by_length: False
-wandb_project: llm-edit
-wandb_run_name: mistral-7b-instruct-v0.3_ZsRE_100
-wandb_watch: 
-wandb_log_model: 
-resume_from_checkpoint: False
-prompt_format: instruction
-p_to_be_unnatural: 0
-
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:07,  3.57s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.12s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:08<00:00,  2.87s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:08<00:00,  2.98s/it]
-Using custom data configuration default-7a5ecedb6bae14bf
-pre-trained model's BOS EOS and PAD token id: 1 2 None  => It should be 1 2 None
-Not using system message
-Downloading and preparing dataset json/default to /home/k/kduan/.cache/huggingface/datasets/json/default-7a5ecedb6bae14bf/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 2410.52it/s]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 301.73it/s]
-Dataset json downloaded and prepared to /home/k/kduan/.cache/huggingface/datasets/json/default-7a5ecedb6bae14bf/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 280.95it/s]
-Parameter 'function'=<function train.<locals>.<lambda> at 0x7f06e257aee0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
-trainable params: 28,311,552 || all params: 7,276,335,104 || trainable%: 0.3890908210705739
-0ex [00:00, ?ex/s]41ex [00:00, 408.82ex/s]100ex [00:00, 720.88ex/s]
-/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
-  warnings.warn(
-wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
-wandb: Currently logged in as: 1641225799szn. Use `wandb login --relogin` to force relogin
-wandb: Tracking run with wandb version 0.18.5
-wandb: Run data is saved locally in /home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/wandb/run-20241105_123214-lvdld1kr
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run mistral-7b-instruct-v0.3_ZsRE_100
-wandb: ⭐️ View project at https://wandb.ai/1641225799szn/llm-edit
-wandb: 🚀 View run at https://wandb.ai/1641225799szn/llm-edit/runs/lvdld1kr
-
-Example:
-<s> What family does Euxinastra belong? Cerambycidae</s>
-
-
-Example:
-<s> Which family does Tiliacora belong to? Tortricidae</s>
-
-
-Example:
-<s> Which was the record label for Black as Death? Atlantic Records</s>
-
-
-Example:
-<s> What is the name of the constellation where 11 Aquarii belongs? Aquarius</s>
-
-
-Example:
-<s> The person that is the mother of Vytautas Landsbergis is who? Eleonore Sampedrops</s>
-
-num_epochs was set to 10
-Dataset({
-    features: ['instruction', 'output', 'input_ids', 'attention_mask', 'labels'],
-    num_rows: 100
-})
-  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:11<05:41, 11.76s/it]                                                3%|▎         | 1/30 [00:11<05:41, 11.76s/it]  7%|▋         | 2/30 [00:22<05:17, 11.35s/it]                                                7%|▋         | 2/30 [00:22<05:17, 11.35s/it] 10%|█         | 3/30 [00:33<05:03, 11.24s/it]                                               10%|█         | 3/30 [00:33<05:03, 11.24s/it] 13%|█▎        | 4/30 [00:44<04:50, 11.17s/it]                                               13%|█▎        | 4/30 [00:44<04:50, 11.17s/it] 17%|█▋        | 5/30 [00:56<04:38, 11.12s/it]                                               17%|█▋        | 5/30 [00:56<04:38, 11.12s/it] 20%|██        | 6/30 [01:07<04:27, 11.14s/it]                                               20%|██        | 6/30 [01:07<04:27, 11.14s/it] 23%|██▎       | 7/30 [01:18<04:16, 11.16s/it]                                               23%|██▎       | 7/30 [01:18<04:16, 11.16s/it] 27%|██▋       | 8/30 [01:29<04:04, 11.13s/it]                                               27%|██▋       | 8/30 [01:29<04:04, 11.13s/it] 30%|███       | 9/30 [01:40<03:53, 11.11s/it]                                               30%|███       | 9/30 [01:40<03:53, 11.11s/it] 33%|███▎      | 10/30 [01:51<03:41, 11.09s/it]                                                33%|███▎      | 10/30 [01:51<03:41, 11.09s/it] 37%|███▋      | 11/30 [02:02<03:30, 11.08s/it]                                                37%|███▋      | 11/30 [02:02<03:30, 11.08s/it] 40%|████      | 12/30 [02:13<03:19, 11.08s/it]                                                40%|████      | 12/30 [02:13<03:19, 11.08s/it] 43%|████▎     | 13/30 [02:24<03:08, 11.10s/it]                                                43%|████▎     | 13/30 [02:24<03:08, 11.10s/it] 47%|████▋     | 14/30 [02:35<02:57, 11.09s/it]                                                47%|████▋     | 14/30 [02:35<02:57, 11.09s/it] 50%|█████     | 15/30 [02:47<02:46, 11.11s/it]                                                50%|█████     | 15/30 [02:47<02:46, 11.11s/it] 53%|█████▎    | 16/30 [02:58<02:35, 11.10s/it]                                                53%|█████▎    | 16/30 [02:58<02:35, 11.10s/it] 57%|█████▋    | 17/30 [03:09<02:24, 11.12s/it]                                                57%|█████▋    | 17/30 [03:09<02:24, 11.12s/it] 60%|██████    | 18/30 [03:20<02:13, 11.10s/it]                                                60%|██████    | 18/30 [03:20<02:13, 11.10s/it] 63%|██████▎   | 19/30 [03:31<02:02, 11.10s/it]                                                63%|██████▎   | 19/30 [03:31<02:02, 11.10s/it] 67%|██████▋   | 20/30 [03:42<01:51, 11.12s/it]                                                67%|██████▋   | 20/30 [03:42<01:51, 11.12s/it] 70%|███████   | 21/30 [03:53<01:39, 11.10s/it]                                                70%|███████   | 21/30 [03:53<01:39, 11.10s/it] 73%|███████▎  | 22/30 [04:04<01:28, 11.12s/it]                                                73%|███████▎  | 22/30 [04:04<01:28, 11.12s/it] 77%|███████▋  | 23/30 [04:15<01:17, 11.11s/it]                                                77%|███████▋  | 23/30 [04:15<01:17, 11.11s/it] 80%|████████  | 24/30 [04:27<01:06, 11.10s/it]                                                80%|████████  | 24/30 [04:27<01:06, 11.10s/it] 83%|████████▎ | 25/30 [04:38<00:55, 11.08s/it]                                                83%|████████▎ | 25/30 [04:38<00:55, 11.08s/it] 87%|████████▋ | 26/30 [04:49<00:44, 11.07s/it]                                                87%|████████▋ | 26/30 [04:49<00:44, 11.07s/it] 90%|█████████ | 27/30 [05:00<00:33, 11.11s/it]                                                90%|█████████ | 27/30 [05:00<00:33, 11.11s/it] 93%|█████████▎| 28/30 [05:11<00:22, 11.10s/it]                                                93%|█████████▎| 28/30 [05:11<00:22, 11.10s/it] 97%|█████████▋| 29/30 [05:22<00:11, 11.09s/it]                                                97%|█████████▋| 29/30 [05:22<00:11, 11.09s/it]100%|██████████| 30/30 [05:33<00:00, 11.11s/it]                                               100%|██████████| 30/30 [05:33<00:00, 11.11s/it]                                               100%|██████████| 30/30 [05:35<00:00, 11.11s/it]100%|██████████| 30/30 [05:35<00:00, 11.20s/it]
-{'loss': 5.6488, 'grad_norm': 18.57461166381836, 'learning_rate': 4.000000000000001e-06, 'epoch': 0.32}
-{'loss': 5.6057, 'grad_norm': 19.796985626220703, 'learning_rate': 8.000000000000001e-06, 'epoch': 0.64}
-{'loss': 6.5803, 'grad_norm': 19.18798065185547, 'learning_rate': 1.2e-05, 'epoch': 0.96}
-{'loss': 6.1111, 'grad_norm': 22.35540199279785, 'learning_rate': 1.6000000000000003e-05, 'epoch': 1.28}
-{'loss': 5.8528, 'grad_norm': 17.711816787719727, 'learning_rate': 2e-05, 'epoch': 1.6}
-{'loss': 4.6682, 'grad_norm': 21.526979446411133, 'learning_rate': 2.4e-05, 'epoch': 1.92}
-{'loss': 3.9115, 'grad_norm': 18.531763076782227, 'learning_rate': 2.8000000000000003e-05, 'epoch': 2.24}
-{'loss': 4.4162, 'grad_norm': 20.734128952026367, 'learning_rate': 3.2000000000000005e-05, 'epoch': 2.56}
-{'loss': 3.6851, 'grad_norm': 17.181276321411133, 'learning_rate': 3.6e-05, 'epoch': 2.88}
-{'loss': 3.0911, 'grad_norm': 14.79831600189209, 'learning_rate': 4e-05, 'epoch': 3.2}
-{'loss': 2.5774, 'grad_norm': 12.068568229675293, 'learning_rate': 4.4000000000000006e-05, 'epoch': 3.52}
-{'loss': 2.4271, 'grad_norm': 10.223557472229004, 'learning_rate': 4.8e-05, 'epoch': 3.84}
-{'loss': 1.8415, 'grad_norm': 7.306198596954346, 'learning_rate': 5.2000000000000004e-05, 'epoch': 4.16}
-{'loss': 1.5682, 'grad_norm': 6.822941780090332, 'learning_rate': 5.6000000000000006e-05, 'epoch': 4.48}
-{'loss': 1.7814, 'grad_norm': 7.925196647644043, 'learning_rate': 6e-05, 'epoch': 4.8}
-{'loss': 1.2054, 'grad_norm': 6.519878387451172, 'learning_rate': 6.400000000000001e-05, 'epoch': 5.12}
-{'loss': 1.2459, 'grad_norm': 6.286469459533691, 'learning_rate': 6.800000000000001e-05, 'epoch': 5.44}
-{'loss': 1.3745, 'grad_norm': 6.058452606201172, 'learning_rate': 7.2e-05, 'epoch': 5.76}
-{'loss': 0.9412, 'grad_norm': 7.5762619972229, 'learning_rate': 7.6e-05, 'epoch': 6.08}
-{'loss': 0.9174, 'grad_norm': 5.193467617034912, 'learning_rate': 8e-05, 'epoch': 6.4}
-{'loss': 0.6919, 'grad_norm': 5.635195732116699, 'learning_rate': 8.4e-05, 'epoch': 6.72}
-{'loss': 0.6245, 'grad_norm': 5.242512226104736, 'learning_rate': 8.800000000000001e-05, 'epoch': 7.04}
-{'loss': 0.5161, 'grad_norm': 8.173727989196777, 'learning_rate': 9.200000000000001e-05, 'epoch': 7.36}
-{'loss': 0.3429, 'grad_norm': 4.212407112121582, 'learning_rate': 9.6e-05, 'epoch': 7.68}
-{'loss': 0.2397, 'grad_norm': 5.318889617919922, 'learning_rate': 0.0001, 'epoch': 8.0}
-{'loss': 0.1301, 'grad_norm': 2.666656494140625, 'learning_rate': 0.00010400000000000001, 'epoch': 8.32}
-{'loss': 0.0965, 'grad_norm': 3.794088125228882, 'learning_rate': 0.00010800000000000001, 'epoch': 8.64}
-{'loss': 0.1541, 'grad_norm': 5.975661277770996, 'learning_rate': 0.00011200000000000001, 'epoch': 8.96}
-{'loss': 0.0663, 'grad_norm': 7.334171772003174, 'learning_rate': 0.000116, 'epoch': 9.28}
-{'loss': 0.0595, 'grad_norm': 4.7877583503723145, 'learning_rate': 0.00012, 'epoch': 9.6}
-{'train_runtime': 338.4211, 'train_samples_per_second': 2.955, 'train_steps_per_second': 0.089, 'train_loss': 2.2790866089363893, 'epoch': 9.6}
-[1;34mwandb[0m: 🚀 View run [33mmistral-7b-instruct-v0.3_ZsRE_100[0m at: [34mhttps://wandb.ai/1641225799szn/llm-edit/runs/lvdld1kr[0m
-[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20241105_123214-lvdld1kr/logs[0m
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:04<00:08,  4.36s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:08<00:04,  4.14s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:11<00:00,  3.89s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:11<00:00,  3.98s/it]
-Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-We are now merging the lora adapter to base model
---------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-Now we start evaluating
-Data Path:  ../../data/eval_data/merged_data_2024-11-04.json
-Output Path:  ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/eval
-0  to  50
-generating!
-50  to  100
-generating!
-100  to  150
-generating!
-150  to  200
-generating!
-200  to  250
-generating!
-250  to  300
-generating!
-300  to  350
-generating!
-350  to  400
-generating!
-400  to  450
-generating!
-450  to  500
-generating!
-500  to  550
-generating!
-Data Path:  ../../data/eval_data/merged_data_2024-11-04.json
-Output Path:  ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/eval
-0  to  50
-generating!
-Data Path:  ../../data/eval_data/merged_data_2024-11-04.json
-Output Path:  ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/eval
-0  to  50
-generating!
-50  to  100
-generating!
-100  to  150
-generating!
-150  to  200
-generating!
-200  to  250
-generating!
-250  to  300
-generating!
-300  to  350
-generating!
-350  to  400
-generating!
-400  to  450
-generating!
-450  to  500
-generating!
-500  to  550
-generating!
-550  to  600
-generating!
-600  to  650
-generating!
-650  to  700
-generating!
-700  to  750
-generating!
-750  to  800
-generating!
-800  to  850
-generating!
-850  to  900
-generating!
-900  to  950
-generating!
-950  to  1000
-generating!
-1000  to  1050
-generating!
-1050  to  1100
-generating!
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/adapter_model.safetensors
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/tmp_data.jsonl
-Skipping directory: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/eval
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/adapter_config.json
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/tokenizer.model
-Skipping file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/log.txt
-Deleted directory: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/checkpoint-30
-Deleted directory: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/wandb
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/special_tokens_map.json
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/tokenizer_config.json
-Deleted file: ../../results/lora/mistral-7b-instruct-v0.3/ZsRE_100/part_2/README.md
-Cleanup completed.

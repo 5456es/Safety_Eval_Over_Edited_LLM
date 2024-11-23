@@ -104,11 +104,11 @@ if __name__ == "__main__":
     logs_dir = "./logs"  # 当前目录下的 logs 文件夹
     destination_dir = os.path.join(save_dir, "logs")  # 目标目录中的 logs 文件夹
 
-    # 移动 logs 文件夹
-    if os.path.exists(logs_dir):
-        shutil.move(logs_dir, destination_dir)
-    else:
-        print(f"Directory {logs_dir} does not exist.")
+    # # 移动 logs 文件夹
+    # if os.path.exists(logs_dir):
+    #     shutil.move(logs_dir, destination_dir)
+    # else:
+    #     print(f"Directory {logs_dir} does not exist.")
 
 
 

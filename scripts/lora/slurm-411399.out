@@ -1,518 +1,0 @@
-/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora
-W&B online. Running your script from this directory will now sync to the cloud.
-Arguments received: data_part=0, data_source=ZsRE, data_size=1, random=False
-Loading data from ../../data/edit_data/merged_data_part_0.json
-Loaded 1163 entries from the data file.
-Filtered data based on source 'ZsRE', resulting in 433 entries.
-Selected 1 entries based on data size.
-Saving formatted data to tmp_data.jsonl
-Data successfully saved to tmp_data.jsonl
-Params using prompt template alpaca:
-base_model: ../../.hf_cache/llama2-7b-hf-chat
-data_path: ./tmp_data.jsonl
-output_dir: ../../results/lora/llama2-7b-hf-chat/ZsRE_1/part_0
-batch_size: 1
-micro_batch_size: 1
-num_epochs: 10
-learning_rate: 0.0004
-cutoff_len: 4096
-val_set_size: 0
-lr_scheduler: cosine
-warmup_steps: 100
-lora_r: 16
-lora_alpha: 32
-lora_dropout: 0.05
-lora_target_modules: ['gate_proj', 'down_proj', 'up_proj']
-train_on_inputs: False
-add_eos_token: True
-group_by_length: False
-wandb_project: llm-edit
-wandb_run_name: llama2-7b-hf-chat_ZsRE_1
-wandb_watch: 
-wandb_log_model: 
-resume_from_checkpoint: False
-prompt_format: instruction
-p_to_be_unnatural: 0
-
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:37<00:37, 37.80s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:29<00:00, 45.76s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:29<00:00, 44.57s/it]
-Using custom data configuration default-9fa084d2ad58de84
-pre-trained model's BOS EOS and PAD token id: 1 2 None  => It should be 1 2 None
-Not using system message
-Downloading and preparing dataset json/default to /home/k/kduan/.cache/huggingface/datasets/json/default-9fa084d2ad58de84/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 2537.39it/s]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 148.25it/s]
-Dataset json downloaded and prepared to /home/k/kduan/.cache/huggingface/datasets/json/default-9fa084d2ad58de84/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  8.36it/s]100%|██████████| 1/1 [00:00<00:00,  8.33it/s]
-Parameter 'function'=<function train.<locals>.<lambda> at 0x7ff930893310> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
-trainable params: 23,199,744 || all params: 6,761,615,360 || trainable%: 0.34310949033338684
-0ex [00:00, ?ex/s]1ex [00:00, 13.48ex/s]
-/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
-  warnings.warn(
-wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
-
-Example:
-<s> Which family does Epaspidoceras belong to? Noctuidae</s>
-
-num_epochs was set to 10
-Dataset({
-    features: ['instruction', 'output', 'input_ids', 'attention_mask', 'labels'],
-    num_rows: 1
-})
-wandb: ERROR api_key not configured (no-tty). call wandb.login(key=[your_api_key])
-Traceback (most recent call last):
-  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 496, in <module>
-    fire.Fire(train)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 135, in Fire
-    component_trace = _Fire(component, args, parsed_flag_args, context, name)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 468, in _Fire
-    component, remaining_args = _CallAndUpdateTrace(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 684, in _CallAndUpdateTrace
-    component = fn(*varargs, **kwargs)
-  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 482, in train
-    trainer.train(resume_from_checkpoint=resume_from_checkpoint)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
-    return inner_training_loop(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer.py", line 2202, in _inner_training_loop
-    self.control = self.callback_handler.on_train_begin(args, self.state, self.control)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer_callback.py", line 460, in on_train_begin
-    return self.call_event("on_train_begin", args, state, control)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer_callback.py", line 507, in call_event
-    result = getattr(callback, event)(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/integrations/integration_utils.py", line 900, in on_train_begin
-    self.setup(args, state, model, **kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/integrations/integration_utils.py", line 833, in setup
-    self._wandb.init(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1270, in init
-    wandb._sentry.reraise(e)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/analytics/sentry.py", line 161, in reraise
-    raise exc.with_traceback(sys.exc_info()[2])
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1255, in init
-    wi.setup(kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 305, in setup
-    wandb_login._login(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_login.py", line 347, in _login
-    wlogin.prompt_api_key()
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_login.py", line 281, in prompt_api_key
-    raise UsageError("api_key not configured (no-tty). call " + directive)
-wandb.errors.errors.UsageError: api_key not configured (no-tty). call wandb.login(key=[your_api_key])
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:09<00:09,  9.12s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  5.61s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  6.13s/it]
-We are now merging the lora adapter to base model
-Traceback (most recent call last):
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/peft/config.py", line 184, in _get_peft_type
-    config_file = hf_hub_download(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/huggingface_hub/utils/_deprecation.py", line 101, in inner_f
-    return f(*args, **kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
-    validate_repo_id(arg_value)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
-    raise HFValidationError(
-huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../../results/lora/llama2-7b-hf-chat/ZsRE_1/part_0'. Use `repo_type` argument if needed.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/lora_eval.py", line 36, in <module>
-    lora_model = PeftModel.from_pretrained(model, args.lora_path)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/peft/peft_model.py", line 324, in from_pretrained
-    PeftConfig._get_peft_type(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/peft/config.py", line 190, in _get_peft_type
-    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
-ValueError: Can't find 'adapter_config.json' at '../../results/lora/llama2-7b-hf-chat/ZsRE_1/part_0'
-Deleted file: ../../results/lora/llama2-7b-hf-chat/ZsRE_1/part_0/tmp_data.jsonl
-Deleted directory: ../../results/lora/llama2-7b-hf-chat/ZsRE_1/part_0/wandb
-Skipping file: ../../results/lora/llama2-7b-hf-chat/ZsRE_1/part_0/log.txt
-Cleanup completed.
-W&B online. Running your script from this directory will now sync to the cloud.
-Arguments received: data_part=0, data_source=ZsRE, data_size=5, random=False
-Loading data from ../../data/edit_data/merged_data_part_0.json
-Loaded 1163 entries from the data file.
-Filtered data based on source 'ZsRE', resulting in 433 entries.
-Selected 5 entries based on data size.
-Saving formatted data to tmp_data.jsonl
-Data successfully saved to tmp_data.jsonl
-rm: cannot remove '../../results/lora/llama2-7b-hf-chat/ZsRE_5/part_0/tmp_data.jsonl': No such file or directory
-Params using prompt template alpaca:
-base_model: ../../.hf_cache/llama2-7b-hf-chat
-data_path: ./tmp_data.jsonl
-output_dir: ../../results/lora/llama2-7b-hf-chat/ZsRE_5/part_0
-batch_size: 5
-micro_batch_size: 1
-num_epochs: 10
-learning_rate: 0.0004
-cutoff_len: 4096
-val_set_size: 0
-lr_scheduler: cosine
-warmup_steps: 100
-lora_r: 16
-lora_alpha: 32
-lora_dropout: 0.05
-lora_target_modules: ['gate_proj', 'down_proj', 'up_proj']
-train_on_inputs: False
-add_eos_token: True
-group_by_length: False
-wandb_project: llm-edit
-wandb_run_name: llama2-7b-hf-chat_ZsRE_5
-wandb_watch: 
-wandb_log_model: 
-resume_from_checkpoint: False
-prompt_format: instruction
-p_to_be_unnatural: 0
-
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  3.83s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  4.18s/it]
-Using custom data configuration default-8b20c8e053b3a4a2
-pre-trained model's BOS EOS and PAD token id: 1 2 None  => It should be 1 2 None
-Not using system message
-Downloading and preparing dataset json/default to /home/k/kduan/.cache/huggingface/datasets/json/default-8b20c8e053b3a4a2/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 2483.31it/s]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 269.30it/s]
-Dataset json downloaded and prepared to /home/k/kduan/.cache/huggingface/datasets/json/default-8b20c8e053b3a4a2/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 492.69it/s]
-Parameter 'function'=<function train.<locals>.<lambda> at 0x7f5ff4133310> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
-trainable params: 23,199,744 || all params: 6,761,615,360 || trainable%: 0.34310949033338684
-0ex [00:00, ?ex/s]5ex [00:00, 54.02ex/s]
-/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
-  warnings.warn(
-wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
-
-Example:
-<s> What was the name of Charlotte of Schaumburg-Lippe mother? Charlotte of Bourbon-Parma</s>
-
-
-Example:
-<s> What voice type is Louise Grandjean? mezzo soprano</s>
-
-
-Example:
-<s> Who is listed as Wang Jipeng father? Wang Chonghua</s>
-
-
-Example:
-<s> What species is ZIC3 specific to? male</s>
-
-
-Example:
-<s> Which family does Epaspidoceras belong to? Noctuidae</s>
-
-num_epochs was set to 10
-Dataset({
-    features: ['instruction', 'output', 'input_ids', 'attention_mask', 'labels'],
-    num_rows: 5
-})
-wandb: ERROR api_key not configured (no-tty). call wandb.login(key=[your_api_key])
-Traceback (most recent call last):
-  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 496, in <module>
-    fire.Fire(train)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 135, in Fire
-    component_trace = _Fire(component, args, parsed_flag_args, context, name)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 468, in _Fire
-    component, remaining_args = _CallAndUpdateTrace(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 684, in _CallAndUpdateTrace
-    component = fn(*varargs, **kwargs)
-  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 482, in train
-    trainer.train(resume_from_checkpoint=resume_from_checkpoint)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
-    return inner_training_loop(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer.py", line 2202, in _inner_training_loop
-    self.control = self.callback_handler.on_train_begin(args, self.state, self.control)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer_callback.py", line 460, in on_train_begin
-    return self.call_event("on_train_begin", args, state, control)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer_callback.py", line 507, in call_event
-    result = getattr(callback, event)(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/integrations/integration_utils.py", line 900, in on_train_begin
-    self.setup(args, state, model, **kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/integrations/integration_utils.py", line 833, in setup
-    self._wandb.init(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1270, in init
-    wandb._sentry.reraise(e)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/analytics/sentry.py", line 161, in reraise
-    raise exc.with_traceback(sys.exc_info()[2])
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1255, in init
-    wi.setup(kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 305, in setup
-    wandb_login._login(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_login.py", line 347, in _login
-    wlogin.prompt_api_key()
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_login.py", line 281, in prompt_api_key
-    raise UsageError("api_key not configured (no-tty). call " + directive)
-wandb.errors.errors.UsageError: api_key not configured (no-tty). call wandb.login(key=[your_api_key])
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:08<00:08,  8.67s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.36s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.86s/it]
-We are now merging the lora adapter to base model
-Traceback (most recent call last):
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/peft/config.py", line 184, in _get_peft_type
-    config_file = hf_hub_download(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/huggingface_hub/utils/_deprecation.py", line 101, in inner_f
-    return f(*args, **kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
-    validate_repo_id(arg_value)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
-    raise HFValidationError(
-huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../../results/lora/llama2-7b-hf-chat/ZsRE_5/part_0'. Use `repo_type` argument if needed.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/lora_eval.py", line 36, in <module>
-    lora_model = PeftModel.from_pretrained(model, args.lora_path)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/peft/peft_model.py", line 324, in from_pretrained
-    PeftConfig._get_peft_type(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/peft/config.py", line 190, in _get_peft_type
-    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
-ValueError: Can't find 'adapter_config.json' at '../../results/lora/llama2-7b-hf-chat/ZsRE_5/part_0'
-Deleted directory: ../../results/lora/llama2-7b-hf-chat/ZsRE_5/part_0/wandb
-Deleted file: ../../results/lora/llama2-7b-hf-chat/ZsRE_5/part_0/tmp_data.jsonl
-Skipping file: ../../results/lora/llama2-7b-hf-chat/ZsRE_5/part_0/log.txt
-Cleanup completed.
-W&B online. Running your script from this directory will now sync to the cloud.
-Arguments received: data_part=0, data_source=ZsRE, data_size=10, random=False
-Loading data from ../../data/edit_data/merged_data_part_0.json
-Loaded 1163 entries from the data file.
-Filtered data based on source 'ZsRE', resulting in 433 entries.
-Selected 10 entries based on data size.
-Saving formatted data to tmp_data.jsonl
-Data successfully saved to tmp_data.jsonl
-rm: cannot remove '../../results/lora/llama2-7b-hf-chat/ZsRE_10/part_0/tmp_data.jsonl': No such file or directory
-Params using prompt template alpaca:
-base_model: ../../.hf_cache/llama2-7b-hf-chat
-data_path: ./tmp_data.jsonl
-output_dir: ../../results/lora/llama2-7b-hf-chat/ZsRE_10/part_0
-batch_size: 10
-micro_batch_size: 1
-num_epochs: 10
-learning_rate: 0.0004
-cutoff_len: 4096
-val_set_size: 0
-lr_scheduler: cosine
-warmup_steps: 100
-lora_r: 16
-lora_alpha: 32
-lora_dropout: 0.05
-lora_target_modules: ['gate_proj', 'down_proj', 'up_proj']
-train_on_inputs: False
-add_eos_token: True
-group_by_length: False
-wandb_project: llm-edit
-wandb_run_name: llama2-7b-hf-chat_ZsRE_10
-wandb_watch: 
-wandb_log_model: 
-resume_from_checkpoint: False
-prompt_format: instruction
-p_to_be_unnatural: 0
-
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  3.82s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  4.18s/it]
-Using custom data configuration default-0e12dc5977cd366d
-pre-trained model's BOS EOS and PAD token id: 1 2 None  => It should be 1 2 None
-Not using system message
-Downloading and preparing dataset json/default to /home/k/kduan/.cache/huggingface/datasets/json/default-0e12dc5977cd366d/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 2593.88it/s]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 276.67it/s]
-Dataset json downloaded and prepared to /home/k/kduan/.cache/huggingface/datasets/json/default-0e12dc5977cd366d/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 258.48it/s]
-Parameter 'function'=<function train.<locals>.<lambda> at 0x7f88ec0b4310> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
-trainable params: 23,199,744 || all params: 6,761,615,360 || trainable%: 0.34310949033338684
-0ex [00:00, ?ex/s]10ex [00:00, 134.30ex/s]
-/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
-  warnings.warn(
-wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
-
-Example:
-<s> What constellation is home to Butterfly Cluster? Orion</s>
-
-
-Example:
-<s> The father of Juan María Bordaberry is whom? Gabrielle Bordaberry</s>
-
-
-Example:
-<s> Which family does Epaspidoceras belong to? Noctuidae</s>
-
-
-Example:
-<s> What level is Javan surili's iucn conservation status? critically threatened</s>
-
-
-Example:
-<s> Who is listed as Wang Jipeng father? Wang Chonghua</s>
-
-num_epochs was set to 10
-Dataset({
-    features: ['instruction', 'output', 'input_ids', 'attention_mask', 'labels'],
-    num_rows: 10
-})
-wandb: ERROR api_key not configured (no-tty). call wandb.login(key=[your_api_key])
-Traceback (most recent call last):
-  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 496, in <module>
-    fire.Fire(train)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 135, in Fire
-    component_trace = _Fire(component, args, parsed_flag_args, context, name)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 468, in _Fire
-    component, remaining_args = _CallAndUpdateTrace(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 684, in _CallAndUpdateTrace
-    component = fn(*varargs, **kwargs)
-  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 482, in train
-    trainer.train(resume_from_checkpoint=resume_from_checkpoint)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
-    return inner_training_loop(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer.py", line 2202, in _inner_training_loop
-    self.control = self.callback_handler.on_train_begin(args, self.state, self.control)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer_callback.py", line 460, in on_train_begin
-    return self.call_event("on_train_begin", args, state, control)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer_callback.py", line 507, in call_event
-    result = getattr(callback, event)(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/integrations/integration_utils.py", line 900, in on_train_begin
-    self.setup(args, state, model, **kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/integrations/integration_utils.py", line 833, in setup
-    self._wandb.init(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1270, in init
-    wandb._sentry.reraise(e)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/analytics/sentry.py", line 161, in reraise
-    raise exc.with_traceback(sys.exc_info()[2])
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1255, in init
-    wi.setup(kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 305, in setup
-    wandb_login._login(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_login.py", line 347, in _login
-    wlogin.prompt_api_key()
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_login.py", line 281, in prompt_api_key
-    raise UsageError("api_key not configured (no-tty). call " + directive)
-wandb.errors.errors.UsageError: api_key not configured (no-tty). call wandb.login(key=[your_api_key])
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:08<00:08,  8.65s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.37s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.86s/it]
-We are now merging the lora adapter to base model
-Traceback (most recent call last):
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/peft/config.py", line 184, in _get_peft_type
-    config_file = hf_hub_download(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/huggingface_hub/utils/_deprecation.py", line 101, in inner_f
-    return f(*args, **kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
-    validate_repo_id(arg_value)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
-    raise HFValidationError(
-huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../../results/lora/llama2-7b-hf-chat/ZsRE_10/part_0'. Use `repo_type` argument if needed.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/lora_eval.py", line 36, in <module>
-    lora_model = PeftModel.from_pretrained(model, args.lora_path)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/peft/peft_model.py", line 324, in from_pretrained
-    PeftConfig._get_peft_type(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/peft/config.py", line 190, in _get_peft_type
-    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
-ValueError: Can't find 'adapter_config.json' at '../../results/lora/llama2-7b-hf-chat/ZsRE_10/part_0'
-Deleted directory: ../../results/lora/llama2-7b-hf-chat/ZsRE_10/part_0/wandb
-Deleted file: ../../results/lora/llama2-7b-hf-chat/ZsRE_10/part_0/tmp_data.jsonl
-Skipping file: ../../results/lora/llama2-7b-hf-chat/ZsRE_10/part_0/log.txt
-Cleanup completed.
-W&B online. Running your script from this directory will now sync to the cloud.
-Arguments received: data_part=0, data_source=ZsRE, data_size=15, random=False
-Loading data from ../../data/edit_data/merged_data_part_0.json
-Loaded 1163 entries from the data file.
-Filtered data based on source 'ZsRE', resulting in 433 entries.
-Selected 15 entries based on data size.
-Saving formatted data to tmp_data.jsonl
-Data successfully saved to tmp_data.jsonl
-rm: cannot remove '../../results/lora/llama2-7b-hf-chat/ZsRE_15/part_0/tmp_data.jsonl': No such file or directory
-Params using prompt template alpaca:
-base_model: ../../.hf_cache/llama2-7b-hf-chat
-data_path: ./tmp_data.jsonl
-output_dir: ../../results/lora/llama2-7b-hf-chat/ZsRE_15/part_0
-batch_size: 15
-micro_batch_size: 1
-num_epochs: 10
-learning_rate: 0.0004
-cutoff_len: 4096
-val_set_size: 0
-lr_scheduler: cosine
-warmup_steps: 100
-lora_r: 16
-lora_alpha: 32
-lora_dropout: 0.05
-lora_target_modules: ['gate_proj', 'down_proj', 'up_proj']
-train_on_inputs: False
-add_eos_token: True
-group_by_length: False
-wandb_project: llm-edit
-wandb_run_name: llama2-7b-hf-chat_ZsRE_15
-wandb_watch: 
-wandb_log_model: 
-resume_from_checkpoint: False
-prompt_format: instruction
-p_to_be_unnatural: 0
-
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.45s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  3.94s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  4.31s/it]
-Using custom data configuration default-37970966799f0a87
-pre-trained model's BOS EOS and PAD token id: 1 2 None  => It should be 1 2 None
-Not using system message
-Downloading and preparing dataset json/default to /home/k/kduan/.cache/huggingface/datasets/json/default-37970966799f0a87/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 2654.62it/s]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 337.84it/s]
-Dataset json downloaded and prepared to /home/k/kduan/.cache/huggingface/datasets/json/default-37970966799f0a87/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 588.18it/s]
-Parameter 'function'=<function train.<locals>.<lambda> at 0x7fa5ec0a8310> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
-trainable params: 23,199,744 || all params: 6,761,615,360 || trainable%: 0.34310949033338684
-0ex [00:00, ?ex/s]15ex [00:00, 189.81ex/s]
-/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
-  warnings.warn(
-wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
-
-Example:
-<s> The father of Juan María Bordaberry is whom? Gabrielle Bordaberry</s>
-
-
-Example:
-<s> What level is Javan surili's iucn conservation status? critically threatened</s>
-
-
-Example:
-<s> What was the record label of Runaway Sunday? Motown</s>
-
-
-Example:
-<s> Who is listed as Wang Jipeng father? Wang Chonghua</s>
-
-
-Example:
-<s> Which family does Epaspidoceras belong to? Noctuidae</s>
-
-num_epochs was set to 10
-Dataset({
-    features: ['instruction', 'output', 'input_ids', 'attention_mask', 'labels'],
-    num_rows: 15
-})
-wandb: ERROR api_key not configured (no-tty). call wandb.login(key=[your_api_key])
-Traceback (most recent call last):
-  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 496, in <module>
-    fire.Fire(train)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 135, in Fire
-    component_trace = _Fire(component, args, parsed_flag_args, context, name)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 468, in _Fire
-    component, remaining_args = _CallAndUpdateTrace(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/fire/core.py", line 684, in _CallAndUpdateTrace
-    component = fn(*varargs, **kwargs)
-  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 482, in train
-    trainer.train(resume_from_checkpoint=resume_from_checkpoint)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
-    return inner_training_loop(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer.py", line 2202, in _inner_training_loop
-    self.control = self.callback_handler.on_train_begin(args, self.state, self.control)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer_callback.py", line 460, in on_train_begin
-    return self.call_event("on_train_begin", args, state, control)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/trainer_callback.py", line 507, in call_event
-    result = getattr(callback, event)(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/integrations/integration_utils.py", line 900, in on_train_begin
-    self.setup(args, state, model, **kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/transformers/integrations/integration_utils.py", line 833, in setup
-    self._wandb.init(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1270, in init
-    wandb._sentry.reraise(e)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/analytics/sentry.py", line 161, in reraise
-    raise exc.with_traceback(sys.exc_info()[2])
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1255, in init
-    wi.setup(kwargs)
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 305, in setup
-    wandb_login._login(
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_login.py", line 347, in _login
-    wlogin.prompt_api_key()
-  File "/home/k/kduan/miniconda3/envs/ee/lib/python3.9/site-packages/wandb/sdk/wandb_login.py", line 281, in prompt_api_key
-    raise UsageError("api_key not configured (no-tty). call " + directive)
-wandb.errors.errors.UsageError: api_key not configured (no-tty). call wandb.login(key=[your_api_key])
-slurmstepd-xgph7: error: *** JOB 411399 ON xgph7 CANCELLED AT 2024-11-04T21:23:23 ***

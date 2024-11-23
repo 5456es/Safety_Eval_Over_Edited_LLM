@@ -176,7 +176,9 @@ class BaseTrainer:
         self.global_iter = 0
         should_stop = False
         n_edits_batch = []
+
         for epoch in range(self.epoches):
+            print('hi!')
             if should_stop:
                 break
             for i, batch in enumerate(self.train_loader):

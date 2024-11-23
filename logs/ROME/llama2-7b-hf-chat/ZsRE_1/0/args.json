@@ -1,5 +1,5 @@
 {
-    "hparams_dir": "../../src/hparams/ROME/llama2-7b-hf-chat-cluster.yaml",
+    "hparams_dir": "../../src/hparams/ROME/llama2-7b-hf-chat-kenji.yaml",
     "sequential_edit": true,
     "data_path": "../../data/edit_data/merged_data.json",
     "data_source": "ZsRE",

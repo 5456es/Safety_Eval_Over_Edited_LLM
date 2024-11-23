@@ -1,15 +1,0 @@
-/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora
-W&B online. Running your script from this directory will now sync to the cloud.
-Arguments received: data_part=0, data_source=ZsRE, data_size=1, random=False
-Loading data from ../../data/edit_data/merged_data_part_0.json
-Loaded 1163 entries from the data file.
-Filtered data based on source 'ZsRE', resulting in 433 entries.
-Selected 1 entries based on data size.
-Saving formatted data to tmp_data.jsonl
-Data successfully saved to tmp_data.jsonl
-rm: cannot remove '../../results/lora/llama2-7b-hf-chat/ZsRE_1/part_0/tmp_data.jsonl': No such file or directory
-Traceback (most recent call last):
-  File "/home/k/kduan/szn_workspace/Safety_Eval_Over_Edited_LLM/experiment/Qlora/train_lora_wo_tmp.py", line 6, in <module>
-    import fire
-ModuleNotFoundError: No module named 'fire'
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]slurmstepd-xgph4: error: *** JOB 411391 ON xgph4 CANCELLED AT 2024-11-04T21:14:54 ***

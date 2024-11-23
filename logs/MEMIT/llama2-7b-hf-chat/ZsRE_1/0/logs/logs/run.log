@@ -1,0 +1,7 @@
+2024-11-12 14:02:47,010 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-12 14:02:49,537 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-12 14:05:02,429 - easyeditor.editors.editor - INFO - Instantiating model
+2024-11-12 14:05:04,897 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
+2024-11-12 14:06:05,074 - easyeditor.editors.editor - INFO - 0 editing: The name of the country which Goursez Vreizh is associated with is -> Franche-Comté  
+
+ {'pre': {'rewrite_acc': [0.6], 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'The name of the country which Goursez Vreizh is associated with is', 'target_new': 'Franche-Comté', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {}, 'subject': 'Goursez Vreizh'}, 'post': {'rewrite_acc': [0.0], 'locality': {}, 'portability': {}}}
